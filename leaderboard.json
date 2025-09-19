@@ -1,0 +1,253 @@
+{
+  "players": [
+    {
+      "name": "youngfella",
+      "avgRank": 1.2,
+      "totalTime": 374.718,
+      "carColors": [
+        "0069fe",
+        "ffffff",
+        "010000",
+        "0069fe"
+      ]
+    },
+    {
+      "name": "SpeedySebas",
+      "avgRank": 8.5,
+      "totalTime": 403.804,
+      "carColors": [
+        "ff8e00",
+        "000000",
+        "000000",
+        "ff8e00"
+      ]
+    }
+  ],
+  "tracks": [
+    {
+      "name": "S1",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 22.074,
+          "rank": 1
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 22.116,
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "name": "S2",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 15.12,
+          "rank": 1
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 15.188,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "name": "S3",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 19.863,
+          "rank": 2
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 19.918,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "name": "S4",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 34.541,
+          "rank": 1
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 34.571,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "name": "S5",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 49.973,
+          "rank": 1
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 50.765,
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "name": "S6",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 35.662,
+          "rank": 1
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 35.807,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "name": "S7",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 31.364,
+          "rank": 1
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 31.588,
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "name": "W1",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 16.593,
+          "rank": 2
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 16.661,
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "name": "W2",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 0.003,
+          "rank": 1
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 26.782,
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "name": "W3",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 34.234,
+          "rank": 1
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 34.464,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "W4",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 19.332,
+          "rank": 1
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 19.442,
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "name": "D1",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 25.685,
+          "rank": 1
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 25.798,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "name": "D2",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 28.438,
+          "rank": 2
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 28.67,
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "name": "D3",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 20.243,
+          "rank": 1
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 20.362,
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "name": "D4",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 21.593,
+          "rank": 1
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 21.672,
+          "rank": 9
+        }
+      ]
+    }
+  ]
+}
