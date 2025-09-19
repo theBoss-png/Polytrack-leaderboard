@@ -348,82 +348,9 @@
         </div>
     </div>
 
-    <script>
-        // Sample data - replace with your actual data from Python
-        const sampleData = {
-            players: [
-                {
-                    name: "SpeedySebas",
-                    points: 1245,
-                    wins: 5,
-                    top3: 8,
-                    top10: 12,
-                    avgRank: 3.2,
-                    totalTime: 245.6,
-                    carColors: ["ff8e00", "000000", "000000", "ff8e00"]
-                },
-                {
-                    name: "RacingPro",
-                    points: 1180,
-                    wins: 3,
-                    top3: 7,
-                    top10: 10,
-                    avgRank: 4.1,
-                    totalTime: 251.3,
-                    carColors: ["0066cc", "ffffff", "ff0000", "0066cc"]
-                },
-                {
-                    name: "TurboMax",
-                    points: 1050,
-                    wins: 2,
-                    top3: 6,
-                    top10: 9,
-                    avgRank: 5.8,
-                    totalTime: 267.9,
-                    carColors: ["ff0000", "000000", "ffffff", "ff0000"]
-                },
-                {
-                    name: "DriftKing",
-                    points: 890,
-                    wins: 1,
-                    top3: 4,
-                    top10: 7,
-                    avgRank: 7.2,
-                    totalTime: 289.4,
-                    carColors: ["9900ff", "ffff00", "000000", "9900ff"]
-                }
-            ],
-            tracks: [
-                {
-                    name: "S1",
-                    results: [
-                        {player: "SpeedySebas", time: 45.234, rank: 2},
-                        {player: "RacingPro", time: 44.891, rank: 1},
-                        {player: "TurboMax", time: 46.123, rank: 5},
-                        {player: "DriftKing", time: null, rank: null}
-                    ]
-                },
-                {
-                    name: "S2",
-                    results: [
-                        {player: "SpeedySebas", time: 52.456, rank: 1},
-                        {player: "RacingPro", time: 53.234, rank: 3},
-                        {player: "TurboMax", time: 54.567, rank: 7},
-                        {player: "DriftKing", time: 55.891, rank: 12}
-                    ]
-                },
-                {
-                    name: "W1",
-                    results: [
-                        {player: "SpeedySebas", time: 38.123, rank: 1},
-                        {player: "RacingPro", time: 39.456, rank: 4},
-                        {player: "TurboMax", time: 37.891, rank: 1},
-                        {player: "DriftKing", time: 41.234, rank: 8}
-                    ]
-                }
-            ]
-        };
-
+        <script>
+        let leaderboardData = null;
+    
         function showTab(tabName) {
             // Hide all tabs
             const tabs = document.querySelectorAll('.tab-content');
@@ -437,21 +364,21 @@
             document.getElementById(tabName).classList.add('active');
             event.target.classList.add('active');
         }
-
+    
         function getPlayerColor(carColors) {
             return carColors && carColors.length > 0 ? `#${carColors[0]}` : '#3498db';
         }
-
+    
         function createPlayerAvatar(carColors) {
             const color = getPlayerColor(carColors);
             return `<div class="player-avatar" style="background: linear-gradient(45deg, ${color}, ${color}88);"></div>`;
         }
-
+    
         function populateLeaderboard() {
             const tbody = document.getElementById('leaderboard-body');
             tbody.innerHTML = '';
             
-            sampleData.players.forEach((player, index) => {
+            leaderboardData.players.forEach((player, index) => {
                 const rank = index + 1;
                 const rankClass = rank <= 3 ? `rank-${rank}` : '';
                 
@@ -473,12 +400,12 @@
                 tbody.innerHTML += row;
             });
         }
-
+    
         function populateTrackRecords() {
             const trackGrid = document.getElementById('track-grid');
             trackGrid.innerHTML = '';
             
-            sampleData.tracks.forEach(track => {
+            leaderboardData.tracks.forEach(track => {
                 // Sort results by time (excluding null times)
                 const sortedResults = track.results
                     .filter(result => result.time !== null)
@@ -523,26 +450,26 @@
                 trackGrid.innerHTML += trackCard;
             });
         }
-
+    
         function populatePlayerStats() {
             const statsGrid = document.getElementById('stats-grid');
             statsGrid.innerHTML = '';
             
             // Calculate total stats
-            const totalWins = sampleData.players.reduce((sum, player) => sum + player.wins, 0);
-            const totalRaces = sampleData.tracks.length * sampleData.players.length;
-            const avgPoints = sampleData.players.reduce((sum, player) => sum + player.points, 0) / sampleData.players.length;
-            const fastestLap = Math.min(...sampleData.tracks.flatMap(track => 
+            const totalWins = leaderboardData.players.reduce((sum, player) => sum + player.wins, 0);
+            const totalRaces = leaderboardData.tracks.length * leaderboardData.players.length;
+            const avgPoints = leaderboardData.players.reduce((sum, player) => sum + player.points, 0) / leaderboardData.players.length;
+            const fastestLap = Math.min(...leaderboardData.tracks.flatMap(track => 
                 track.results.filter(r => r.time).map(r => r.time)
             ));
             
             const stats = [
-                { label: "Total Players", value: sampleData.players.length },
+                { label: "Total Players", value: leaderboardData.players.length },
                 { label: "Total Races", value: totalRaces },
                 { label: "Total Wins", value: totalWins },
                 { label: "Avg Points", value: Math.round(avgPoints) },
                 { label: "Fastest Lap", value: `${fastestLap.toFixed(3)}s` },
-                { label: "Active Tracks", value: sampleData.tracks.length }
+                { label: "Active Tracks", value: leaderboardData.tracks.length }
             ];
             
             stats.forEach(stat => {
@@ -555,24 +482,22 @@
                 statsGrid.innerHTML += statCard;
             });
         }
-
-        // Initialize the leaderboard when page loads
+    
+        // Fetch JSON file and initialize the leaderboard
         document.addEventListener('DOMContentLoaded', function() {
-            populateLeaderboard();
-            populateTrackRecords();
-            populatePlayerStats();
+            fetch("leaderboard.json")
+                .then(response => response.json())
+                .then(data => {
+                    leaderboardData = data;
+                    populateLeaderboard();
+                    populateTrackRecords();
+                    populatePlayerStats();
+                })
+                .catch(err => {
+                    console.error("Error loading leaderboard.json:", err);
+                });
         });
-
-        // Function to update data (call this from Python)
-        function updateLeaderboardData(newData) {
-            // Update the global data
-            Object.assign(sampleData, newData);
-            
-            // Refresh all displays
-            populateLeaderboard();
-            populateTrackRecords();
-            populatePlayerStats();
-        }
     </script>
+
 </body>
 </html>
