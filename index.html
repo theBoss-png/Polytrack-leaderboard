@@ -412,7 +412,7 @@
         const trackGrid = document.getElementById('track-grid');
         trackGrid.innerHTML = '';
         
-        sampleData.tracks.forEach(track => {
+        leaderboardData.tracks.forEach(track => {
             const sortedResults = track.results
                 .filter(r => r.time !== null)
                 .sort((a, b) => a.time - b.time);
@@ -461,8 +461,6 @@
             trackGrid.innerHTML += trackCard;
         });
     }
-
-
     
     function populatePlayerStats() {
         const statsGrid = document.getElementById('stats-grid');
