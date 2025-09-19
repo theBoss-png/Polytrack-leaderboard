@@ -26,7 +26,7 @@ jobs:
 
       - name: Run leaderboard script
         run: |
-          python leaderboard.py  # replace with your script filename
+          python fetch_leaderboard.py  # replace with your script filename
 
       - name: Commit and push changes
         run: |
