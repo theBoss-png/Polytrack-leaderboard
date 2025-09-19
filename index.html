@@ -413,11 +413,10 @@
         trackGrid.innerHTML = '';
         
         sampleData.tracks.forEach(track => {
-            // Sort results by time (excluding null times)
             const sortedResults = track.results
-                .filter(result => result.time !== null)
+                .filter(r => r.time !== null)
                 .sort((a, b) => a.time - b.time);
-            
+    
             const resultsHtml = sortedResults.map((result, index) => {
                 const position = index + 1;
                 const positionClass = position <= 3 ? `rank-${position}` : '';
@@ -434,8 +433,7 @@
                     </li>
                 `;
             }).join('');
-            
-            // Add players with no record
+    
             const noRecordResults = track.results
                 .filter(result => result.time === null)
                 .map(result => `
@@ -445,11 +443,12 @@
                             ${result.player}
                         </div>
                         <div class="rank-info">
-                            <span class="no-record" style="color: white;">No Record</span>
+                            <span class="global-rank" style="color: white;">Global: -</span>
+                            <span class="no-record">No Record</span>
                         </div>
                     </li>
                 `).join('');
-            
+    
             const trackCard = `
                 <div class="track-card">
                     <div class="track-name">${track.name}</div>
@@ -462,6 +461,7 @@
             trackGrid.innerHTML += trackCard;
         });
     }
+
 
     
     function populatePlayerStats() {
