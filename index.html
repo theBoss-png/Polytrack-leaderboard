@@ -229,6 +229,24 @@
             border-bottom: 1px solid rgba(255,255,255,0.1);
         }
 
+        .player-info {
+            flex: 1;
+        }
+
+        .rank-info {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .global-rank {
+            font-size: 0.9rem;
+            color: #888;
+            background: rgba(255,255,255,0.1);
+            padding: 2px 8px;
+            border-radius: 12px;
+        }
+
         .track-results li:last-child {
             border-bottom: none;
         }
@@ -276,6 +294,13 @@
             
             .track-grid {
                 grid-template-columns: 1fr;
+            }
+            .global-rank {
+                font-size: 0.9rem;
+                color: white;  /* vorher grau, jetzt weiß */
+                background: rgba(255,255,255,0.1);
+                padding: 2px 8px;
+                border-radius: 12px;
             }
         }
     </style>
@@ -374,6 +399,7 @@
         leaderboardData.players.forEach((player, index) => {
             const rank = index + 1;
             const rankClass = rank <= 3 ? `rank-${rank}` : '';
+            
             const row = `
                 <tr>
                     <td class="rank-cell ${rankClass}">#${rank}</td>
@@ -402,11 +428,14 @@
                 const posClass = i < 3 ? `rank-${i+1}` : '';
                 return `
                     <li>
-                        <span>
+                        <div class="player-info">
                             <span class="position ${posClass}">#${i+1}</span>
                             ${result.player}
-                        </span>
-                        <span class="time">${result.time.toFixed(3)}s</span>
+                        </div>
+                        <div class="rank-info">
+                            <span class="global-rank">Global: #${result.rank}</span>
+                            <span class="time">${result.time.toFixed(3)}s</span>
+                        </div>
                     </li>
                 `;
             }).join('');
@@ -415,8 +444,13 @@
                 .filter(r => r.time == null)
                 .map(r => `
                     <li>
-                        <span><span class="position">-</span> ${r.player}</span>
-                        <span class="no-record">No Record</span>
+                        <div class="player-info">
+                            <span class="position">-</span>
+                            ${r.player}
+                        </div>
+                        <div class="rank-info">
+                            <span class="no-record">No Record</span>
+                        </div>
                     </li>
                 `).join('');
             
@@ -452,7 +486,7 @@
         });
     }
     
-    // Load JSON
+    // JSON laden und initialisieren
     document.addEventListener('DOMContentLoaded', function() {
         fetch("leaderboard.json")
             .then(res => res.json())
@@ -464,8 +498,14 @@
             })
             .catch(err => console.error("Error loading JSON:", err));
     });
+    
+    // Update-Funktion, falls Daten dynamisch ersetzt werden
+    function updateLeaderboardData(newData) {
+        Object.assign(leaderboardData, newData);
+        populateLeaderboard();
+        populateTrackRecords();
+        populatePlayerStats();
+    }
     </script>
-
-
 </body>
-</html>
+</html
