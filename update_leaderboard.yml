@@ -1,17 +1,16 @@
-name: Update Leaderboard
+name: Update Leaderboard & Build Site
 
 on:
   schedule:
-    # Runs every 30 minutes
-    - cron: "*/30 * * * *"
-  workflow_dispatch: # allows manual trigger
+    - cron: "*/30 * * * *"  # every 30 minutes
+  workflow_dispatch:  # allows manual triggering
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Set up Python
@@ -22,16 +21,13 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests matplotlib numpy
 
-      - name: Run leaderboard script
-        run: |
-          python fetch_leaderboard.py  # replace with your script filename
+      - name: Update leaderboard
+        run: python fetch_leaderboard.py
 
-      - name: Commit and push changes
-        run: |
-          git config --local user.name "github-actions"
-          git config --local user.email "github-actions@github.com"
-          git add leaderboard.json
-          git commit -m "Automatic leaderboard update [skip ci]" || echo "No changes to commit"
-          git push
+      - name: Build Jekyll site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: "."
+          destination: "./_site"
