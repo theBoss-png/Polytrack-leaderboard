@@ -344,155 +344,80 @@
         </div>
     </div>
 
-    <script>
-        let leaderboardData = null;
-    
-        function showTab(tabName) {
-            // Hide all tabs
-            const tabs = document.querySelectorAll('.tab-content');
-            tabs.forEach(tab => tab.classList.remove('active'));
-            
-            // Remove active class from all buttons
-            const buttons = document.querySelectorAll('.tab-button');
-            buttons.forEach(btn => btn.classList.remove('active'));
-            
-            // Show selected tab
-            document.getElementById(tabName).classList.add('active');
-            event.target.classList.add('active');
-        }
-    
-        function getPlayerColor(carColors) {
-            return carColors && carColors.length > 0 ? `#${carColors[0]}` : '#3498db';
-        }
-    
-        function createPlayerAvatar(carColors) {
-            const color = getPlayerColor(carColors);
-            return `<div class="player-avatar" style="background: linear-gradient(45deg, ${color}, ${color}88);"></div>`;
-        }
-    
-        function populateLeaderboard() {
-            const tbody = document.getElementById('leaderboard-body');
-            tbody.innerHTML = '';
-            
-            leaderboardData.players.forEach((player, index) => {
-                const rank = index + 1;
-                const rankClass = rank <= 3 ? `rank-${rank}` : '';
-                
-                const row = `
-                    <tr>
-                        <td class="rank-cell ${rankClass}">#${rank}</td>
-                        <td class="player-name">
-                            ${createPlayerAvatar(player.carColors)}
-                            ${player.name}
-                        </td>
-                        <td><strong>${player.points}</strong></td>
-                        <td>${player.wins}</td>
-                        <td>${player.top3}</td>
-                        <td>${player.top10}</td>
-                        <td>${player.avgRank.toFixed(1)}</td>
-                        <td>${player.totalTime.toFixed(1)}s</td>
-                    </tr>
-                `;
-                tbody.innerHTML += row;
-            });
-        }
-    
-        function populateTrackRecords() {
-            const trackGrid = document.getElementById('track-grid');
-            trackGrid.innerHTML = '';
-            
-            leaderboardData.tracks.forEach(track => {
-                // Sort results by time (excluding null times)
-                const sortedResults = track.results
-                    .filter(result => result.time !== null)
-                    .sort((a, b) => a.time - b.time);
-                
-                const resultsHtml = sortedResults.map((result, index) => {
-                    const position = index + 1;
-                    const positionClass = position <= 3 ? `rank-${position}` : '';
-                    return `
-                        <li>
-                            <span>
-                                <span class="position ${positionClass}">#${position}</span>
-                                ${result.player}
-                            </span>
-                            <span class="time">${result.time.toFixed(3)}s</span>
-                        </li>
-                    `;
-                }).join('');
-                
-                // Add players with no record
-                const noRecordResults = track.results
-                    .filter(result => result.time === null)
-                    .map(result => `
-                        <li>
-                            <span>
-                                <span class="position">-</span>
-                                ${result.player}
-                            </span>
-                            <span class="no-record">No Record</span>
-                        </li>
-                    `).join('');
-                
-                const trackCard = `
-                    <div class="track-card">
-                        <div class="track-name">${track.name}</div>
-                        <ul class="track-results">
-                            ${resultsHtml}
-                            ${noRecordResults}
-                        </ul>
-                    </div>
-                `;
-                trackGrid.innerHTML += trackCard;
-            });
-        }
-    
-        function populatePlayerStats() {
-            const statsGrid = document.getElementById('stats-grid');
-            statsGrid.innerHTML = '';
-            
-            // Calculate total stats
-            const totalWins = leaderboardData.players.reduce((sum, player) => sum + player.wins, 0);
-            const totalRaces = leaderboardData.tracks.length * leaderboardData.players.length;
-            const avgPoints = leaderboardData.players.reduce((sum, player) => sum + player.points, 0) / leaderboardData.players.length;
-            const fastestLap = Math.min(...leaderboardData.tracks.flatMap(track => 
-                track.results.filter(r => r.time).map(r => r.time)
-            ));
-            
-            const stats = [
-                { label: "Total Players", value: leaderboardData.players.length },
-                { label: "Total Races", value: totalRaces },
-                { label: "Total Wins", value: totalWins },
-                { label: "Avg Points", value: Math.round(avgPoints) },
-                { label: "Fastest Lap", value: `${fastestLap.toFixed(3)}s` },
-                { label: "Active Tracks", value: leaderboardData.tracks.length }
-            ];
-            
-            stats.forEach(stat => {
-                const statCard = `
-                    <div class="stat-card">
-                        <span class="stat-number">${stat.value}</span>
-                        <span class="stat-label">${stat.label}</span>
-                    </div>
-                `;
-                statsGrid.innerHTML += statCard;
-            });
-        }
-    
-        // Fetch JSON file and initialize the leaderboard
-        document.addEventListener('DOMContentLoaded', function() {
-            fetch("leaderboard.json")
-                .then(response => response.json())
-                .then(data => {
-                    leaderboardData = data;
-                    populateLeaderboard();
-                    populateTrackRecords();
-                    populatePlayerStats();
-                })
-                .catch(err => {
-                    console.error("Error loading leaderboard.json:", err);
-                });
-        });
-    </script>
+  <script>
+    let sampleData = {};
+
+    async function loadData() {
+      const response = await fetch("leaderboard.json");
+      sampleData = await response.json();
+      populateLeaderboard();
+      populateTrackRecords();
+      populatePlayerStats();
+    }
+
+    function showTab(tabName) {
+      document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+      document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+      document.getElementById(tabName).classList.add('active');
+      event.target.classList.add('active');
+    }
+
+    function createPlayerAvatar(carColors) {
+      const color = carColors?.length ? `#${carColors[0]}` : '#3498db';
+      return `<div class="player-avatar" style="background:${color}"></div>`;
+    }
+
+    function populateLeaderboard() {
+      const tbody = document.getElementById('leaderboard-body');
+      tbody.innerHTML = '';
+      sampleData.players.forEach((player, index) => {
+        const rank = index + 1;
+        const rankClass = rank <= 3 ? `rank-${rank}` : '';
+        tbody.innerHTML += `
+          <tr>
+            <td class="rank-cell ${rankClass}">#${rank}</td>
+            <td>${createPlayerAvatar(player.carColors)} ${player.name}</td>
+          </tr>`;
+      });
+    }
+
+    function populateTrackRecords() {
+      const trackGrid = document.getElementById('track-grid');
+      trackGrid.innerHTML = '';
+      sampleData.tracks.forEach(track => {
+        const resultsHtml = track.results
+          .filter(r => r.time !== null)
+          .sort((a,b) => a.time - b.time)
+          .map((r,i) => `<li>#${i+1} ${r.player} - ${r.time.toFixed(3)}s</li>`).join('');
+        const noRecord = track.results
+          .filter(r => r.time === null)
+          .map(r => `<li>${r.player} - <span class="no-record">No Record</span></li>`).join('');
+        trackGrid.innerHTML += `
+          <div class="track-card">
+            <div class="track-name">${track.name}</div>
+            <ul class="track-results">${resultsHtml}${noRecord}</ul>
+          </div>`;
+      });
+    }
+
+    function populatePlayerStats() {
+      const statsGrid = document.getElementById('stats-grid');
+      statsGrid.innerHTML = '';
+      const stats = [
+        { label: "Total Players", value: sampleData.players.length },
+        { label: "Active Tracks", value: sampleData.tracks.length },
+        { label: "Total Races", value: sampleData.tracks.length * sampleData.players.length }
+      ];
+      stats.forEach(stat => {
+        statsGrid.innerHTML += `
+          <div class="stat-card">
+            <span class="stat-number">${stat.value}</span>
+            <span>${stat.label}</span>
+          </div>`;
+      });
+    }
+
+    loadData();
+  </script>
 </body>
 </html>
