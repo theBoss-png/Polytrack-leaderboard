@@ -295,13 +295,6 @@
             .track-grid {
                 grid-template-columns: 1fr;
             }
-            .global-rank {
-                font-size: 0.9rem;
-                color: white;  /* vorher grau, jetzt weiß */
-                background: rgba(255,255,255,0.1);
-                padding: 2px 8px;
-                border-radius: 12px;
-            }
         }
     </style>
 </head>
@@ -414,56 +407,62 @@
             tbody.innerHTML += row;
         });
     }
-    
+        
     function populateTrackRecords() {
         const trackGrid = document.getElementById('track-grid');
         trackGrid.innerHTML = '';
         
-        leaderboardData.tracks.forEach(track => {
+        sampleData.tracks.forEach(track => {
+            // Sort results by time (excluding null times)
             const sortedResults = track.results
-                .filter(r => r.time != null)
+                .filter(result => result.time !== null)
                 .sort((a, b) => a.time - b.time);
             
-            const resultsHtml = sortedResults.map((result, i) => {
-                const posClass = i < 3 ? `rank-${i+1}` : '';
+            const resultsHtml = sortedResults.map((result, index) => {
+                const position = index + 1;
+                const positionClass = position <= 3 ? `rank-${position}` : '';
                 return `
                     <li>
                         <div class="player-info">
-                            <span class="position ${posClass}">#${i+1}</span>
+                            <span class="position ${positionClass}">#${position}</span>
                             ${result.player}
                         </div>
                         <div class="rank-info">
-                            <span class="global-rank">Global: #${result.rank}</span>
+                            <span class="global-rank" style="color: white;">Global: #${result.rank}</span>
                             <span class="time">${result.time.toFixed(3)}s</span>
                         </div>
                     </li>
                 `;
             }).join('');
             
-            const noRecordHtml = track.results
-                .filter(r => r.time == null)
-                .map(r => `
+            // Add players with no record
+            const noRecordResults = track.results
+                .filter(result => result.time === null)
+                .map(result => `
                     <li>
                         <div class="player-info">
                             <span class="position">-</span>
-                            ${r.player}
+                            ${result.player}
                         </div>
                         <div class="rank-info">
-                            <span class="no-record">No Record</span>
+                            <span class="no-record" style="color: white;">No Record</span>
                         </div>
                     </li>
                 `).join('');
             
-            trackGrid.innerHTML += `
+            const trackCard = `
                 <div class="track-card">
                     <div class="track-name">${track.name}</div>
                     <ul class="track-results">
-                        ${resultsHtml}${noRecordHtml}
+                        ${resultsHtml}
+                        ${noRecordResults}
                     </ul>
                 </div>
             `;
+            trackGrid.innerHTML += trackCard;
         });
     }
+
     
     function populatePlayerStats() {
         const statsGrid = document.getElementById('stats-grid');
