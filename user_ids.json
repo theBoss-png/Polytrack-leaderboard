@@ -1,0 +1,38 @@
+{
+  "youngfella": {
+    "hash": "2d77a47f57c2b45925bf2e21ac20c0d269772f9121e591685318c9814ccc5e3e",
+    "carColors": [
+      "0069fe",
+      "ffffff",
+      "010000",
+      "0069fe"
+    ]
+  },
+  "SpeedySebas": {
+    "hash": "c8873ca6a05717d0b8386dae318da578dd7e881f41359f4c0b02e28bb675efa8",
+    "carColors": [
+      "ff8e00",
+      "000000",
+      "000000",
+      "ff8e00"
+    ]
+  },
+  "TheRealLelo": {
+    "hash": "1fbc4b33e83082cdaf84eb8039c4f80b54b8192329a4547e933488b974b1cec8",
+    "carColors": [
+      "652a88",
+      "c8abd9",
+      "000000",
+      "652a88"
+    ]
+  },
+  "Hubaldium": {
+    "hash": "b373961d0e0a58840ab420917b37eeec10270658b667d0eb4c18d7c66d12a6eb",
+    "carColors": [
+      "586f25",
+      "a1b476",
+      "000000",
+      "246111"
+    ]
+  }
+}
