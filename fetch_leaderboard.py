@@ -73,6 +73,15 @@ else:
     last_index = 0
 
 # --------------------
+# Load existing leaderboard
+# --------------------
+if os.path.exists("leaderboard.json"):
+    with open("leaderboard.json", "r") as f:
+        output_data = json.load(f)
+else:
+    output_data = {"players": [], "tracks": []}
+
+# --------------------
 # Select tracks to update
 # --------------------
 tracks_to_update = TRACKS[last_index:last_index + TRACKS_PER_RUN]
@@ -150,7 +159,7 @@ for track_id, track_name in tracks_to_update:
             hash_to_name[uid] = actual_name
 
         all_runs.append(Run(actual_name, frames, track_name, rank))
-        print(f"{actual_name:20} {rank:>6} {frames/1000:.3f}s")
+        print(f"{actual_name:20} {rank!s:>6} {frames/1000:.3f}s")
 
     # Players without record
     for uid, stored_name in hash_to_name.items():
@@ -159,11 +168,32 @@ for track_id, track_name in tracks_to_update:
             print(f"{stored_name:20} {'No record':>6}")
 
 # --------------------
-# Build JSON for GitHub Pages
+# Update track stats in existing leaderboard
 # --------------------
-output_data = {"players": [], "tracks": []}
+for track_id, track_name in tracks_to_update:
+    track_results = []
+    for player, info in user_ids.items():
+        run_for_map = next((r for r in all_runs if r.name == player and r.map_name == track_name), None)
+        if run_for_map and run_for_map.rank is not None:
+            track_results.append({
+                "player": player,
+                "time": round(run_for_map.frames / 1000.0, 3),
+                "rank": run_for_map.rank
+            })
+        else:
+            track_results.append({"player": player, "time": None, "rank": None})
 
-# Player stats
+    # Replace old track data or add new
+    existing = next((t for t in output_data["tracks"] if t["name"] == track_name), None)
+    if existing:
+        existing["results"] = track_results
+    else:
+        output_data["tracks"].append({"name": track_name, "results": track_results})
+
+# --------------------
+# Update player stats
+# --------------------
+output_data["players"] = []
 for player, info in user_ids.items():
     player_runs = [r for r in all_runs if r.name == player]
     total_time = 0.0
@@ -183,25 +213,16 @@ for player, info in user_ids.items():
         "carColors": info.get("carColors", [])
     })
 
-# Track stats (nur die aktualisierten Tracks)
-for track_id, track_name in tracks_to_update:
-    track_results = []
-    for player, info in user_ids.items():
-        run_for_map = next((r for r in all_runs if r.name == player and r.map_name == track_name), None)
-        if run_for_map and run_for_map.rank is not None:
-            track_results.append({
-                "player": player,
-                "time": round(run_for_map.frames / 1000.0, 3),
-                "rank": run_for_map.rank
-            })
-        else:
-            track_results.append({"player": player, "time": None, "rank": None})
-    output_data["tracks"].append({"name": track_name, "results": track_results})
+# Sort players by avgRank
+output_data["players"].sort(key=lambda p: p["avgRank"])
+for i, player in enumerate(output_data["players"], 1):
+    player["leaderboardRank"] = i
 
+# --------------------
 # Save leaderboard JSON
+# --------------------
 with open("leaderboard.json", "w") as f:
     json.dump(output_data, f, indent=2)
-
 print("✅ leaderboard.json saved!")
 
 # --------------------
