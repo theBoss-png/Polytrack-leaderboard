@@ -3,7 +3,7 @@
     {
       "name": "SpeedySebas",
       "avgRank": 1.5,
-      "totalTime": 2436.925,
+      "totalTime": 2609.269,
       "carColors": [
         "ff8e00",
         "000000",
@@ -15,7 +15,7 @@
     {
       "name": "youngfella",
       "avgRank": 2.5,
-      "totalTime": 2437.208,
+      "totalTime": 2608.746,
       "carColors": [
         "0069fe",
         "ffffff",
@@ -26,8 +26,8 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 1494.0,
-      "totalTime": 2437.822,
+      "avgRank": 2485.0,
+      "totalTime": 2642.343,
       "carColors": [
         "6f2525",
         "b47676",
@@ -247,6 +247,56 @@
           "player": "Hubaldium",
           "time": 13.905,
           "rank": 2959
+        }
+      ]
+    },
+    {
+      "name": "Re: Akina",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 166.924,
+          "rank": 1
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 167.628,
+          "rank": 2
+        },
+        {
+          "player": "TheRealLelo",
+          "time": null,
+          "rank": null
+        },
+        {
+          "player": "Hubaldium",
+          "time": 197.585,
+          "rank": 622
+        }
+      ]
+    },
+    {
+      "name": "Hyperion's Sanctuary",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 41.822,
+          "rank": 4
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 41.641,
+          "rank": 1
+        },
+        {
+          "player": "TheRealLelo",
+          "time": null,
+          "rank": null
+        },
+        {
+          "player": "Hubaldium",
+          "time": 44.758,
+          "rank": 4348
         }
       ]
     }
