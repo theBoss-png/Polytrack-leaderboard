@@ -2,7 +2,7 @@ name: Update Leaderboard & Build Site
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # every 30 minutes
+    - cron: "*/15 * * * *"  # every 30 minutes
   workflow_dispatch:
 
 jobs:
@@ -13,8 +13,10 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          persist-credentials: true
+          token: ${{ secrets.GH_PAT }}  # your new PAT
+
+
+
 
 
       - name: Set up Python
@@ -36,7 +38,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add leaderboard.json
           git commit -m "Update leaderboard.json ($(date -u +"%Y-%m-%d %H:%M:%S UTC"))" || echo "No changes to commit"
-          git push
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/theBoss-png/Polytrack-leaderboard.git HEAD:main
 
       - name: Build Jekyll site
         uses: actions/jekyll-build-pages@v1
