@@ -26,7 +26,7 @@ jobs:
           pip install requests matplotlib numpy
 
       - name: Update leaderboard
-        run: python fetch_leaderboard.py
+        run: python -u fetch_leaderboard.py
 
       - name: Commit leaderboard.json
         run: |
