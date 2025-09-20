@@ -3,7 +3,7 @@
     {
       "name": "SpeedySebas",
       "avgRank": 1.0,
-      "totalTime": 2453.294,
+      "totalTime": 2455.919,
       "carColors": [
         "ff8e00",
         "000000",
@@ -14,8 +14,8 @@
     },
     {
       "name": "youngfella",
-      "avgRank": 2.0,
-      "totalTime": 2453.404,
+      "avgRank": 11.0,
+      "totalTime": 2456.821,
       "carColors": [
         "0069fe",
         "ffffff",
@@ -26,8 +26,8 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 605.0,
-      "totalTime": 2457.672,
+      "avgRank": 1184.5,
+      "totalTime": 2460.533,
       "carColors": [
         "6f2525",
         "b47676",
@@ -38,8 +38,8 @@
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 10902.0,
-      "totalTime": 2543.125,
+      "avgRank": 9999,
+      "totalTime": 2640.0,
       "carColors": [
         "652a88",
         "c8abd9",
@@ -447,6 +447,56 @@
           "player": "Hubaldium",
           "time": 37.301,
           "rank": 700
+        }
+      ]
+    },
+    {
+      "name": "Clay Temples",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 29.879,
+          "rank": 12
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 29.232,
+          "rank": 1
+        },
+        {
+          "player": "TheRealLelo",
+          "time": null,
+          "rank": null
+        },
+        {
+          "player": "Hubaldium",
+          "time": 32.37,
+          "rank": 511
+        }
+      ]
+    },
+    {
+      "name": "Desert Stallion",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 26.942,
+          "rank": 10
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 26.687,
+          "rank": 1
+        },
+        {
+          "player": "TheRealLelo",
+          "time": null,
+          "rank": null
+        },
+        {
+          "player": "Hubaldium",
+          "time": 28.163,
+          "rank": 1858
         }
       ]
     }
