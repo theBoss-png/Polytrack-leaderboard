@@ -2,8 +2,8 @@
   "players": [
     {
       "name": "SpeedySebas",
-      "avgRank": 1.5,
-      "totalTime": 2502.702,
+      "avgRank": 1.0,
+      "totalTime": 2456.569,
       "carColors": [
         "ff8e00",
         "000000",
@@ -14,8 +14,8 @@
     },
     {
       "name": "youngfella",
-      "avgRank": 5.0,
-      "totalTime": 2503.585,
+      "avgRank": 9.0,
+      "totalTime": 2457.148,
       "carColors": [
         "0069fe",
         "ffffff",
@@ -25,9 +25,9 @@
       "leaderboardRank": 2
     },
     {
-      "name": "Huba7d1um",
-      "avgRank": 1890.0,
-      "totalTime": 2510.321,
+      "name": "Hubaldium",
+      "avgRank": 644.0,
+      "totalTime": 2459.487,
       "carColors": [
         "6f2525",
         "b47676",
@@ -38,8 +38,8 @@
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 14328.0,
-      "totalTime": 2621.665,
+      "avgRank": 942.0,
+      "totalTime": 2554.526,
       "carColors": [
         "652a88",
         "c8abd9",
@@ -147,6 +147,56 @@
           "player": "Huba7d1um",
           "time": 78.192,
           "rank": 889
+        }
+      ]
+    },
+    {
+      "name": "Natsujo",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 32.249,
+          "rank": 16
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 31.688,
+          "rank": 1
+        },
+        {
+          "player": "TheRealLelo",
+          "time": 34.526,
+          "rank": 942
+        },
+        {
+          "player": "Hubaldium",
+          "time": 33.458,
+          "rank": 192
+        }
+      ]
+    },
+    {
+      "name": "90xRESET",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 24.899,
+          "rank": 2
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 24.881,
+          "rank": 1
+        },
+        {
+          "player": "TheRealLelo",
+          "time": null,
+          "rank": null
+        },
+        {
+          "player": "Hubaldium",
+          "time": 26.029,
+          "rank": 1096
         }
       ]
     }
