@@ -1,50 +1,50 @@
 {
   "players": [
     {
-      "name": "youngfella",
-      "avgRank": 9999,
-      "totalTime": 2640.0,
-      "carColors": [
-        "0069fe",
-        "ffffff",
-        "010000",
-        "0069fe"
-      ],
-      "leaderboardRank": 1
-    },
-    {
       "name": "SpeedySebas",
-      "avgRank": 9999,
-      "totalTime": 2640.0,
+      "avgRank": 1.5,
+      "totalTime": 2471.795,
       "carColors": [
         "ff8e00",
         "000000",
         "000000",
         "ff8e00"
       ],
+      "leaderboardRank": 1
+    },
+    {
+      "name": "youngfella",
+      "avgRank": 3.0,
+      "totalTime": 2472.126,
+      "carColors": [
+        "0069fe",
+        "ffffff",
+        "010000",
+        "0069fe"
+      ],
       "leaderboardRank": 2
     },
     {
+      "name": "Huba7d1um",
+      "avgRank": 438.5,
+      "totalTime": 2477.408,
+      "carColors": [
+        "6f2525",
+        "b47676",
+        "000000",
+        "611111"
+      ],
+      "leaderboardRank": 3
+    },
+    {
       "name": "TheRealLelo",
-      "avgRank": 9999,
-      "totalTime": 2640.0,
+      "avgRank": 3389.0,
+      "totalTime": 2653.065,
       "carColors": [
         "652a88",
         "c8abd9",
         "000000",
         "652a88"
-      ],
-      "leaderboardRank": 3
-    },
-    {
-      "name": "Hubaldium",
-      "avgRank": 9999,
-      "totalTime": 2640.0,
-      "carColors": [
-        "586f25",
-        "a1b476",
-        "000000",
-        "246111"
       ],
       "leaderboardRank": 4
     }
@@ -55,13 +55,13 @@
       "results": [
         {
           "player": "youngfella",
-          "time": null,
-          "rank": null
+          "time": 25.792,
+          "rank": 4
         },
         {
           "player": "SpeedySebas",
-          "time": null,
-          "rank": null
+          "time": 25.667,
+          "rank": 2
         },
         {
           "player": "TheRealLelo",
@@ -69,9 +69,9 @@
           "rank": null
         },
         {
-          "player": "Hubaldium",
-          "time": null,
-          "rank": null
+          "player": "Huba7d1um",
+          "time": 27.602,
+          "rank": 699
         }
       ]
     },
@@ -80,23 +80,23 @@
       "results": [
         {
           "player": "youngfella",
-          "time": null,
-          "rank": null
+          "time": 46.334,
+          "rank": 2
         },
         {
           "player": "SpeedySebas",
-          "time": null,
-          "rank": null
+          "time": 46.128,
+          "rank": 1
         },
         {
           "player": "TheRealLelo",
-          "time": null,
-          "rank": null
+          "time": 133.065,
+          "rank": 3389
         },
         {
-          "player": "Hubaldium",
-          "time": null,
-          "rank": null
+          "player": "Huba7d1um",
+          "time": 49.806,
+          "rank": 178
         }
       ]
     }
