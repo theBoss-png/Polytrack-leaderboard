@@ -1,6 +1,7 @@
 import requests
 import json
 import time
+import os
 
 class Run:
     def __init__(self, name, frames, map_name, rank):
