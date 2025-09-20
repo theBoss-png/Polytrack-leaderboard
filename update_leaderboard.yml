@@ -3,7 +3,7 @@ name: Update Leaderboard & Build Site
 on:
   schedule:
     - cron: "*/30 * * * *"  # every 30 minutes
-  workflow_dispatch:  # allows manual triggering
+  workflow_dispatch:
 
 jobs:
   build:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_PAT }}  # custom token
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -25,6 +27,14 @@ jobs:
 
       - name: Update leaderboard
         run: python fetch_leaderboard.py
+
+      - name: Commit leaderboard.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add leaderboard.json
+          git commit -m "Update leaderboard.json ($(date -u +"%Y-%m-%d %H:%M:%S UTC"))" || echo "No changes to commit"
+          git push
 
       - name: Build Jekyll site
         uses: actions/jekyll-build-pages@v1
