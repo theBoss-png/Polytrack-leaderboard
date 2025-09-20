@@ -2,8 +2,8 @@
   "players": [
     {
       "name": "youngfella",
-      "avgRank": 5.0,
-      "totalTime": 877.382,
+      "avgRank": 3.0,
+      "totalTime": 2472.126,
       "carColors": [
         "0069fe",
         "ffffff",
@@ -13,8 +13,8 @@
     },
     {
       "name": "SpeedySebas",
-      "avgRank": 1.2,
-      "totalTime": 781.476,
+      "avgRank": 1.5,
+      "totalTime": 2471.795,
       "carColors": [
         "ff8e00",
         "000000",
@@ -23,25 +23,25 @@
       ]
     },
     {
-      "name": "Hubaldium",
-      "avgRank": 1484.3,
-      "totalTime": 857.205,
-      "carColors": [
-        "586f25",
-        "a1b476",
-        "000000",
-        "246111"
-      ]
-    },
-    {
       "name": "TheRealLelo",
-      "avgRank": 7114.2,
-      "totalTime": 2287.427,
+      "avgRank": 3389.0,
+      "totalTime": 2653.065,
       "carColors": [
         "652a88",
         "c8abd9",
         "000000",
         "652a88"
+      ]
+    },
+    {
+      "name": "Huba7d1um",
+      "avgRank": 438.5,
+      "totalTime": 2477.408,
+      "carColors": [
+        "6f2525",
+        "b47676",
+        "000000",
+        "611111"
       ]
     }
   ],
@@ -60,14 +60,14 @@
           "rank": 2
         },
         {
-          "player": "Hubaldium",
-          "time": 27.602,
-          "rank": 684
-        },
-        {
           "player": "TheRealLelo",
           "time": null,
           "rank": null
+        },
+        {
+          "player": "Huba7d1um",
+          "time": 27.602,
+          "rank": 699
         }
       ]
     },
@@ -85,514 +85,14 @@
           "rank": 1
         },
         {
-          "player": "Hubaldium",
-          "time": 49.806,
-          "rank": 174
-        },
-        {
           "player": "TheRealLelo",
           "time": 133.065,
-          "rank": 3284
-        }
-      ]
-    },
-    {
-      "name": "Ghost City",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 30.873,
-          "rank": 4
+          "rank": 3389
         },
         {
-          "player": "SpeedySebas",
-          "time": 30.813,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 32.129,
-          "rank": 2793
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        }
-      ]
-    },
-    {
-      "name": "Mos Espa",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 72.712,
-          "rank": 5
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 71.889,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 78.192,
-          "rank": 867
-        },
-        {
-          "player": "TheRealLelo",
-          "time": 101.665,
-          "rank": 13920
-        }
-      ]
-    },
-    {
-      "name": "Natsujo",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 32.249,
-          "rank": 16
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 31.688,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 33.458,
-          "rank": 190
-        },
-        {
-          "player": "TheRealLelo",
-          "time": 34.526,
-          "rank": 913
-        }
-      ]
-    },
-    {
-      "name": "90xRESET",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 24.899,
-          "rank": 2
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 24.881,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 26.029,
-          "rank": 1092
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        }
-      ]
-    },
-    {
-      "name": "concrete jungle",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 23.439,
-          "rank": 4
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 23.153,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 23.917,
-          "rank": 29
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        }
-      ]
-    },
-    {
-      "name": "lu muvimento",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 13.769,
-          "rank": 1
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 13.772,
-          "rank": 2
-        },
-        {
-          "player": "Hubaldium",
-          "time": 13.905,
-          "rank": 2932
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        }
-      ]
-    },
-    {
-      "name": "Re: Akina",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 166.924,
-          "rank": 1
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 167.628,
-          "rank": 2
-        },
-        {
-          "player": "Hubaldium",
-          "time": 197.585,
-          "rank": 617
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        }
-      ]
-    },
-    {
-      "name": "Hyperion's Sanctuary",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 41.822,
-          "rank": 4
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 41.641,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 44.758,
-          "rank": 4307
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        }
-      ]
-    },
-    {
-      "name": "Opal Palace",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 32.206,
-          "rank": 2
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 32.2,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 33.478,
-          "rank": 268
-        },
-        {
-          "player": "TheRealLelo",
-          "time": 35.136,
-          "rank": 5866
-        }
-      ]
-    },
-    {
-      "name": "Snow Park",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 22.153,
-          "rank": 2
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 22.125,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 23.037,
-          "rank": 4110
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        }
-      ]
-    },
-    {
-      "name": "Winter Hollow",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 22.799,
-          "rank": 2
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 22.729,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 24.329,
-          "rank": 886
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        }
-      ]
-    },
-    {
-      "name": "Anubis",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": null,
-          "rank": null
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 28.525,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 29.703,
-          "rank": 338
-        },
-        {
-          "player": "TheRealLelo",
-          "time": 39.91,
-          "rank": 8179
-        }
-      ]
-    },
-    {
-      "name": "Joenail Jones",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 19.181,
-          "rank": 1
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 19.247,
-          "rank": 2
-        },
-        {
-          "player": "Hubaldium",
-          "time": 20.371,
-          "rank": 495
-        },
-        {
-          "player": "TheRealLelo",
-          "time": 23.125,
-          "rank": 10523
-        }
-      ]
-    },
-    {
-      "name": "Arabica",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 34.223,
-          "rank": 2
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 34.114,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 37.301,
-          "rank": 697
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        }
-      ]
-    },
-    {
-      "name": "Clay Temples",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 29.879,
-          "rank": 12
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 29.232,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 32.37,
-          "rank": 506
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        }
-      ]
-    },
-    {
-      "name": "Desert Stallion",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 26.942,
-          "rank": 10
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 26.687,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 28.163,
-          "rank": 1839
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        }
-      ]
-    },
-    {
-      "name": "Las Calles",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 21.986,
-          "rank": 10
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 21.717,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 22.743,
-          "rank": 254
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        }
-      ]
-    },
-    {
-      "name": "Last Remnant",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 30.437,
-          "rank": 3
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 29.336,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 36.575,
-          "rank": 4601
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        }
-      ]
-    },
-    {
-      "name": "Malformations",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 18.365,
-          "rank": 8
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 18.23,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 19.236,
-          "rank": 1101
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        }
-      ]
-    },
-    {
-      "name": "Sandline Ultimatum",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": 20.398,
-          "rank": 11
-        },
-        {
-          "player": "SpeedySebas",
-          "time": 20.074,
-          "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 22.518,
-          "rank": 3875
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
+          "player": "Huba7d1um",
+          "time": 49.806,
+          "rank": 178
         }
       ]
     }
