@@ -2,7 +2,7 @@ name: Update Leaderboard & Build Site
 
 on:
   schedule:
-    - cron: "*/15 * * * *"  # every 30 minutes
+    - cron: "*/15 * * * *"  # every 15 minutes
   workflow_dispatch:
 
 jobs:
@@ -10,36 +10,40 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1. Checkout repository
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GH_PAT }}  # your new PAT
+          token: ${{ secrets.GH_PAT }}
 
-
-
-
-
+      # 2. Setup Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
+      # 3. Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests matplotlib numpy
 
+      # 4. Update leaderboard.json
       - name: Update leaderboard
         run: python -u fetch_leaderboard.py
 
+      # 5. Commit changes if any
       - name: Commit leaderboard.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add leaderboard.json
-          git commit -m "Update leaderboard.json ($(date -u +"%Y-%m-%d %H:%M:%S UTC"))" || echo "No changes to commit"
+          # nur committen, wenn es Änderungen gibt
+          git diff --cached --quiet || git commit -m "Update leaderboard.json ($(date -u +"%Y-%m-%d %H:%M:%S UTC"))"
+          # pushen mit PAT
           git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/theBoss-png/Polytrack-leaderboard.git HEAD:main
 
+      # 6. Build Jekyll site
       - name: Build Jekyll site
         uses: actions/jekyll-build-pages@v1
         with:
