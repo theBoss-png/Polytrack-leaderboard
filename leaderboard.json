@@ -2,8 +2,8 @@
   "players": [
     {
       "name": "SpeedySebas",
-      "avgRank": 1.5,
-      "totalTime": 2609.269,
+      "avgRank": 1.0,
+      "totalTime": 2454.325,
       "carColors": [
         "ff8e00",
         "000000",
@@ -14,8 +14,8 @@
     },
     {
       "name": "youngfella",
-      "avgRank": 2.5,
-      "totalTime": 2608.746,
+      "avgRank": 2.0,
+      "totalTime": 2454.359,
       "carColors": [
         "0069fe",
         "ffffff",
@@ -26,8 +26,8 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 2485.0,
-      "totalTime": 2642.343,
+      "avgRank": 2208.5,
+      "totalTime": 2456.515,
       "carColors": [
         "6f2525",
         "b47676",
@@ -38,8 +38,8 @@
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 9999,
-      "totalTime": 2640.0,
+      "avgRank": 5913.0,
+      "totalTime": 2555.136,
       "carColors": [
         "652a88",
         "c8abd9",
@@ -297,6 +297,56 @@
           "player": "Hubaldium",
           "time": 44.758,
           "rank": 4348
+        }
+      ]
+    },
+    {
+      "name": "Opal Palace",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 32.206,
+          "rank": 2
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 32.2,
+          "rank": 1
+        },
+        {
+          "player": "TheRealLelo",
+          "time": 35.136,
+          "rank": 5913
+        },
+        {
+          "player": "Hubaldium",
+          "time": 33.478,
+          "rank": 269
+        }
+      ]
+    },
+    {
+      "name": "Snow Park",
+      "results": [
+        {
+          "player": "youngfella",
+          "time": 22.153,
+          "rank": 2
+        },
+        {
+          "player": "SpeedySebas",
+          "time": 22.125,
+          "rank": 1
+        },
+        {
+          "player": "TheRealLelo",
+          "time": null,
+          "rank": null
+        },
+        {
+          "player": "Hubaldium",
+          "time": 23.037,
+          "rank": 4148
         }
       ]
     }
