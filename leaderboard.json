@@ -1,17 +1,6 @@
 {
   "players": [
     {
-      "name": "youngfella",
-      "avgRank": 3.0,
-      "totalTime": 2472.126,
-      "carColors": [
-        "0069fe",
-        "ffffff",
-        "010000",
-        "0069fe"
-      ]
-    },
-    {
       "name": "SpeedySebas",
       "avgRank": 1.5,
       "totalTime": 2471.795,
@@ -20,18 +9,20 @@
         "000000",
         "000000",
         "ff8e00"
-      ]
+      ],
+      "leaderboardRank": 1
     },
     {
-      "name": "TheRealLelo",
-      "avgRank": 3389.0,
-      "totalTime": 2653.065,
+      "name": "youngfella",
+      "avgRank": 3.0,
+      "totalTime": 2472.126,
       "carColors": [
-        "652a88",
-        "c8abd9",
-        "000000",
-        "652a88"
-      ]
+        "0069fe",
+        "ffffff",
+        "010000",
+        "0069fe"
+      ],
+      "leaderboardRank": 2
     },
     {
       "name": "Huba7d1um",
@@ -42,7 +33,20 @@
         "b47676",
         "000000",
         "611111"
-      ]
+      ],
+      "leaderboardRank": 3
+    },
+    {
+      "name": "TheRealLelo",
+      "avgRank": 3389.0,
+      "totalTime": 2653.065,
+      "carColors": [
+        "652a88",
+        "c8abd9",
+        "000000",
+        "652a88"
+      ],
+      "leaderboardRank": 4
     }
   ],
   "tracks": [
