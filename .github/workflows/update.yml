@@ -33,15 +33,16 @@ jobs:
         run: python -u fetch_leaderboard.py
 
       # 5. Commit changes if any
-      - name: Commit leaderboard.json
+      - name: Commit leaderboard & last_track
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add leaderboard.json
+          git add leaderboard.json last_track.json
           # nur committen, wenn es Änderungen gibt
-          git diff --cached --quiet || git commit -m "Update leaderboard.json ($(date -u +"%Y-%m-%d %H:%M:%S UTC"))"
+          git diff --cached --quiet || git commit -m "Update leaderboard & last_track ($(date -u +"%Y-%m-%d %H:%M:%S UTC"))"
           # pushen mit PAT
           git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/theBoss-png/Polytrack-leaderboard.git HEAD:main
+
 
       # 6. Build Jekyll site
       - name: Build Jekyll site
