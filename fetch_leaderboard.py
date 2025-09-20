@@ -15,9 +15,10 @@ class Run:
 # --------------------
 USER_JSON_FILE = "user_ids.json"
 VERSION = "0.5.1"
-REQUEST_RETRY_COUNT = 3
 DELAY_BETWEEN_REQUESTS = 1.0
-MAX_RANK = 20000  # how deep we check
+MAX_RANK = 20000
+TRACKS_PER_RUN = 2
+LAST_TRACK_FILE = "last_track.json"
 
 # --------------------
 # Community Tracks
@@ -60,8 +61,26 @@ if not os.path.exists(USER_JSON_FILE):
 with open(USER_JSON_FILE, "r") as f:
     user_ids = json.load(f)
 
+hash_to_name = {info["hash"]: name for name, info in user_ids.items()}
+
 # --------------------
-# Fetch leaderboard entries for a single track
+# Load last track index
+# --------------------
+if os.path.exists(LAST_TRACK_FILE):
+    with open(LAST_TRACK_FILE) as f:
+        last_index = json.load(f).get("index", 0)
+else:
+    last_index = 0
+
+# --------------------
+# Select tracks to update
+# --------------------
+tracks_to_update = TRACKS[last_index:last_index + TRACKS_PER_RUN]
+if len(tracks_to_update) < TRACKS_PER_RUN:  # wrap around
+    tracks_to_update += TRACKS[:TRACKS_PER_RUN - len(tracks_to_update)]
+
+# --------------------
+# Fetch leaderboard entries
 # --------------------
 def fetch_track_entries(track_id, player_hashes, max_rank=MAX_RANK):
     skip = 0
@@ -102,19 +121,11 @@ def update_user_json(user_ids, filename=USER_JSON_FILE):
     print(f"✅ Updated {filename}")
 
 # --------------------
-# Hash → Name mapping
-# --------------------
-hash_to_name = {}
-for stored_name, user_info in user_ids.items():
-    hashed_id = user_info.get("hash")
-    hash_to_name[hashed_id] = stored_name
-
-# --------------------
-# Trackwise fetching
+# Process selected tracks
 # --------------------
 all_runs = []
 
-for track_id, track_name in TRACKS:
+for track_id, track_name in tracks_to_update:
     print(f"\n=== Fetching {track_name} ===")
     found_entries = fetch_track_entries(track_id, set(hash_to_name.keys()))
 
@@ -152,15 +163,12 @@ for track_id, track_name in TRACKS:
 # --------------------
 output_data = {"players": [], "tracks": []}
 
-all_maps = sorted(set(r.map_name for r in all_runs))
-all_players = list(user_ids.keys())
-
 # Player stats
 for player, info in user_ids.items():
     player_runs = [r for r in all_runs if r.name == player]
     total_time = 0.0
     ranks = []
-    for track_id, track_name in TRACKS:
+    for _, track_name in TRACKS:
         run_for_map = next((r for r in player_runs if r.map_name == track_name), None)
         if run_for_map and run_for_map.rank is not None:
             total_time += run_for_map.frames / 1000.0
@@ -175,8 +183,8 @@ for player, info in user_ids.items():
         "carColors": info.get("carColors", [])
     })
 
-# Track stats
-for track_id, track_name in TRACKS:
+# Track stats (nur die aktualisierten Tracks)
+for track_id, track_name in tracks_to_update:
     track_results = []
     for player, info in user_ids.items():
         run_for_map = next((r for r in all_runs if r.name == player and r.map_name == track_name), None)
@@ -195,3 +203,11 @@ with open("leaderboard.json", "w") as f:
     json.dump(output_data, f, indent=2)
 
 print("✅ leaderboard.json saved!")
+
+# --------------------
+# Update last track index
+# --------------------
+last_index = (last_index + TRACKS_PER_RUN) % len(TRACKS)
+with open(LAST_TRACK_FILE, "w") as f:
+    json.dump({"index": last_index}, f)
+print(f"Next run will start at track index {last_index}")
