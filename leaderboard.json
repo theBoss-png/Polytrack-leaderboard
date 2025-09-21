@@ -3,7 +3,7 @@
     {
       "name": "SpeedySebas",
       "avgRank": 1.0,
-      "totalTime": 2455.919,
+      "totalTime": 2451.053,
       "carColors": [
         "ff8e00",
         "000000",
@@ -14,8 +14,8 @@
     },
     {
       "name": "youngfella",
-      "avgRank": 11.0,
-      "totalTime": 2456.821,
+      "avgRank": 6.5,
+      "totalTime": 2452.423,
       "carColors": [
         "0069fe",
         "fffffe",
@@ -26,8 +26,8 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 1190.5,
-      "totalTime": 2460.533,
+      "avgRank": 1003.5,
+      "totalTime": 2457.474,
       "carColors": [
         "25656f",
         "76acb4",
@@ -545,8 +545,8 @@
         },
         {
           "player": "Hubaldium",
-          "time": null,
-          "rank": null
+          "time": 34.731,
+          "rank": 1751
         }
       ]
     },
