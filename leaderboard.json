@@ -3,7 +3,7 @@
     {
       "name": "SpeedySebas",
       "avgRank": 1.0,
-      "totalTime": 2451.053,
+      "totalTime": 2438.304,
       "carColors": [
         "ff8e00",
         "000000",
@@ -14,8 +14,8 @@
     },
     {
       "name": "youngfella",
-      "avgRank": 6.5,
-      "totalTime": 2452.423,
+      "avgRank": 9.5,
+      "totalTime": 2438.763,
       "carColors": [
         "0069fe",
         "fffffe",
@@ -26,13 +26,13 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 2459.0,
-      "totalTime": 2459.318,
+      "avgRank": 1112.0,
+      "totalTime": 2539.236,
       "carColors": [
-        "6f2525",
-        "b47676",
+        "25656f",
+        "76acb4",
         "000000",
-        "611111"
+        "115a61"
       ],
       "leaderboardRank": 3
     },
@@ -571,7 +571,7 @@
         {
           "player": "Hubaldium",
           "time": 19.236,
-          "rank": 1113
+          "rank": 1112
         }
       ]
     },
@@ -595,8 +595,8 @@
         },
         {
           "player": "Hubaldium",
-          "time": 22.32,
-          "rank": 2765
+          "time": null,
+          "rank": null
         }
       ]
     }
