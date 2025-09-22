@@ -17,7 +17,7 @@ USER_JSON_FILE = "user_ids.json"
 VERSION = "0.5.1"
 DELAY_BETWEEN_REQUESTS = 1.0
 MAX_RANK = 20000
-TRACKS_PER_RUN = 3
+TRACKS_PER_RUN = 4
 LAST_TRACK_FILE = "last_track.json"
 
 # --------------------
