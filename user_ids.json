@@ -34,5 +34,23 @@
       "000000",
       "246111"
     ]
+  },
+  "Lerkm_": {
+    "hash": "a2e785880a9ba02b85e283629a961dcfe0ab42d75b06cb076661d26bf9752371",
+    "carColors": [
+      "42010e",
+      "ffffff",
+      "131313",
+      "666666"
+    ]
+  },
+  "ich vermisse de Mathis": {
+    "hash": "8818b0e6adbe9464baf4e06adfe67791061faa20fc1a6112000fc5051310b45a",
+    "carColors": [
+      "ffffff",
+      "ffffff",
+      "ffffff",
+      "ffffff"
+    ]
   }
 }
