@@ -3,7 +3,7 @@
     {
       "name": "SpeedySebas",
       "avgRank": 1.0,
-      "totalTime": 2455.919,
+      "totalTime": 2349.283,
       "carColors": [
         "ff8e00",
         "000000",
@@ -14,8 +14,8 @@
     },
     {
       "name": "youngfella",
-      "avgRank": 11.0,
-      "totalTime": 2456.821,
+      "avgRank": 7.0,
+      "totalTime": 2350.788,
       "carColors": [
         "0069fe",
         "fffffe",
@@ -26,8 +26,8 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 1191.0,
-      "totalTime": 2460.533,
+      "avgRank": 831.7,
+      "totalTime": 2356.491,
       "carColors": [
         "25656f",
         "76acb4",
@@ -35,18 +35,6 @@
         "115a61"
       ],
       "leaderboardRank": 3
-    },
-    {
-      "name": "ich vermisse de Mathis",
-      "avgRank": 8120.0,
-      "totalTime": 2558.95,
-      "carColors": [
-        "ffffff",
-        "ffffff",
-        "ffffff",
-        "ffffff"
-      ],
-      "leaderboardRank": 4
     },
     {
       "name": "TheRealLelo",
@@ -58,7 +46,7 @@
         "000000",
         "652a88"
       ],
-      "leaderboardRank": 5
+      "leaderboardRank": 4
     },
     {
       "name": "Lerkm_",
@@ -69,6 +57,18 @@
         "ffffff",
         "131313",
         "666666"
+      ],
+      "leaderboardRank": 5
+    },
+    {
+      "name": "ich vermisse de Mathis",
+      "avgRank": 9999,
+      "totalTime": 2640.0,
+      "carColors": [
+        "ffffff",
+        "ffffff",
+        "ffffff",
+        "ffffff"
       ],
       "leaderboardRank": 6
     }
@@ -558,6 +558,16 @@
           "rank": null
         },
         {
+          "player": "Lerkm_",
+          "time": null,
+          "rank": null
+        },
+        {
+          "player": "ich vermisse de Mathis",
+          "time": null,
+          "rank": null
+        },
+        {
           "player": "youngfella",
           "time": 21.986,
           "rank": 10
@@ -583,6 +593,16 @@
           "rank": null
         },
         {
+          "player": "Lerkm_",
+          "time": null,
+          "rank": null
+        },
+        {
+          "player": "ich vermisse de Mathis",
+          "time": null,
+          "rank": null
+        },
+        {
           "player": "youngfella",
           "time": 30.437,
           "rank": 3
@@ -604,6 +624,16 @@
         },
         {
           "player": "TheRealLelo",
+          "time": null,
+          "rank": null
+        },
+        {
+          "player": "Lerkm_",
+          "time": null,
+          "rank": null
+        },
+        {
+          "player": "ich vermisse de Mathis",
           "time": null,
           "rank": null
         },
