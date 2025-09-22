@@ -2,8 +2,8 @@
   "players": [
     {
       "name": "SpeedySebas",
-      "avgRank": 1.0,
-      "totalTime": 2543.153,
+      "avgRank": 1.5,
+      "totalTime": 2609.269,
       "carColors": [
         "ff8e00",
         "000000",
@@ -14,8 +14,8 @@
     },
     {
       "name": "youngfella",
-      "avgRank": 4.0,
-      "totalTime": 2543.439,
+      "avgRank": 2.5,
+      "totalTime": 2608.746,
       "carColors": [
         "0069fe",
         "fffffe",
@@ -26,8 +26,8 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 29.0,
-      "totalTime": 2543.917,
+      "avgRank": 2495.5,
+      "totalTime": 2642.343,
       "carColors": [
         "25656f",
         "76acb4",
@@ -296,7 +296,7 @@
         {
           "player": "Hubaldium",
           "time": 44.758,
-          "rank": 4367
+          "rank": 4366
         }
       ]
     },
