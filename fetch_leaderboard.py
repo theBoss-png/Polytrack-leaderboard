@@ -214,7 +214,7 @@ for player, info in user_ids.items():
     })
 
 # Sort players by avgRank
-output_data["players"].sort(key=lambda p: p["avgRank"])
+output_data["players"].sort(key=lambda p: p["totalTime"])
 for i, player in enumerate(output_data["players"], 1):
     player["leaderboardRank"] = i
 
