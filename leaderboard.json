@@ -1,28 +1,52 @@
 {
   "players": [
     {
-      "name": "youngfella",
-      "avgRank": 9999,
-      "totalTime": 2640.0,
-      "carColors": [
-        "0069fe",
-        "ffffff",
-        "010000",
-        "0069fe"
-      ],
-      "leaderboardRank": 1
-    },
-    {
       "name": "SpeedySebas",
-      "avgRank": 9999,
-      "totalTime": 2640.0,
+      "avgRank": 1.0,
+      "totalTime": 2266.972,
       "carColors": [
         "ff8e00",
         "000000",
         "000000",
         "ff8e00"
       ],
+      "leaderboardRank": 1
+    },
+    {
+      "name": "youngfella",
+      "avgRank": 8.8,
+      "totalTime": 2269.244,
+      "carColors": [
+        "0069fe",
+        "fffffe",
+        "000001",
+        "0069fe"
+      ],
       "leaderboardRank": 2
+    },
+    {
+      "name": "Hubaldium",
+      "avgRank": 1100.0,
+      "totalTime": 2278.007,
+      "carColors": [
+        "6f2525",
+        "b47676",
+        "000000",
+        "611111"
+      ],
+      "leaderboardRank": 3
+    },
+    {
+      "name": "ich vermisse de Mathis",
+      "avgRank": 8150.0,
+      "totalTime": 2558.95,
+      "carColors": [
+        "ffffff",
+        "ffffff",
+        "ffffff",
+        "ffffff"
+      ],
+      "leaderboardRank": 4
     },
     {
       "name": "TheRealLelo",
@@ -34,19 +58,7 @@
         "000000",
         "652a88"
       ],
-      "leaderboardRank": 3
-    },
-    {
-      "name": "Hubaldium",
-      "avgRank": 9999,
-      "totalTime": 2640.0,
-      "carColors": [
-        "586f25",
-        "a1b476",
-        "000000",
-        "246111"
-      ],
-      "leaderboardRank": 4
+      "leaderboardRank": 5
     },
     {
       "name": "Lerkm_",
@@ -57,18 +69,6 @@
         "ffffff",
         "131313",
         "666666"
-      ],
-      "leaderboardRank": 5
-    },
-    {
-      "name": "ich vermisse de Mathis",
-      "avgRank": 9999,
-      "totalTime": 2640.0,
-      "carColors": [
-        "ffffff",
-        "ffffff",
-        "ffffff",
-        "ffffff"
       ],
       "leaderboardRank": 6
     }
@@ -655,7 +655,7 @@
         {
           "player": "ich vermisse de Mathis",
           "time": 38.95,
-          "rank": 8152
+          "rank": 8150
         },
         {
           "player": "youngfella",
@@ -665,7 +665,7 @@
         {
           "player": "Hubaldium",
           "time": 32.37,
-          "rank": 516
+          "rank": 515
         }
       ]
     },
