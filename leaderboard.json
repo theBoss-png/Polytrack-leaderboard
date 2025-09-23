@@ -3,7 +3,7 @@
     {
       "name": "SpeedySebas",
       "avgRank": 1.0,
-      "totalTime": 2269.213,
+      "totalTime": 2249.357,
       "carColors": [
         "ff8e00",
         "000000",
@@ -14,8 +14,8 @@
     },
     {
       "name": "youngfella",
-      "avgRank": 6.5,
-      "totalTime": 2270.225,
+      "avgRank": 8.0,
+      "totalTime": 2251.186,
       "carColors": [
         "0069fe",
         "fffffe",
@@ -26,8 +26,8 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 906.2,
-      "totalTime": 2278.205,
+      "avgRank": 735.0,
+      "totalTime": 2258.235,
       "carColors": [
         "6f2525",
         "b47676",
@@ -38,8 +38,8 @@
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 11304.0,
-      "totalTime": 2543.125,
+      "avgRank": 9999,
+      "totalTime": 2640.0,
       "carColors": [
         "652a88",
         "c8abd9",
@@ -47,18 +47,6 @@
         "652a88"
       ],
       "leaderboardRank": 4
-    },
-    {
-      "name": "ich vermisse de Mathis",
-      "avgRank": 8159.0,
-      "totalTime": 2558.95,
-      "carColors": [
-        "ffffff",
-        "ffffff",
-        "ffffff",
-        "ffffff"
-      ],
-      "leaderboardRank": 5
     },
     {
       "name": "Lerkm_",
@@ -69,6 +57,18 @@
         "ffffff",
         "131313",
         "666666"
+      ],
+      "leaderboardRank": 5
+    },
+    {
+      "name": "ich vermisse de Mathis",
+      "avgRank": 9999,
+      "totalTime": 2640.0,
+      "carColors": [
+        "ffffff",
+        "ffffff",
+        "ffffff",
+        "ffffff"
       ],
       "leaderboardRank": 6
     }
