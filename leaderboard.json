@@ -3,7 +3,7 @@
     {
       "name": "SpeedySebas",
       "avgRank": 1.0,
-      "totalTime": 2264.548,
+      "totalTime": 2266.972,
       "carColors": [
         "ff8e00",
         "000000",
@@ -13,40 +13,52 @@
       "leaderboardRank": 1
     },
     {
-      "name": "Hubaldium",
-      "avgRank": 622.0,
-      "totalTime": 2271.704,
-      "carColors": [
-        "6f2525",
-        "b47676",
-        "000000",
-        "611111"
-      ],
-      "leaderboardRank": 2
-    },
-    {
       "name": "youngfella",
-      "avgRank": 2.0,
-      "totalTime": 2356.203,
+      "avgRank": 8.8,
+      "totalTime": 2269.244,
       "carColors": [
         "0069fe",
         "fffffe",
         "000001",
         "0069fe"
       ],
+      "leaderboardRank": 2
+    },
+    {
+      "name": "Hubaldium",
+      "avgRank": 1101.5,
+      "totalTime": 2278.007,
+      "carColors": [
+        "6f2525",
+        "b47676",
+        "000000",
+        "611111"
+      ],
       "leaderboardRank": 3
     },
     {
+      "name": "ich vermisse de Mathis",
+      "avgRank": 8157.0,
+      "totalTime": 2558.95,
+      "carColors": [
+        "ffffff",
+        "ffffff",
+        "ffffff",
+        "ffffff"
+      ],
+      "leaderboardRank": 4
+    },
+    {
       "name": "TheRealLelo",
-      "avgRank": 10055.5,
-      "totalTime": 2463.035,
+      "avgRank": 9999,
+      "totalTime": 2640.0,
       "carColors": [
         "652a88",
         "c8abd9",
         "000000",
         "652a88"
       ],
-      "leaderboardRank": 4
+      "leaderboardRank": 5
     },
     {
       "name": "Lerkm_",
@@ -57,18 +69,6 @@
         "ffffff",
         "131313",
         "666666"
-      ],
-      "leaderboardRank": 5
-    },
-    {
-      "name": "ich vermisse de Mathis",
-      "avgRank": 9999,
-      "totalTime": 2640.0,
-      "carColors": [
-        "ffffff",
-        "ffffff",
-        "ffffff",
-        "ffffff"
       ],
       "leaderboardRank": 6
     }
@@ -655,7 +655,7 @@
         {
           "player": "ich vermisse de Mathis",
           "time": 38.95,
-          "rank": 8159
+          "rank": 8157
         },
         {
           "player": "youngfella",
