@@ -3,7 +3,7 @@
     {
       "name": "SpeedySebas",
       "avgRank": 1.0,
-      "totalTime": 2265.579,
+      "totalTime": 2269.213,
       "carColors": [
         "ff8e00",
         "000000",
@@ -13,33 +13,33 @@
       "leaderboardRank": 1
     },
     {
-      "name": "Hubaldium",
-      "avgRank": 1429.0,
-      "totalTime": 2270.547,
-      "carColors": [
-        "6f2525",
-        "b47676",
-        "000000",
-        "611111"
-      ],
-      "leaderboardRank": 2
-    },
-    {
       "name": "youngfella",
-      "avgRank": 2.0,
-      "totalTime": 2357.158,
+      "avgRank": 6.5,
+      "totalTime": 2270.225,
       "carColors": [
         "0069fe",
         "fffffe",
         "000001",
         "0069fe"
       ],
+      "leaderboardRank": 2
+    },
+    {
+      "name": "Hubaldium",
+      "avgRank": 906.0,
+      "totalTime": 2278.205,
+      "carColors": [
+        "6f2525",
+        "b47676",
+        "000000",
+        "611111"
+      ],
       "leaderboardRank": 3
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 7384.5,
-      "totalTime": 2475.046,
+      "avgRank": 11298.0,
+      "totalTime": 2543.125,
       "carColors": [
         "652a88",
         "c8abd9",
@@ -47,6 +47,18 @@
         "652a88"
       ],
       "leaderboardRank": 4
+    },
+    {
+      "name": "ich vermisse de Mathis",
+      "avgRank": 8157.0,
+      "totalTime": 2558.95,
+      "carColors": [
+        "ffffff",
+        "ffffff",
+        "ffffff",
+        "ffffff"
+      ],
+      "leaderboardRank": 5
     },
     {
       "name": "Lerkm_",
@@ -57,18 +69,6 @@
         "ffffff",
         "131313",
         "666666"
-      ],
-      "leaderboardRank": 5
-    },
-    {
-      "name": "ich vermisse de Mathis",
-      "avgRank": 9999,
-      "totalTime": 2640.0,
-      "carColors": [
-        "ffffff",
-        "ffffff",
-        "ffffff",
-        "ffffff"
       ],
       "leaderboardRank": 6
     }
@@ -575,7 +575,7 @@
         {
           "player": "TheRealLelo",
           "time": 23.125,
-          "rank": 11303
+          "rank": 11298
         },
         {
           "player": "Lerkm_",
@@ -595,7 +595,7 @@
         {
           "player": "Hubaldium",
           "time": 20.371,
-          "rank": 526
+          "rank": 525
         }
       ]
     },
