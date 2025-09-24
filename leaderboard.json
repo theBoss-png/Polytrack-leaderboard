@@ -26,7 +26,7 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 1074.1,
+      "avgRank": 1074.0,
       "totalTime": 850.529,
       "carColors": [
         "e2426b",
@@ -38,7 +38,7 @@
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 7922.7,
+      "avgRank": 7922.2,
       "totalTime": 1286.22,
       "carColors": [
         "652a88",
@@ -155,7 +155,7 @@
         {
           "player": "TheRealLelo",
           "time": 34.526,
-          "rank": 1024
+          "rank": 1021
         },
         {
           "player": "Lerkm_",
@@ -175,7 +175,7 @@
         {
           "player": "Hubaldium",
           "time": 33.458,
-          "rank": 208
+          "rank": 207
         }
       ]
     },
@@ -210,7 +210,7 @@
         {
           "player": "Hubaldium",
           "time": 26.019,
-          "rank": 1093
+          "rank": 1092
         }
       ]
     },
@@ -280,7 +280,7 @@
         {
           "player": "Hubaldium",
           "time": 13.893,
-          "rank": 1803
+          "rank": 1802
         }
       ]
     },
