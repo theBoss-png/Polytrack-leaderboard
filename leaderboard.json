@@ -2,8 +2,8 @@
   "players": [
     {
       "name": "SpeedySebas",
-      "avgRank": 1.5,
-      "totalTime": 2334.497,
+      "avgRank": 1.2,
+      "totalTime": 2253.494,
       "carColors": [
         "ff8e00",
         "000000",
@@ -14,8 +14,8 @@
     },
     {
       "name": "youngfella",
-      "avgRank": 4.0,
-      "totalTime": 2335.711,
+      "avgRank": 5.8,
+      "totalTime": 2254.356,
       "carColors": [
         "0069fe",
         "fffffe",
@@ -26,8 +26,8 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 806.2,
-      "totalTime": 2347.461,
+      "avgRank": 780.0,
+      "totalTime": 2257.287,
       "carColors": [
         "6f2525",
         "b47676",
@@ -37,38 +37,38 @@
       "leaderboardRank": 3
     },
     {
-      "name": "TheRealLelo",
-      "avgRank": 9524.5,
-      "totalTime": 2634.73,
-      "carColors": [
-        "652a88",
-        "c8abd9",
-        "000000",
-        "652a88"
-      ],
-      "leaderboardRank": 4
-    },
-    {
       "name": "Lerkm_",
-      "avgRank": 9999,
-      "totalTime": 2640.0,
+      "avgRank": 62.0,
+      "totalTime": 2544.12,
       "carColors": [
         "42010e",
         "ffffff",
         "131313",
         "666666"
       ],
-      "leaderboardRank": 5
+      "leaderboardRank": 4
     },
     {
       "name": "ich vermisse de Mathis",
-      "avgRank": 9999,
-      "totalTime": 2640.0,
+      "avgRank": 110.0,
+      "totalTime": 2544.345,
       "carColors": [
         "ffffff",
         "ffffff",
         "ffffff",
         "ffffff"
+      ],
+      "leaderboardRank": 5
+    },
+    {
+      "name": "TheRealLelo",
+      "avgRank": 1012.0,
+      "totalTime": 2554.526,
+      "carColors": [
+        "652a88",
+        "c8abd9",
+        "000000",
+        "652a88"
       ],
       "leaderboardRank": 6
     }
