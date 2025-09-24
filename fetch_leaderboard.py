@@ -193,6 +193,16 @@ for track_id, track_name in tracks_to_update:
 # --------------------
 # Update player stats
 # --------------------
+# Schlechteste Zeit pro Track sammeln
+worst_time_per_track = {}
+for run in all_runs:
+    if run.rank is not None:  # nur gültige Runs
+        time_sec = run.frames / 1000.0
+        if run.map_name not in worst_time_per_track:
+            worst_time_per_track[run.map_name] = time_sec
+        else:
+            worst_time_per_track[run.map_name] = max(worst_time_per_track[run.map_name], time_sec)
+
 output_data["players"] = []
 for player, info in user_ids.items():
     player_runs = [r for r in all_runs if r.name == player]
@@ -204,7 +214,9 @@ for player, info in user_ids.items():
             total_time += run_for_map.frames / 1000.0
             ranks.append(run_for_map.rank)
         else:
-            total_time += 120.0  # penalty
+            worst_time = worst_time_per_track.get(track_name, 120.0)
+            total_time += worst_time * 1.5
+
     avg_rank = sum(ranks) / len(ranks) if ranks else 9999
     output_data["players"].append({
         "name": player,
