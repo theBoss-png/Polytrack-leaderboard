@@ -210,12 +210,15 @@ for player, info in user_ids.items():
     ranks = []
     for _, track_name in TRACKS:
         run_for_map = next((r for r in player_runs if r.map_name == track_name), None)
-        if run_for_map and run_for_map.rank is not None:
+        if run_for_map and run_for_map.frames > 0:  # echte Zeit vorhanden
             total_time += run_for_map.frames / 1000.0
-            ranks.append(run_for_map.rank)
+            if run_for_map.rank is not None:
+                ranks.append(run_for_map.rank)
         else:
+            # Keine Zeit → Strafe: schlechteste Zeit + 50%
             worst_time = worst_time_per_track.get(track_name, 120.0)
             total_time += worst_time * 1.5
+
 
     avg_rank = sum(ranks) / len(ranks) if ranks else 9999
     output_data["players"].append({
