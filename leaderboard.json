@@ -1,74 +1,74 @@
 {
   "players": [
     {
-      "name": "SpeedySebas",
-      "avgRank": 1.2,
-      "totalTime": 781.409,
-      "carColors": [
-        "ff8e00",
-        "000000",
-        "000000",
-        "ff8e00"
-      ],
-      "leaderboardRank": 1
-    },
-    {
       "name": "youngfella",
-      "avgRank": 5.1,
-      "totalTime": 801.937,
+      "avgRank": 2.5,
+      "totalTime": 3485.954,
       "carColors": [
         "0069fe",
         "fffffe",
         "000001",
         "0069fe"
       ],
+      "leaderboardRank": 1
+    },
+    {
+      "name": "SpeedySebas",
+      "avgRank": 1.5,
+      "totalTime": 3486.194,
+      "carColors": [
+        "ff8e00",
+        "000000",
+        "000000",
+        "ff8e00"
+      ],
       "leaderboardRank": 2
     },
     {
       "name": "Hubaldium",
-      "avgRank": 712.6,
-      "totalTime": 893.158,
+      "avgRank": 1653.5,
+      "totalTime": 3516.617,
       "carColors": [
-        "6a6f25",
-        "b4ae76",
+        "e2426b",
+        "c58494",
         "000000",
-        "615c11"
+        "000000"
       ],
       "leaderboardRank": 3
     },
     {
-      "name": "TheRealLelo",
-      "avgRank": 1011.0,
-      "totalTime": 1253.582,
-      "carColors": [
-        "652a88",
-        "c8abd9",
-        "000000",
-        "652a88"
-      ],
-      "leaderboardRank": 4
-    },
-    {
       "name": "Lerkm_",
       "avgRank": 62.0,
-      "totalTime": 1258.447,
+      "totalTime": 3643.17,
       "carColors": [
         "42010e",
         "ffffff",
         "131313",
         "666666"
       ],
-      "leaderboardRank": 5
+      "leaderboardRank": 4
     },
     {
       "name": "ich vermisse de Mathis",
       "avgRank": 110.0,
-      "totalTime": 1258.673,
+      "totalTime": 3643.395,
       "carColors": [
         "ffffff",
         "ffffff",
         "ffffff",
         "ffffff"
+      ],
+      "leaderboardRank": 5
+    },
+    {
+      "name": "TheRealLelo",
+      "avgRank": 9999,
+      "totalTime": 3655.568,
+      "carColors": [
+        "652a88",
+        "c8abd9",
+        "000000",
+        "652a88"
       ],
       "leaderboardRank": 6
     }
@@ -629,8 +629,8 @@
         },
         {
           "player": "Hubaldium",
-          "time": null,
-          "rank": null
+          "time": 44.758,
+          "rank": 4422
         }
       ]
     },
