@@ -1,45 +1,45 @@
 {
   "players": [
     {
-      "name": "youngfella",
-      "avgRank": 2.2,
-      "totalTime": 3503.105,
-      "carColors": [
-        "0069fe",
-        "fffffe",
-        "000001",
-        "0069fe"
-      ],
-      "leaderboardRank": 1
-    },
-    {
       "name": "SpeedySebas",
-      "avgRank": 1.2,
-      "totalTime": 3503.594,
+      "avgRank": 1.0,
+      "totalTime": 3344.548,
       "carColors": [
         "ff8e00",
         "000000",
         "000000",
         "ff8e00"
       ],
-      "leaderboardRank": 2
+      "leaderboardRank": 1
     },
     {
       "name": "Hubaldium",
-      "avgRank": 2323.0,
-      "totalTime": 3535.322,
+      "avgRank": 629.8,
+      "totalTime": 3351.704,
       "carColors": [
         "6a6f25",
         "b4ae76",
         "000000",
         "615c11"
       ],
+      "leaderboardRank": 2
+    },
+    {
+      "name": "youngfella",
+      "avgRank": 2.0,
+      "totalTime": 3376.068,
+      "carColors": [
+        "0069fe",
+        "fffffe",
+        "000001",
+        "0069fe"
+      ],
       "leaderboardRank": 3
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 6006.0,
-      "totalTime": 3667.902,
+      "avgRank": 10339.5,
+      "totalTime": 3395.48,
       "carColors": [
         "652a88",
         "c8abd9",
@@ -51,7 +51,7 @@
     {
       "name": "Lerkm_",
       "avgRank": 9999,
-      "totalTime": 3685.47,
+      "totalTime": 3426.997,
       "carColors": [
         "42010e",
         "ffffff",
@@ -63,7 +63,7 @@
     {
       "name": "ich vermisse de Mathis",
       "avgRank": 9999,
-      "totalTime": 3685.47,
+      "totalTime": 3426.997,
       "carColors": [
         "ffffff",
         "ffffff",
@@ -540,7 +540,7 @@
         {
           "player": "TheRealLelo",
           "time": 39.91,
-          "rank": 9072
+          "rank": 9070
         },
         {
           "player": "Lerkm_",
@@ -575,7 +575,7 @@
         {
           "player": "TheRealLelo",
           "time": 23.125,
-          "rank": 11610
+          "rank": 11609
         },
         {
           "player": "Lerkm_",
