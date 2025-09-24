@@ -14,7 +14,7 @@
     },
     {
       "name": "youngfella",
-      "avgRank": 5.1,
+      "avgRank": 5.2,
       "totalTime": 817.247,
       "carColors": [
         "0069fe",
@@ -26,8 +26,8 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 1055.2,
-      "totalTime": 864.991,
+      "avgRank": 1066.8,
+      "totalTime": 850.529,
       "carColors": [
         "e2426b",
         "c58494",
@@ -38,8 +38,8 @@
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 7765.7,
-      "totalTime": 1284.758,
+      "avgRank": 7812.7,
+      "totalTime": 1286.22,
       "carColors": [
         "652a88",
         "c8abd9",
@@ -51,7 +51,7 @@
     {
       "name": "ich vermisse de Mathis",
       "avgRank": 4153.0,
-      "totalTime": 1436.824,
+      "totalTime": 1438.286,
       "carColors": [
         "ffffff",
         "ffffff",
@@ -63,7 +63,7 @@
     {
       "name": "Lerkm_",
       "avgRank": 62.0,
-      "totalTime": 1456.074,
+      "totalTime": 1457.537,
       "carColors": [
         "42010e",
         "ffffff",
@@ -100,12 +100,12 @@
         {
           "player": "youngfella",
           "time": 30.873,
-          "rank": 5
+          "rank": 6
         },
         {
           "player": "Hubaldium",
-          "time": null,
-          "rank": null
+          "time": 31.848,
+          "rank": 1293
         }
       ]
     },
@@ -120,7 +120,7 @@
         {
           "player": "TheRealLelo",
           "time": 101.665,
-          "rank": 15346
+          "rank": 15532
         },
         {
           "player": "Lerkm_",
@@ -140,7 +140,7 @@
         {
           "player": "Hubaldium",
           "time": 78.192,
-          "rank": 958
+          "rank": 971
         }
       ]
     },
@@ -820,7 +820,7 @@
         {
           "player": "TheRealLelo",
           "time": 133.065,
-          "rank": 3623
+          "rank": 3719
         },
         {
           "player": "Lerkm_",
@@ -840,7 +840,7 @@
         {
           "player": "Hubaldium",
           "time": 49.806,
-          "rank": 181
+          "rank": 186
         }
       ]
     }
