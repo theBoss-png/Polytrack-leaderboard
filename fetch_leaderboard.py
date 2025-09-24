@@ -194,42 +194,29 @@ for track_id, track_name in tracks_to_update:
 # Update player stats
 # --------------------
 
-# 1️⃣ Alle Tracks sammeln (existierende + neue)
-all_track_names = [t["name"] for t in output_data["tracks"]]
-for _, track_name in TRACKS:
-    if track_name not in all_track_names:
-        all_track_names.append(track_name)
-
-# 2️⃣ Schlechteste Zeit pro Track sammeln
+# 1️⃣ Schlechteste Zeit pro Track sammeln (aus allen Tracks!)
 worst_time_per_track = {}
-for run in all_runs:
-    if run.frames > 0:
-        time_sec = run.frames / 1000.0
-        if run.map_name not in worst_time_per_track:
-            worst_time_per_track[run.map_name] = time_sec
-        else:
-            worst_time_per_track[run.map_name] = max(worst_time_per_track[run.map_name], time_sec)
+for track in output_data["tracks"]:
+    times = [res["time"] for res in track["results"] if res["time"] is not None]
+    if times:
+        worst_time_per_track[track["name"]] = max(times)
 
-# 3️⃣ Spielerstatistiken berechnen
+# 2️⃣ Spielerstatistiken neu berechnen
 output_data["players"] = []
 for player, info in user_ids.items():
-    player_runs = {r.map_name: r for r in all_runs if r.name == player}
     total_time = 0.0
     ranks = []
 
-    for track_name in all_track_names:
-        run = player_runs.get(track_name)
-
-        if run and run.frames > 0:  # echte Zeit vorhanden
-            total_time += run.frames / 1000.0
-            if run.rank is not None:
-                ranks.append(run.rank)
+    for track in output_data["tracks"]:
+        result = next((r for r in track["results"] if r["player"] == player), None)
+        if result and result["time"] is not None:
+            total_time += result["time"]
+            if result["rank"] is not None:
+                ranks.append(result["rank"])
         else:
-            # nur Strafe, wenn Track schon existiert und keine Zeit vorhanden
-            existing_track = next((t for t in output_data["tracks"] if t["name"] == track_name), None)
-            if existing_track:
-                worst_time = worst_time_per_track.get(track_name, 120.0)
-                total_time += worst_time * 1.5
+            # Strafe: schlechteste Zeit + 50%
+            worst_time = worst_time_per_track.get(track["name"], 120.0)
+            total_time += worst_time * 1.5
 
     avg_rank = sum(ranks) / len(ranks) if ranks else 9999
     output_data["players"].append({
@@ -239,7 +226,7 @@ for player, info in user_ids.items():
         "carColors": info.get("carColors", [])
     })
 
-# Sortieren nach totalTime
+# 3️⃣ Sortieren nach totalTime
 output_data["players"].sort(key=lambda p: p["totalTime"])
 for i, player in enumerate(output_data["players"], 1):
     player["leaderboardRank"] = i
