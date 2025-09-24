@@ -217,6 +217,7 @@ for player, info in user_ids.items():
             # Strafe: schlechteste Zeit + 50%
             worst_time = worst_time_per_track.get(track["name"], 120.0)
             total_time += worst_time * 1.5
+            print(f"Strafe {player}, Zeit: {total_time}")
 
     avg_rank = sum(ranks) / len(ranks) if ranks else 9999
     output_data["players"].append({
