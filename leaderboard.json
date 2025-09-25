@@ -2,8 +2,8 @@
   "players": [
     {
       "name": "SpeedySebas",
-      "avgRank": 1.2,
-      "totalTime": 781.409,
+      "avgRank": 1.1,
+      "totalTime": 947.637,
       "carColors": [
         "ff8e00",
         "000000",
@@ -14,8 +14,8 @@
     },
     {
       "name": "youngfella",
-      "avgRank": 5.2,
-      "totalTime": 817.247,
+      "avgRank": 5.5,
+      "totalTime": 983.478,
       "carColors": [
         "0069fe",
         "fffffe",
@@ -26,8 +26,8 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 1079.3,
-      "totalTime": 850.529,
+      "avgRank": 1044.4,
+      "totalTime": 1016.636,
       "carColors": [
         "e2426b",
         "c58494",
@@ -38,8 +38,8 @@
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 8012.5,
-      "totalTime": 1286.22,
+      "avgRank": 8012.3,
+      "totalTime": 1445.381,
       "carColors": [
         "652a88",
         "c8abd9",
@@ -51,7 +51,7 @@
     {
       "name": "ich vermisse de Mathis",
       "avgRank": 4192.5,
-      "totalTime": 1438.286,
+      "totalTime": 1597.447,
       "carColors": [
         "ffffff",
         "ffffff",
@@ -63,7 +63,7 @@
     {
       "name": "Lerkm_",
       "avgRank": 62.0,
-      "totalTime": 1457.537,
+      "totalTime": 1616.697,
       "carColors": [
         "42010e",
         "ffffff",
@@ -155,7 +155,7 @@
         {
           "player": "TheRealLelo",
           "time": 34.526,
-          "rank": 1025
+          "rank": 1024
         },
         {
           "player": "Lerkm_",
@@ -175,7 +175,7 @@
         {
           "player": "Hubaldium",
           "time": 33.458,
-          "rank": 208
+          "rank": 207
         }
       ]
     },
@@ -254,8 +254,8 @@
       "results": [
         {
           "player": "SpeedySebas",
-          "time": 13.772,
-          "rank": 2
+          "time": null,
+          "rank": null
         },
         {
           "player": "TheRealLelo",
@@ -274,13 +274,13 @@
         },
         {
           "player": "youngfella",
-          "time": 13.769,
-          "rank": 1
+          "time": null,
+          "rank": null
         },
         {
           "player": "Hubaldium",
-          "time": 13.893,
-          "rank": 1812
+          "time": null,
+          "rank": null
         }
       ]
     },
