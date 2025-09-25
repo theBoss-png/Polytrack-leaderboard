@@ -26,7 +26,7 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 1072.2,
+      "avgRank": 1072.7,
       "totalTime": 850.529,
       "carColors": [
         "e2426b",
@@ -50,7 +50,7 @@
     },
     {
       "name": "ich vermisse de Mathis",
-      "avgRank": 4174.5,
+      "avgRank": 4174.0,
       "totalTime": 1438.286,
       "carColors": [
         "ffffff",
@@ -585,7 +585,7 @@
         {
           "player": "ich vermisse de Mathis",
           "time": 38.95,
-          "rank": 8238
+          "rank": 8237
         },
         {
           "player": "youngfella",
@@ -700,7 +700,7 @@
         {
           "player": "Hubaldium",
           "time": 34.731,
-          "rank": 1770
+          "rank": 1781
         }
       ]
     },
