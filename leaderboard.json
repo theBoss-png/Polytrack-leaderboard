@@ -18,8 +18,8 @@
       "totalTime": 1400.224,
       "carColors": [
         "0069fe",
-        "ffffff",
-        "010000",
+        "fffffe",
+        "000001",
         "0069fe"
       ],
       "leaderboardRank": 2
@@ -29,10 +29,10 @@
       "avgRank": 1003.8,
       "totalTime": 1459.982,
       "carColors": [
-        "586f25",
-        "a1b476",
+        "e2426b",
+        "c58494",
         "000000",
-        "246111"
+        "000000"
       ],
       "leaderboardRank": 3
     },
@@ -50,7 +50,7 @@
     },
     {
       "name": "ich vermisse de Mathis",
-      "avgRank": 4220.0,
+      "avgRank": 4219.5,
       "totalTime": 1974.668,
       "carColors": [
         "ffffff",
@@ -585,7 +585,7 @@
         {
           "player": "ich vermisse de Mathis",
           "time": 38.95,
-          "rank": 8327
+          "rank": 8326
         },
         {
           "player": "youngfella",
