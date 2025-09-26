@@ -26,7 +26,7 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 1088.5,
+      "avgRank": 1088.4,
       "totalTime": 850.529,
       "carColors": [
         "586f25",
@@ -228,6 +228,11 @@
           "rank": null
         },
         {
+          "player": "Hubaldium",
+          "time": 23.917,
+          "rank": 30
+        },
+        {
           "player": "Lerkm_",
           "time": 24.12,
           "rank": 64
@@ -241,11 +246,6 @@
           "player": "youngfella",
           "time": 23.439,
           "rank": 5
-        },
-        {
-          "player": "Hubaldium",
-          "time": 23.917,
-          "rank": 30
         }
       ]
     },
@@ -263,6 +263,11 @@
           "rank": null
         },
         {
+          "player": "Hubaldium",
+          "time": 13.893,
+          "rank": 1827
+        },
+        {
           "player": "Lerkm_",
           "time": null,
           "rank": null
@@ -276,11 +281,6 @@
           "player": "youngfella",
           "time": 13.769,
           "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 13.893,
-          "rank": 1829
         }
       ]
     },
@@ -298,6 +298,11 @@
           "rank": null
         },
         {
+          "player": "Hubaldium",
+          "time": 194.049,
+          "rank": 372
+        },
+        {
           "player": "Lerkm_",
           "time": null,
           "rank": null
@@ -311,11 +316,6 @@
           "player": "youngfella",
           "time": 166.924,
           "rank": 1
-        },
-        {
-          "player": "Hubaldium",
-          "time": 194.049,
-          "rank": 372
         }
       ]
     },
@@ -333,6 +333,11 @@
           "rank": null
         },
         {
+          "player": "Hubaldium",
+          "time": 44.758,
+          "rank": 4472
+        },
+        {
           "player": "Lerkm_",
           "time": null,
           "rank": null
@@ -346,11 +351,6 @@
           "player": "youngfella",
           "time": 41.822,
           "rank": 4
-        },
-        {
-          "player": "Hubaldium",
-          "time": 44.758,
-          "rank": 4472
         }
       ]
     },
