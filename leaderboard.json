@@ -3,7 +3,7 @@
     {
       "name": "SpeedySebas",
       "avgRank": 1.2,
-      "totalTime": 1090.155,
+      "totalTime": 781.409,
       "carColors": [
         "ff8e00",
         "000000",
@@ -14,8 +14,8 @@
     },
     {
       "name": "youngfella",
-      "avgRank": 5.5,
-      "totalTime": 1094.583,
+      "avgRank": 5.3,
+      "totalTime": 817.247,
       "carColors": [
         "0069fe",
         "fffffe",
@@ -26,8 +26,8 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 1131.8,
-      "totalTime": 1156.497,
+      "avgRank": 1088.6,
+      "totalTime": 850.529,
       "carColors": [
         "e2426b",
         "c58494",
@@ -38,8 +38,8 @@
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 7904.2,
-      "totalTime": 1569.817,
+      "avgRank": 8198.5,
+      "totalTime": 1286.22,
       "carColors": [
         "652a88",
         "c8abd9",
@@ -51,7 +51,7 @@
     {
       "name": "ich vermisse de Mathis",
       "avgRank": 4219.5,
-      "totalTime": 1701.928,
+      "totalTime": 1438.286,
       "carColors": [
         "ffffff",
         "ffffff",
@@ -63,7 +63,7 @@
     {
       "name": "Lerkm_",
       "avgRank": 64.0,
-      "totalTime": 1721.178,
+      "totalTime": 1457.537,
       "carColors": [
         "42010e",
         "ffffff",
@@ -428,22 +428,12 @@
       "name": "Winter Hollow",
       "results": [
         {
-          "player": "youngfella",
-          "time": null,
-          "rank": null
-        },
-        {
           "player": "SpeedySebas",
-          "time": null,
-          "rank": null
+          "time": 22.729,
+          "rank": 1
         },
         {
           "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        },
-        {
-          "player": "Hubaldium",
           "time": null,
           "rank": null
         },
@@ -456,6 +446,16 @@
           "player": "ich vermisse de Mathis",
           "time": null,
           "rank": null
+        },
+        {
+          "player": "youngfella",
+          "time": 22.799,
+          "rank": 2
+        },
+        {
+          "player": "Hubaldium",
+          "time": 24.329,
+          "rank": 928
         }
       ]
     },
@@ -463,24 +463,14 @@
       "name": "Anubis",
       "results": [
         {
-          "player": "youngfella",
-          "time": null,
-          "rank": null
-        },
-        {
           "player": "SpeedySebas",
-          "time": null,
-          "rank": null
+          "time": 28.525,
+          "rank": 1
         },
         {
           "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        },
-        {
-          "player": "Hubaldium",
-          "time": null,
-          "rank": null
+          "time": 39.91,
+          "rank": 9674
         },
         {
           "player": "Lerkm_",
@@ -491,6 +481,16 @@
           "player": "ich vermisse de Mathis",
           "time": null,
           "rank": null
+        },
+        {
+          "player": "youngfella",
+          "time": null,
+          "rank": null
+        },
+        {
+          "player": "Hubaldium",
+          "time": 29.703,
+          "rank": 386
         }
       ]
     },
@@ -505,7 +505,7 @@
         {
           "player": "TheRealLelo",
           "time": 23.125,
-          "rank": 12272
+          "rank": 12268
         },
         {
           "player": "Lerkm_",
