@@ -38,7 +38,7 @@
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 8319.3,
+      "avgRank": 8319.0,
       "totalTime": 1286.22,
       "carColors": [
         "652a88",
@@ -470,7 +470,7 @@
         {
           "player": "TheRealLelo",
           "time": 39.91,
-          "rank": 9892
+          "rank": 9890
         },
         {
           "player": "Hubaldium",
