@@ -26,7 +26,7 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 1107.3,
+      "avgRank": 1108.0,
       "totalTime": 850.529,
       "carColors": [
         "586f25",
@@ -38,8 +38,8 @@
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 8481.2,
-      "totalTime": 1286.22,
+      "avgRank": 9308.0,
+      "totalTime": 1232.643,
       "carColors": [
         "652a88",
         "c8abd9",
@@ -50,8 +50,8 @@
     },
     {
       "name": "ich vermisse de Mathis",
-      "avgRank": 4261.0,
-      "totalTime": 1438.286,
+      "avgRank": 4262.0,
+      "totalTime": 1503.457,
       "carColors": [
         "ffffff",
         "ffffff",
@@ -62,8 +62,8 @@
     },
     {
       "name": "Lerkm_",
-      "avgRank": 63.0,
-      "totalTime": 1457.537,
+      "avgRank": 64.0,
+      "totalTime": 1522.707,
       "carColors": [
         "42010e",
         "ffffff",
@@ -230,17 +230,17 @@
         {
           "player": "Hubaldium",
           "time": 23.917,
-          "rank": 28
+          "rank": 29
         },
         {
           "player": "Lerkm_",
           "time": 24.12,
-          "rank": 63
+          "rank": 64
         },
         {
           "player": "ich vermisse de Mathis",
           "time": 24.345,
-          "rank": 112
+          "rank": 114
         },
         {
           "player": "testosterone timmy vs estrogen edward",
@@ -265,7 +265,7 @@
         {
           "player": "Hubaldium",
           "time": 13.893,
-          "rank": 1854
+          "rank": 1859
         },
         {
           "player": "Lerkm_",
@@ -294,13 +294,13 @@
         },
         {
           "player": "TheRealLelo",
-          "time": null,
-          "rank": null
+          "time": 237.496,
+          "rank": 14269
         },
         {
           "player": "Hubaldium",
           "time": 194.049,
-          "rank": 375
+          "rank": 378
         },
         {
           "player": "Lerkm_",
@@ -335,7 +335,7 @@
         {
           "player": "Hubaldium",
           "time": 44.758,
-          "rank": 4526
+          "rank": 4534
         },
         {
           "player": "Lerkm_",
