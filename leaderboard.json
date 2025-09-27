@@ -13,8 +13,20 @@
       "leaderboardRank": 1
     },
     {
+      "name": "testosterone timmy vs estrogen edward",
+      "avgRank": 5.9,
+      "totalTime": 1291.293,
+      "carColors": [
+        "0069fe",
+        "fffffe",
+        "000001",
+        "0069fe"
+      ],
+      "leaderboardRank": 2
+    },
+    {
       "name": "Hubaldium",
-      "avgRank": 973.7,
+      "avgRank": 973.6,
       "totalTime": 1293.912,
       "carColors": [
         "586f25",
@@ -22,23 +34,11 @@
         "000000",
         "246111"
       ],
-      "leaderboardRank": 2
-    },
-    {
-      "name": "testosterone timmy vs estrogen edward",
-      "avgRank": 6.4,
-      "totalTime": 1328.528,
-      "carColors": [
-        "0069fe",
-        "fffffe",
-        "000001",
-        "0069fe"
-      ],
       "leaderboardRank": 3
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 8427.3,
+      "avgRank": 8427.2,
       "totalTime": 1590.653,
       "carColors": [
         "652a88",
@@ -505,12 +505,12 @@
         {
           "player": "TheRealLelo",
           "time": 23.125,
-          "rank": 12620
+          "rank": 12619
         },
         {
           "player": "Hubaldium",
           "time": 20.371,
-          "rank": 568
+          "rank": 567
         },
         {
           "player": "Lerkm_",
@@ -523,7 +523,7 @@
           "rank": null
         },
         {
-          "player": "youngfella",
+          "player": "testosterone timmy vs estrogen edward",
           "time": 19.181,
           "rank": 2
         }
@@ -558,7 +558,7 @@
           "rank": null
         },
         {
-          "player": "youngfella",
+          "player": "testosterone timmy vs estrogen edward",
           "time": 34.223,
           "rank": 2
         }
