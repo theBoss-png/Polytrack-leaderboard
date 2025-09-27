@@ -25,6 +25,18 @@
       "leaderboardRank": 2
     },
     {
+      "name": "testosterone timmy vs estrogen edward",
+      "avgRank": 7.6,
+      "totalTime": 1201.044,
+      "carColors": [
+        "0069fe",
+        "fffffe",
+        "000001",
+        "0069fe"
+      ],
+      "leaderboardRank": 3
+    },
+    {
       "name": "TheRealLelo",
       "avgRank": 8428.3,
       "totalTime": 1286.22,
@@ -33,18 +45,6 @@
         "c8abd9",
         "000000",
         "652a88"
-      ],
-      "leaderboardRank": 3
-    },
-    {
-      "name": "testosterone timmy vs estrogen edward",
-      "avgRank": 8.8,
-      "totalTime": 1392.297,
-      "carColors": [
-        "0069fe",
-        "fffffe",
-        "000001",
-        "0069fe"
       ],
       "leaderboardRank": 4
     },
@@ -733,7 +733,7 @@
           "rank": null
         },
         {
-          "player": "youngfella",
+          "player": "testosterone timmy vs estrogen edward",
           "time": 18.365,
           "rank": 8
         }
@@ -768,7 +768,7 @@
           "rank": null
         },
         {
-          "player": "youngfella",
+          "player": "testosterone timmy vs estrogen edward",
           "time": 20.398,
           "rank": 11
         }
@@ -803,7 +803,7 @@
           "rank": null
         },
         {
-          "player": "youngfella",
+          "player": "testosterone timmy vs estrogen edward",
           "time": 25.792,
           "rank": 4
         }
@@ -838,7 +838,7 @@
           "rank": null
         },
         {
-          "player": "youngfella",
+          "player": "testosterone timmy vs estrogen edward",
           "time": 46.334,
           "rank": 3
         }
