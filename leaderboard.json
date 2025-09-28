@@ -578,6 +578,11 @@
           "rank": null
         },
         {
+          "player": "Hubaldium",
+          "time": 32.37,
+          "rank": 530
+        },
+        {
           "player": "Lerkm_",
           "time": null,
           "rank": null
@@ -591,11 +596,6 @@
           "player": "youngfella",
           "time": null,
           "rank": null
-        },
-        {
-          "player": "Hubaldium",
-          "time": 32.37,
-          "rank": 530
         }
       ]
     },
@@ -613,6 +613,11 @@
           "rank": null
         },
         {
+          "player": "Hubaldium",
+          "time": 28.163,
+          "rank": 1953
+        },
+        {
           "player": "Lerkm_",
           "time": null,
           "rank": null
@@ -626,11 +631,6 @@
           "player": "youngfella",
           "time": 26.942,
           "rank": 10
-        },
-        {
-          "player": "Hubaldium",
-          "time": 28.163,
-          "rank": 1953
         }
       ]
     },
