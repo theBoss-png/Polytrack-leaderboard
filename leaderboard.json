@@ -13,8 +13,20 @@
       "leaderboardRank": 1
     },
     {
+      "name": "youngfella",
+      "avgRank": 5.2,
+      "totalTime": 817.247,
+      "carColors": [
+        "0069fe",
+        "fffffe",
+        "000001",
+        "0069fe"
+      ],
+      "leaderboardRank": 2
+    },
+    {
       "name": "Hubaldium",
-      "avgRank": 1108.0,
+      "avgRank": 1107.8,
       "totalTime": 850.529,
       "carColors": [
         "586f25",
@@ -22,23 +34,11 @@
         "000000",
         "246111"
       ],
-      "leaderboardRank": 2
-    },
-    {
-      "name": "youngfella",
-      "avgRank": 5.6,
-      "totalTime": 854.482,
-      "carColors": [
-        "0069fe",
-        "fffffe",
-        "000001",
-        "0069fe"
-      ],
       "leaderboardRank": 3
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 9306.1,
+      "avgRank": 9305.6,
       "totalTime": 1232.643,
       "carColors": [
         "652a88",
@@ -50,7 +50,7 @@
     },
     {
       "name": "ich vermisse de Mathis",
-      "avgRank": 4261.0,
+      "avgRank": 4260.5,
       "totalTime": 1503.457,
       "carColors": [
         "ffffff",
@@ -505,12 +505,12 @@
         {
           "player": "TheRealLelo",
           "time": 23.125,
-          "rank": 12696
+          "rank": 12692
         },
         {
           "player": "Hubaldium",
           "time": 20.371,
-          "rank": 574
+          "rank": 573
         },
         {
           "player": "Lerkm_",
@@ -523,7 +523,7 @@
           "rank": null
         },
         {
-          "player": "testosterone timmy vs estrogen edward",
+          "player": "youngfella",
           "time": 19.181,
           "rank": 2
         }
@@ -558,7 +558,7 @@
           "rank": null
         },
         {
-          "player": "testosterone timmy vs estrogen edward",
+          "player": "youngfella",
           "time": 34.223,
           "rank": 2
         }
@@ -580,7 +580,7 @@
         {
           "player": "Hubaldium",
           "time": 32.37,
-          "rank": 533
+          "rank": 532
         },
         {
           "player": "Lerkm_",
@@ -590,12 +590,12 @@
         {
           "player": "ich vermisse de Mathis",
           "time": 38.95,
-          "rank": 8409
+          "rank": 8408
         },
         {
           "player": "youngfella",
           "time": 29.879,
-          "rank": 12
+          "rank": 11
         }
       ]
     },
@@ -615,7 +615,7 @@
         {
           "player": "Hubaldium",
           "time": 28.163,
-          "rank": 1951
+          "rank": 1950
         },
         {
           "player": "Lerkm_",
