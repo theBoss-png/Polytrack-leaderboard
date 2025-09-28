@@ -14,7 +14,7 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 1108.4,
+      "avgRank": 1108.2,
       "totalTime": 850.529,
       "carColors": [
         "586f25",
@@ -26,7 +26,7 @@
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 9309.1,
+      "avgRank": 9308.9,
       "totalTime": 1232.643,
       "carColors": [
         "652a88",
@@ -38,8 +38,8 @@
     },
     {
       "name": "youngfella",
-      "avgRank": 8.8,
-      "totalTime": 1457.468,
+      "avgRank": 7.6,
+      "totalTime": 1266.215,
       "carColors": [
         "0069fe",
         "fffffe",
@@ -733,7 +733,7 @@
           "rank": null
         },
         {
-          "player": "testosterone timmy vs estrogen edward",
+          "player": "youngfella",
           "time": 18.365,
           "rank": 8
         }
@@ -755,7 +755,7 @@
         {
           "player": "Hubaldium",
           "time": 21.744,
-          "rank": 457
+          "rank": 455
         },
         {
           "player": "Lerkm_",
@@ -768,7 +768,7 @@
           "rank": null
         },
         {
-          "player": "testosterone timmy vs estrogen edward",
+          "player": "youngfella",
           "time": 20.398,
           "rank": 11
         }
@@ -790,7 +790,7 @@
         {
           "player": "Hubaldium",
           "time": 27.602,
-          "rank": 819
+          "rank": 818
         },
         {
           "player": "Lerkm_",
@@ -803,7 +803,7 @@
           "rank": null
         },
         {
-          "player": "testosterone timmy vs estrogen edward",
+          "player": "youngfella",
           "time": 25.792,
           "rank": 4
         }
@@ -820,7 +820,7 @@
         {
           "player": "TheRealLelo",
           "time": 133.065,
-          "rank": 4025
+          "rank": 4023
         },
         {
           "player": "Hubaldium",
@@ -838,7 +838,7 @@
           "rank": null
         },
         {
-          "player": "testosterone timmy vs estrogen edward",
+          "player": "youngfella",
           "time": 46.334,
           "rank": 3
         }
