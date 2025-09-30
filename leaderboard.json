@@ -2,7 +2,7 @@
   "players": [
     {
       "name": "SpeedySebas",
-      "avgRank": 1.2,
+      "avgRank": 1.3,
       "totalTime": 781.409,
       "carColors": [
         "ff8e00",
@@ -14,8 +14,8 @@
     },
     {
       "name": "youngfella",
-      "avgRank": 4.9,
-      "totalTime": 845.793,
+      "avgRank": 4.8,
+      "totalTime": 816.447,
       "carColors": [
         "0069fe",
         "fffffe",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 1123.0,
+      "avgRank": 1124.5,
       "totalTime": 850.529,
       "carColors": [
         "586f25",
@@ -50,7 +50,7 @@
     },
     {
       "name": "ich vermisse de Mathis",
-      "avgRank": 4276.0,
+      "avgRank": 4316.5,
       "totalTime": 1503.457,
       "carColors": [
         "ffffff",
@@ -570,7 +570,7 @@
         {
           "player": "SpeedySebas",
           "time": 29.232,
-          "rank": 2
+          "rank": 3
         },
         {
           "player": "TheRealLelo",
@@ -580,7 +580,7 @@
         {
           "player": "Hubaldium",
           "time": 32.37,
-          "rank": 528
+          "rank": 536
         },
         {
           "player": "Lerkm_",
@@ -590,12 +590,12 @@
         {
           "player": "ich vermisse de Mathis",
           "time": 38.95,
-          "rank": 8436
+          "rank": 8517
         },
         {
           "player": "youngfella",
-          "time": null,
-          "rank": null
+          "time": 29.079,
+          "rank": 1
         }
       ]
     },
@@ -615,7 +615,7 @@
         {
           "player": "Hubaldium",
           "time": 28.163,
-          "rank": 1955
+          "rank": 1974
         },
         {
           "player": "Lerkm_",
@@ -650,7 +650,7 @@
         {
           "player": "Hubaldium",
           "time": 22.743,
-          "rank": 260
+          "rank": 265
         },
         {
           "player": "Lerkm_",
@@ -665,7 +665,7 @@
         {
           "player": "youngfella",
           "time": 21.986,
-          "rank": 10
+          "rank": 11
         }
       ]
     },
