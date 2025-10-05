@@ -26,7 +26,7 @@
     },
     {
       "name": "Wissard",
-      "avgRank": 1180.0,
+      "avgRank": 1179.9,
       "totalTime": 850.529,
       "carColors": [
         "586f25",
@@ -38,7 +38,7 @@
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 10346.4,
+      "avgRank": 10345.7,
       "totalTime": 1232.643,
       "carColors": [
         "652a88",
@@ -470,7 +470,7 @@
         {
           "player": "TheRealLelo",
           "time": 39.91,
-          "rank": 11620
+          "rank": 11618
         },
         {
           "player": "Lerkm_",
@@ -490,7 +490,7 @@
         {
           "player": "Wissard",
           "time": 29.703,
-          "rank": 453
+          "rank": 452
         }
       ]
     },
@@ -505,7 +505,7 @@
         {
           "player": "TheRealLelo",
           "time": 23.125,
-          "rank": 14408
+          "rank": 14405
         },
         {
           "player": "Lerkm_",
@@ -560,7 +560,7 @@
         {
           "player": "Wissard",
           "time": 37.301,
-          "rank": 766
+          "rank": 765
         }
       ]
     },
