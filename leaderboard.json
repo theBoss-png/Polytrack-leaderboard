@@ -26,7 +26,7 @@
     },
     {
       "name": "Wissard",
-      "avgRank": 1179.6,
+      "avgRank": 1179.5,
       "totalTime": 850.529,
       "carColors": [
         "586f25",
@@ -50,7 +50,7 @@
     },
     {
       "name": "ich vermisse de Mathis",
-      "avgRank": 4472.5,
+      "avgRank": 4472.0,
       "totalTime": 1503.457,
       "carColors": [
         "ffffff",
@@ -585,7 +585,7 @@
         {
           "player": "ich vermisse de Mathis",
           "time": 38.95,
-          "rank": 8825
+          "rank": 8824
         },
         {
           "player": "youngfella",
@@ -630,7 +630,7 @@
         {
           "player": "Wissard",
           "time": 28.163,
-          "rank": 2037
+          "rank": 2036
         }
       ]
     },
