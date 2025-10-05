@@ -26,8 +26,8 @@
     },
     {
       "name": "Wissard",
-      "avgRank": 1140.5,
-      "totalTime": 956.567,
+      "avgRank": 1226.4,
+      "totalTime": 883.496,
       "carColors": [
         "586f25",
         "a1b476",
@@ -368,11 +368,6 @@
           "rank": 6446
         },
         {
-          "player": "Hubaldium",
-          "time": 33.478,
-          "rank": 294
-        },
-        {
           "player": "Lerkm_",
           "time": null,
           "rank": null
@@ -386,6 +381,11 @@
           "player": "youngfella",
           "time": 32.206,
           "rank": 2
+        },
+        {
+          "player": "Wissard",
+          "time": 33.478,
+          "rank": 294
         }
       ]
     },
@@ -403,11 +403,6 @@
           "rank": null
         },
         {
-          "player": "Hubaldium",
-          "time": 23.037,
-          "rank": 4535
-        },
-        {
           "player": "Lerkm_",
           "time": null,
           "rank": null
@@ -421,6 +416,11 @@
           "player": "youngfella",
           "time": 22.153,
           "rank": 2
+        },
+        {
+          "player": "Wissard",
+          "time": 23.037,
+          "rank": 4534
         }
       ]
     },
@@ -438,11 +438,6 @@
           "rank": null
         },
         {
-          "player": "Hubaldium",
-          "time": 24.329,
-          "rank": 999
-        },
-        {
           "player": "Lerkm_",
           "time": null,
           "rank": null
@@ -456,6 +451,11 @@
           "player": "youngfella",
           "time": 22.799,
           "rank": 2
+        },
+        {
+          "player": "Wissard",
+          "time": 24.329,
+          "rank": 999
         }
       ]
     },
@@ -473,11 +473,6 @@
           "rank": 11620
         },
         {
-          "player": "Hubaldium",
-          "time": 29.703,
-          "rank": 453
-        },
-        {
           "player": "Lerkm_",
           "time": null,
           "rank": null
@@ -491,6 +486,11 @@
           "player": "youngfella",
           "time": null,
           "rank": null
+        },
+        {
+          "player": "Wissard",
+          "time": 29.703,
+          "rank": 453
         }
       ]
     },
