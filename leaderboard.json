@@ -26,7 +26,7 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 1177.5,
+      "avgRank": 1177.7,
       "totalTime": 850.529,
       "carColors": [
         "586f25",
@@ -38,7 +38,7 @@
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 10331.0,
+      "avgRank": 10341.9,
       "totalTime": 1232.643,
       "carColors": [
         "652a88",
@@ -120,12 +120,12 @@
         {
           "player": "TheRealLelo",
           "time": 101.665,
-          "rank": 19334
+          "rank": 19340
         },
         {
           "player": "Hubaldium",
           "time": 78.192,
-          "rank": 1159
+          "rank": 1161
         },
         {
           "player": "Lerkm_",
@@ -790,7 +790,7 @@
         {
           "player": "Hubaldium",
           "time": 27.602,
-          "rank": 944
+          "rank": 946
         },
         {
           "player": "Lerkm_",
@@ -820,12 +820,12 @@
         {
           "player": "TheRealLelo",
           "time": 133.065,
-          "rank": 4576
+          "rank": 4646
         },
         {
           "player": "Hubaldium",
           "time": 49.806,
-          "rank": 219
+          "rank": 220
         },
         {
           "player": "Lerkm_",
@@ -840,7 +840,7 @@
         {
           "player": "youngfella",
           "time": 46.334,
-          "rank": 3
+          "rank": 4
         }
       ]
     }
