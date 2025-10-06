@@ -25,18 +25,6 @@
       "leaderboardRank": 2
     },
     {
-      "name": "Wissard",
-      "avgRank": 1182.7,
-      "totalTime": 850.529,
-      "carColors": [
-        "586f25",
-        "a1b476",
-        "000000",
-        "246111"
-      ],
-      "leaderboardRank": 3
-    },
-    {
       "name": "TheRealLelo",
       "avgRank": 10398.7,
       "totalTime": 1232.643,
@@ -45,6 +33,18 @@
         "c8abd9",
         "000000",
         "652a88"
+      ],
+      "leaderboardRank": 3
+    },
+    {
+      "name": "Hubaldium",
+      "avgRank": 803.0,
+      "totalTime": 1485.987,
+      "carColors": [
+        "586f25",
+        "a1b476",
+        "000000",
+        "246111"
       ],
       "leaderboardRank": 4
     },
@@ -648,6 +648,11 @@
           "rank": null
         },
         {
+          "player": "Hubaldium",
+          "time": 22.743,
+          "rank": 270
+        },
+        {
           "player": "Lerkm_",
           "time": null,
           "rank": null
@@ -661,11 +666,6 @@
           "player": "youngfella",
           "time": 21.986,
           "rank": 11
-        },
-        {
-          "player": "Wissard",
-          "time": 22.743,
-          "rank": 271
         }
       ]
     },
@@ -683,6 +683,11 @@
           "rank": null
         },
         {
+          "player": "Hubaldium",
+          "time": 34.731,
+          "rank": 1922
+        },
+        {
           "player": "Lerkm_",
           "time": null,
           "rank": null
@@ -696,11 +701,6 @@
           "player": "youngfella",
           "time": 30.437,
           "rank": 3
-        },
-        {
-          "player": "Wissard",
-          "time": 34.731,
-          "rank": 1923
         }
       ]
     },
@@ -718,6 +718,11 @@
           "rank": null
         },
         {
+          "player": "Hubaldium",
+          "time": 19.017,
+          "rank": 531
+        },
+        {
           "player": "Lerkm_",
           "time": null,
           "rank": null
@@ -731,11 +736,6 @@
           "player": "youngfella",
           "time": 18.365,
           "rank": 9
-        },
-        {
-          "player": "Wissard",
-          "time": 19.017,
-          "rank": 531
         }
       ]
     },
@@ -753,6 +753,11 @@
           "rank": null
         },
         {
+          "player": "Hubaldium",
+          "time": 21.744,
+          "rank": 489
+        },
+        {
           "player": "Lerkm_",
           "time": null,
           "rank": null
@@ -766,11 +771,6 @@
           "player": "youngfella",
           "time": 20.398,
           "rank": 12
-        },
-        {
-          "player": "Wissard",
-          "time": 21.744,
-          "rank": 489
         }
       ]
     },
