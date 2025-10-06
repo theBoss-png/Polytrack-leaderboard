@@ -26,7 +26,7 @@
     },
     {
       "name": "Wissard",
-      "avgRank": 1183.2,
+      "avgRank": 1183.3,
       "totalTime": 850.529,
       "carColors": [
         "586f25",
@@ -105,7 +105,7 @@
         {
           "player": "Wissard",
           "time": 31.848,
-          "rank": 1605
+          "rank": 1606
         }
       ]
     },
@@ -210,7 +210,7 @@
         {
           "player": "Wissard",
           "time": 26.019,
-          "rank": 1168
+          "rank": 1170
         }
       ]
     },
