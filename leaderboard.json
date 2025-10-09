@@ -38,7 +38,7 @@
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 9302.8,
+      "avgRank": 9301.7,
       "totalTime": 1248.266,
       "carColors": [
         "652a88",
@@ -50,7 +50,7 @@
     },
     {
       "name": "ich vermisse de Mathis",
-      "avgRank": 4572.5,
+      "avgRank": 4571.5,
       "totalTime": 1468.247,
       "carColors": [
         "ffffff",
@@ -505,7 +505,7 @@
         {
           "player": "TheRealLelo",
           "time": 23.125,
-          "rank": 15430
+          "rank": 15423
         },
         {
           "player": "Hubaldium",
@@ -590,7 +590,7 @@
         {
           "player": "ich vermisse de Mathis",
           "time": 38.95,
-          "rank": 9022
+          "rank": 9020
         },
         {
           "player": "youngfella",
