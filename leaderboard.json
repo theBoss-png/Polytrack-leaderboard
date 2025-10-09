@@ -26,7 +26,7 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 1209.1,
+      "avgRank": 1209.0,
       "totalTime": 850.529,
       "carColors": [
         "586f25",
@@ -720,7 +720,7 @@
         {
           "player": "Hubaldium",
           "time": 19.017,
-          "rank": 538
+          "rank": 537
         },
         {
           "player": "Lerkm_",
