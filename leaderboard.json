@@ -50,7 +50,7 @@
     },
     {
       "name": "ich vermisse de Mathis",
-      "avgRank": 4699.5,
+      "avgRank": 4699.0,
       "totalTime": 1468.247,
       "carColors": [
         "ffffff",
@@ -590,7 +590,7 @@
         {
           "player": "ich vermisse de Mathis",
           "time": 38.95,
-          "rank": 9270
+          "rank": 9269
         },
         {
           "player": "youngfella",
