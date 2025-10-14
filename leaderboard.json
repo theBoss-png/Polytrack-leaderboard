@@ -2,7 +2,7 @@
   "players": [
     {
       "name": "SpeedySebas",
-      "avgRank": 1.4,
+      "avgRank": 1.5,
       "totalTime": 781.409,
       "carColors": [
         "ff8e00",
@@ -14,8 +14,8 @@
     },
     {
       "name": "youngfella",
-      "avgRank": 5.4,
-      "totalTime": 831.768,
+      "avgRank": 5.2,
+      "totalTime": 815.929,
       "carColors": [
         "0069fe",
         "ffffff",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Hubaldium",
-      "avgRank": 1271.2,
+      "avgRank": 1272.5,
       "totalTime": 850.529,
       "carColors": [
         "586f25",
@@ -38,7 +38,7 @@
     },
     {
       "name": "TheRealLelo",
-      "avgRank": 9859.5,
+      "avgRank": 9862.5,
       "totalTime": 1248.266,
       "carColors": [
         "652a88",
@@ -90,7 +90,7 @@
         {
           "player": "Hubaldium",
           "time": 31.848,
-          "rank": 1826
+          "rank": 1828
         },
         {
           "player": "Lerkm_",
@@ -125,7 +125,7 @@
         {
           "player": "Hubaldium",
           "time": 78.192,
-          "rank": 1339
+          "rank": 1363
         },
         {
           "player": "Lerkm_",
@@ -780,7 +780,7 @@
         {
           "player": "SpeedySebas",
           "time": 25.667,
-          "rank": 2
+          "rank": 3
         },
         {
           "player": "TheRealLelo",
@@ -790,7 +790,7 @@
         {
           "player": "Hubaldium",
           "time": 27.602,
-          "rank": 1068
+          "rank": 1071
         },
         {
           "player": "Lerkm_",
@@ -804,8 +804,8 @@
         },
         {
           "player": "youngfella",
-          "time": null,
-          "rank": null
+          "time": 25.564,
+          "rank": 1
         }
       ]
     },
@@ -820,12 +820,12 @@
         {
           "player": "TheRealLelo",
           "time": 133.065,
-          "rank": 5467
+          "rank": 5485
         },
         {
           "player": "Hubaldium",
           "time": 49.806,
-          "rank": 268
+          "rank": 269
         },
         {
           "player": "Lerkm_",
