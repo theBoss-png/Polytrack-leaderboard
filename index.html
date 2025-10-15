@@ -302,7 +302,7 @@
     <div class="container">
         <div class="header">
             <h1>🏁 Racing Leaderboard</h1>
-            <p>Competitive Racing Statistics & Rankings</p>
+            <p>The official Weekly-Shorts leaderboard.</p>
         </div>
 
         <div class="tabs">
@@ -316,7 +316,7 @@
             <div class="leaderboard-card">
                 <h2 class="leaderboard-title">
                     <span class="trophy">🏆</span>
-                    Overall Championship Standings
+                    Overall Standings
                 </h2>
                 
                 <table class="overall-table">
@@ -325,7 +325,7 @@
                             <th>Rank</th>
                             <th>Player</th>
                             <th>Avg Rank</th>
-                            <th>Total Time</th>
+                            <th>Points</th>
                         </tr>
                     </thead>
                     <tbody id="leaderboard-body">
@@ -401,7 +401,7 @@
                         ${player.name}
                     </td>
                     <td>${player.avgRank?.toFixed(1) ?? '-'}</td>
-                    <td>${player.totalTime?.toFixed(1) ?? '-'}s</td>
+                    <td>${player.totalPoints?.toFixed(1) ?? '-'}s</td>
                 </tr>
             `;
             tbody.innerHTML += row;
