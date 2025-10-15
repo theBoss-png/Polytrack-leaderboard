@@ -7,10 +7,12 @@ import time
 # --------------------
 VERSION = "0.5.1"
 TRACKS = [
-    ("b7b253d6b0cc2ce8e6d5fe51cd3365bde09ad5de4e12256128e9b6493969085c", "Asguardia"),
-    ("da1ef837b8412d32269e305d4031c47b59da08fca2b856d94890eaf58ec29b71", "Flying Dreams"),
-    ("7537816191920c597d6a1f0ab03b50c4ae3d74b6e0f6eeb8ddb85653762c7a5d", "Ghost City"),
-    ("fa1a61bb25e8a5a68f2b30fffe9ca3bdd448f4a5c249f8b2403b4f5323b6de45", "Mos Espa"),
+    ("92bb4c33f5d1f8baf684dc214f0f321967c92dab87726ab0aba27cea9dbd8734", "1"),
+    ("8103eafa75228d2db501bb2995deca1a9a4f29d45ee50c221dd5ccbcaefd7a72", "2"),
+    ("3f7c652ae4a0804012a4415a515aef803b806ac750aad5c579a4fddd2aea6c52", "3"),
+    ("8c8f09a092f13b46a4f60b1175c8b6f7eb56e72e55802463ff90d8b0c5a6223f", "4"),
+    ("19d9532f837b4e639fb4474ba3c198d26e0fba23ed95bd7bb8b6c6db359ef4f3", "5"),
+    ("8091591f45280c361e6a4fd126566e3b9a99e47c86776278554512c78b00bb0a", "6"),
     # Add more tracks as needed
 ]
 DELAY_BETWEEN_REQUESTS = 0.5
