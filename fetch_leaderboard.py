@@ -1,10 +1,8 @@
 import json
 import requests
 import time
+from statistics import mean
 
-# --------------------
-# CONFIG
-# --------------------
 VERSION = "0.5.1"
 TRACKS = [
     ("92bb4c33f5d1f8baf684dc214f0f321967c92dab87726ab0aba27cea9dbd8734", "1"),
@@ -13,15 +11,11 @@ TRACKS = [
     ("8c8f09a092f13b46a4f60b1175c8b6f7eb56e72e55802463ff90d8b0c5a6223f", "4"),
     ("19d9532f837b4e639fb4474ba3c198d26e0fba23ed95bd7bb8b6c6db359ef4f3", "5"),
     ("8091591f45280c361e6a4fd126566e3b9a99e47c86776278554512c78b00bb0a", "6"),
-    # Add more tracks as needed
 ]
 DELAY_BETWEEN_REQUESTS = 0.5
 LEADERBOARD_FILE = "leaderboard.json"
 MAX_RANK_PER_TRACK = 50
 
-# --------------------
-# POINT SYSTEM
-# --------------------
 POINTS_TABLE = {
     1: 40000.0, 2: 20000.0, 3: 13333.333333, 4: 10000.0, 5: 8000.0,
     6: 6666.666667, 7: 5714.285714, 8: 5000.0, 9: 4444.444444, 10: 4000.0,
@@ -36,11 +30,8 @@ POINTS_TABLE = {
 }
 
 
-# --------------------
-# Fetch leaderboard for one track
-# --------------------
-def fetch_track(track_id, track_name, max_rank=MAX_RANK_PER_TRACK):
-    url = f"https://vps.kodub.com/leaderboard?version={VERSION}&trackId={track_id}&skip=0&amount={max_rank}&onlyVerified=false"
+def fetch_track(track_id, track_name):
+    url = f"https://vps.kodub.com/leaderboard?version={VERSION}&trackId={track_id}&skip=0&amount={MAX_RANK_PER_TRACK}&onlyVerified=false"
     try:
         r = requests.get(url, timeout=10)
         r.raise_for_status()
@@ -50,67 +41,80 @@ def fetch_track(track_id, track_name, max_rank=MAX_RANK_PER_TRACK):
         return []
 
     results = []
-    for i, entry in enumerate(entries[:max_rank]):
+    for i, entry in enumerate(entries[:MAX_RANK_PER_TRACK]):
         rank = i + 1
+        user_id = entry.get("userId")
         name = entry.get("name", "Unknown")
         frames = entry.get("frames", 0)
         time_s = round(frames / 1000, 3)
+
+        # Parse car colors correctly (hex to array)
+        car_colors_hex = entry.get("carColors", "")
+        car_colors = []
+        if car_colors_hex and len(car_colors_hex) % 6 == 0:
+            car_colors = [car_colors_hex[i:i+6] for i in range(0, len(car_colors_hex), 6)]
+
         points = POINTS_TABLE.get(rank, 0.0)
 
         results.append({
             "rank": rank,
             "player": name,
+            "userId": user_id,
             "time": time_s,
-            "points": points
+            "points": points,
+            "carColors": car_colors
         })
 
     return results
 
 
-# --------------------
-# Build complete leaderboard
-# --------------------
 def build_leaderboard():
     all_tracks = []
-    player_points = {}
+    players = {}
 
     for track_id, track_name in TRACKS:
         print(f"\n🏁 Fetching {track_name} leaderboard...")
         results = fetch_track(track_id, track_name)
+        all_tracks.append({"name": track_name, "results": results})
 
-        # Track-specific leaderboard (top 50 only)
-        all_tracks.append({
-            "name": track_name,
-            "results": results
-        })
-
-        # Update player total points (keep everyone)
-        for res in results:
-            player_points[res["player"]] = player_points.get(res["player"], 0.0) + res["points"]
+        for r in results:
+            uid = r["userId"]
+            if not uid:
+                continue
+            if uid not in players:
+                players[uid] = {
+                    "name": r["player"],
+                    "userId": uid,
+                    "carColors": r["carColors"],
+                    "totalPoints": 0.0,
+                    "ranks": []
+                }
+            players[uid]["totalPoints"] += r["points"]
+            players[uid]["ranks"].append(r["rank"])
 
         time.sleep(DELAY_BETWEEN_REQUESTS)
 
-    # Create overall leaderboard (every player who appeared)
-    players = [
-        {"name": name, "totalPoints": round(points, 3)}
-        for name, points in player_points.items()
-    ]
-    players.sort(key=lambda x: x["totalPoints"], reverse=True)
+    leaderboard_players = []
+    for p in players.values():
+        avg_rank = mean(p["ranks"]) if p["ranks"] else None
+        leaderboard_players.append({
+            "name": p["name"],
+            "userId": p["userId"],
+            "avgRank": round(avg_rank, 3) if avg_rank else None,
+            "carColors": p["carColors"],
+            "totalPoints": round(p["totalPoints"], 3)
+        })
 
-    # Add rank number
-    for i, player in enumerate(players, 1):
-        player["rank"] = i
+    leaderboard_players.sort(key=lambda x: x["totalPoints"], reverse=True)
+    for i, p in enumerate(leaderboard_players, start=1):
+        p["leaderboardRank"] = i
 
-    # Write JSON file
-    output = {"tracks": all_tracks, "players": players}
+    data = {"tracks": all_tracks, "players": leaderboard_players}
     with open(LEADERBOARD_FILE, "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
-    print(f"\n✅ leaderboard.json updated successfully ({len(players)} players total)")
+    print(f"\n✅ leaderboard.json updated successfully ({len(leaderboard_players)} players total)")
 
 
-# --------------------
-# Run script
-# --------------------
 if __name__ == "__main__":
     build_leaderboard()
