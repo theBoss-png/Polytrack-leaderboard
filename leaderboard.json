@@ -1,288 +1,1801 @@
 {
-  "players": [
-    {
-      "name": "youngfella",
-      "avgRank": 9999,
-      "totalTime": 1080.0,
-      "carColors": [
-        "0069fe",
-        "ffffff",
-        "010000",
-        "0069fe"
-      ],
-      "leaderboardRank": 1
-    },
-    {
-      "name": "SpeedySebas",
-      "avgRank": 9999,
-      "totalTime": 1080.0,
-      "carColors": [
-        "ff8e00",
-        "000000",
-        "000000",
-        "ff8e00"
-      ],
-      "leaderboardRank": 2
-    },
-    {
-      "name": "TheRealLelo",
-      "avgRank": 9999,
-      "totalTime": 1080.0,
-      "carColors": [
-        "652a88",
-        "c8abd9",
-        "000000",
-        "652a88"
-      ],
-      "leaderboardRank": 3
-    },
-    {
-      "name": "Hubaldium",
-      "avgRank": 9999,
-      "totalTime": 1080.0,
-      "carColors": [
-        "586f25",
-        "a1b476",
-        "000000",
-        "246111"
-      ],
-      "leaderboardRank": 4
-    },
-    {
-      "name": "Lerkm_",
-      "avgRank": 9999,
-      "totalTime": 1080.0,
-      "carColors": [
-        "42010e",
-        "ffffff",
-        "131313",
-        "666666"
-      ],
-      "leaderboardRank": 5
-    },
-    {
-      "name": "ich vermisse de Mathis",
-      "avgRank": 9999,
-      "totalTime": 1080.0,
-      "carColors": [
-        "ffffff",
-        "ffffff",
-        "ffffff",
-        "ffffff"
-      ],
-      "leaderboardRank": 6
-    }
-  ],
   "tracks": [
     {
-      "name": "5",
+      "name": "Asguardia",
       "results": [
         {
+          "rank": 1,
           "player": "youngfella",
-          "time": null,
-          "rank": null
+          "time": 25.564,
+          "points": 40000.0
         },
         {
+          "rank": 2,
+          "player": "🐭Hiksi🐭",
+          "time": 25.638,
+          "points": 20000.0
+        },
+        {
+          "rank": 3,
           "player": "SpeedySebas",
-          "time": null,
-          "rank": null
+          "time": 25.667,
+          "points": 13333.333333
         },
         {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
+          "rank": 4,
+          "player": "🗿The5andOnly🗿",
+          "time": 25.743,
+          "points": 10000.0
         },
         {
-          "player": "Hubaldium",
-          "time": null,
-          "rank": null
+          "rank": 5,
+          "player": "🇭🇰🦈 Wak3son🦈🇭🇰",
+          "time": 25.81,
+          "points": 8000.0
         },
         {
-          "player": "Lerkm_",
-          "time": null,
-          "rank": null
+          "rank": 6,
+          "player": "Test frfr :yay:",
+          "time": 25.827,
+          "points": 6666.666667
         },
         {
-          "player": "ich vermisse de Mathis",
-          "time": null,
-          "rank": null
+          "rank": 7,
+          "player": "cheesebob",
+          "time": 25.878,
+          "points": 5714.285714
+        },
+        {
+          "rank": 8,
+          "player": "CnoMoney",
+          "time": 25.903,
+          "points": 5000.0
+        },
+        {
+          "rank": 9,
+          "player": "Skibidi sigma",
+          "time": 25.92,
+          "points": 4444.444444
+        },
+        {
+          "rank": 10,
+          "player": "xtuov",
+          "time": 25.958,
+          "points": 4000.0
+        },
+        {
+          "rank": 11,
+          "player": "Ireozar",
+          "time": 25.961,
+          "points": 3618.181818
+        },
+        {
+          "rank": 12,
+          "player": "ImRacist",
+          "time": 25.983,
+          "points": 3466.666667
+        },
+        {
+          "rank": 13,
+          "player": "HugenSpugen",
+          "time": 25.997,
+          "points": 3338.461538
+        },
+        {
+          "rank": 14,
+          "player": "-5",
+          "time": 26.0,
+          "points": 3228.571429
+        },
+        {
+          "rank": 15,
+          "player": "imracer",
+          "time": 26.013,
+          "points": 3133.333333
+        },
+        {
+          "rank": 16,
+          "player": "IGoByLotsOfNames",
+          "time": 26.014,
+          "points": 3050.0
+        },
+        {
+          "rank": 17,
+          "player": "prius c",
+          "time": 26.02,
+          "points": 2976.470588
+        },
+        {
+          "rank": 18,
+          "player": "Nexus",
+          "time": 26.047,
+          "points": 2911.111111
+        },
+        {
+          "rank": 19,
+          "player": "Entity_63",
+          "time": 26.049,
+          "points": 2852.631579
+        },
+        {
+          "rank": 20,
+          "player": "Alienator",
+          "time": 26.055,
+          "points": 2800.0
+        },
+        {
+          "rank": 21,
+          "player": "Dave",
+          "time": 26.057,
+          "points": 2752.380952
+        },
+        {
+          "rank": 22,
+          "player": "Tvirty",
+          "time": 26.068,
+          "points": 2709.090909
+        },
+        {
+          "rank": 23,
+          "player": "TASy tas tas",
+          "time": 26.09,
+          "points": 2669.565217
+        },
+        {
+          "rank": 24,
+          "player": "Antalim",
+          "time": 26.11,
+          "points": 2633.333333
+        },
+        {
+          "rank": 25,
+          "player": "Timmy",
+          "time": 26.118,
+          "points": 2600.0
+        },
+        {
+          "rank": 26,
+          "player": "ThatRandomPineapple",
+          "time": 26.131,
+          "points": 2569.230769
+        },
+        {
+          "rank": 27,
+          "player": "H.I.V henry ",
+          "time": 26.152,
+          "points": 2540.740741
+        },
+        {
+          "rank": 28,
+          "player": "fat :D",
+          "time": 26.163,
+          "points": 2514.285714
+        },
+        {
+          "rank": 29,
+          "player": "Cadillac V Series R",
+          "time": 26.185,
+          "points": 2489.655172
+        },
+        {
+          "rank": 30,
+          "player": "SlowGuy185",
+          "time": 26.199,
+          "points": 2466.666667
+        },
+        {
+          "rank": 31,
+          "player": "Raxie",
+          "time": 26.2,
+          "points": 2445.16129
+        },
+        {
+          "rank": 32,
+          "player": "Doombi",
+          "time": 26.241,
+          "points": 2425.0
+        },
+        {
+          "rank": 33,
+          "player": "imgayᴾᵀ",
+          "time": 26.243,
+          "points": 2406.060606
+        },
+        {
+          "rank": 34,
+          "player": "CheeseWaffleBoy",
+          "time": 26.249,
+          "points": 2388.235294
+        },
+        {
+          "rank": 35,
+          "player": "hwadz",
+          "time": 26.254,
+          "points": 2371.428571
+        },
+        {
+          "rank": 36,
+          "player": "ns8",
+          "time": 26.255,
+          "points": 2355.555556
+        },
+        {
+          "rank": 37,
+          "player": "ZnyxRacing",
+          "time": 26.26,
+          "points": 2340.540541
+        },
+        {
+          "rank": 38,
+          "player": "youtube.com/@qLarx",
+          "time": 26.264,
+          "points": 2326.315789
+        },
+        {
+          "rank": 39,
+          "player": "Queefer",
+          "time": 26.265,
+          "points": 2312.820513
+        },
+        {
+          "rank": 40,
+          "player": "(2)TaylorBoi254@youtube.com",
+          "time": 26.267,
+          "points": 2300.0
+        },
+        {
+          "rank": 41,
+          "player": "TaylorBoi254@youtube.com",
+          "time": 26.279,
+          "points": 2287.804878
+        },
+        {
+          "rank": 42,
+          "player": "Einar",
+          "time": 26.285,
+          "points": 2276.190476
+        },
+        {
+          "rank": 43,
+          "player": "#####",
+          "time": 26.287,
+          "points": 2265.116279
+        },
+        {
+          "rank": 44,
+          "player": "Leosleftnut",
+          "time": 26.292,
+          "points": 2254.545455
+        },
+        {
+          "rank": 45,
+          "player": "Anonymous",
+          "time": 26.304,
+          "points": 2244.444444
+        },
+        {
+          "rank": 46,
+          "player": "qwertyuiop",
+          "time": 26.305,
+          "points": 2234.782609
+        },
+        {
+          "rank": 47,
+          "player": "Annonex",
+          "time": 26.305,
+          "points": 2225.531915
+        },
+        {
+          "rank": 48,
+          "player": "Voidking",
+          "time": 26.309,
+          "points": 2216.666667
+        },
+        {
+          "rank": 49,
+          "player": "harm",
+          "time": 26.311,
+          "points": 2208.163265
+        },
+        {
+          "rank": 50,
+          "player": "hwadz",
+          "time": 26.313,
+          "points": 2200.0
         }
       ]
     },
     {
-      "name": "6",
+      "name": "Flying Dreams",
       "results": [
         {
-          "player": "youngfella",
-          "time": null,
-          "rank": null
-        },
-        {
+          "rank": 1,
           "player": "SpeedySebas",
-          "time": null,
-          "rank": null
+          "time": 46.128,
+          "points": 40000.0
         },
         {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
+          "rank": 2,
+          "player": "Jerry",
+          "time": 46.206,
+          "points": 20000.0
         },
         {
-          "player": "Hubaldium",
-          "time": null,
-          "rank": null
+          "rank": 3,
+          "player": "🇭🇰🦈 Wak3son🦈🇭🇰",
+          "time": 46.313,
+          "points": 13333.333333
         },
         {
-          "player": "Lerkm_",
-          "time": null,
-          "rank": null
+          "rank": 4,
+          "player": "youngfella",
+          "time": 46.334,
+          "points": 10000.0
         },
         {
-          "player": "ich vermisse de Mathis",
-          "time": null,
-          "rank": null
+          "rank": 5,
+          "player": "🗿The5andOnly🗿",
+          "time": 46.571,
+          "points": 8000.0
+        },
+        {
+          "rank": 6,
+          "player": "xtuov",
+          "time": 46.631,
+          "points": 6666.666667
+        },
+        {
+          "rank": 7,
+          "player": "🐭Hiksi🐭",
+          "time": 46.738,
+          "points": 5714.285714
+        },
+        {
+          "rank": 8,
+          "player": "Voidking",
+          "time": 46.879,
+          "points": 5000.0
+        },
+        {
+          "rank": 9,
+          "player": "Entity_63",
+          "time": 46.926,
+          "points": 4444.444444
+        },
+        {
+          "rank": 10,
+          "player": "IGoByLotsOfNames",
+          "time": 47.034,
+          "points": 4000.0
+        },
+        {
+          "rank": 11,
+          "player": "ramenvr33",
+          "time": 47.049,
+          "points": 3618.181818
+        },
+        {
+          "rank": 12,
+          "player": "Evil Forty",
+          "time": 47.172,
+          "points": 3466.666667
+        },
+        {
+          "rank": 13,
+          "player": "hwadz",
+          "time": 47.174,
+          "points": 3338.461538
+        },
+        {
+          "rank": 14,
+          "player": "🇭🇰 Wakeson (Ranked)🦈",
+          "time": 47.235,
+          "points": 3228.571429
+        },
+        {
+          "rank": 15,
+          "player": "40??",
+          "time": 47.242,
+          "points": 3133.333333
+        },
+        {
+          "rank": 16,
+          "player": "-5",
+          "time": 47.244,
+          "points": 3050.0
+        },
+        {
+          "rank": 17,
+          "player": "Jurre's hubby",
+          "time": 47.302,
+          "points": 2976.470588
+        },
+        {
+          "rank": 18,
+          "player": "lotus likes femboys",
+          "time": 47.382,
+          "points": 2911.111111
+        },
+        {
+          "rank": 19,
+          "player": "Monstrosity",
+          "time": 47.416,
+          "points": 2852.631579
+        },
+        {
+          "rank": 20,
+          "player": "Shovelfish",
+          "time": 47.445,
+          "points": 2800.0
+        },
+        {
+          "rank": 21,
+          "player": "Wak3son (no cut)",
+          "time": 47.449,
+          "points": 2752.380952
+        },
+        {
+          "rank": 22,
+          "player": "ThatRandomPineapple",
+          "time": 47.494,
+          "points": 2709.090909
+        },
+        {
+          "rank": 23,
+          "player": "jam",
+          "time": 47.569,
+          "points": 2669.565217
+        },
+        {
+          "rank": 24,
+          "player": "Artemis",
+          "time": 47.63,
+          "points": 2633.333333
+        },
+        {
+          "rank": 25,
+          "player": "Anonymous",
+          "time": 47.636,
+          "points": 2600.0
+        },
+        {
+          "rank": 26,
+          "player": "youngfella",
+          "time": 47.654,
+          "points": 2569.230769
+        },
+        {
+          "rank": 27,
+          "player": "Swayampu",
+          "time": 47.7,
+          "points": 2540.740741
+        },
+        {
+          "rank": 28,
+          "player": "[APX GP] LanceB_YT",
+          "time": 47.74,
+          "points": 2514.285714
+        },
+        {
+          "rank": 29,
+          "player": "Anonymous",
+          "time": 47.757,
+          "points": 2489.655172
+        },
+        {
+          "rank": 30,
+          "player": "Tvirty",
+          "time": 47.801,
+          "points": 2466.666667
+        },
+        {
+          "rank": 31,
+          "player": "boomboom",
+          "time": 47.81,
+          "points": 2445.16129
+        },
+        {
+          "rank": 32,
+          "player": "Cadillac V Series R",
+          "time": 47.814,
+          "points": 2425.0
+        },
+        {
+          "rank": 33,
+          "player": "imracer",
+          "time": 47.817,
+          "points": 2406.060606
+        },
+        {
+          "rank": 34,
+          "player": "hwadz",
+          "time": 47.847,
+          "points": 2388.235294
+        },
+        {
+          "rank": 35,
+          "player": "PomPom",
+          "time": 47.882,
+          "points": 2371.428571
+        },
+        {
+          "rank": 36,
+          "player": "Anonymous",
+          "time": 47.882,
+          "points": 2355.555556
+        },
+        {
+          "rank": 37,
+          "player": "smoothoperator55",
+          "time": 47.917,
+          "points": 2340.540541
+        },
+        {
+          "rank": 38,
+          "player": "Forty",
+          "time": 47.918,
+          "points": 2326.315789
+        },
+        {
+          "rank": 39,
+          "player": "Anonymous",
+          "time": 48.066,
+          "points": 2312.820513
+        },
+        {
+          "rank": 40,
+          "player": "darkhelmet34",
+          "time": 48.113,
+          "points": 2300.0
+        },
+        {
+          "rank": 41,
+          "player": "Anonymous",
+          "time": 48.114,
+          "points": 2287.804878
+        },
+        {
+          "rank": 42,
+          "player": "youtube.com/@Refreshhhh",
+          "time": 48.119,
+          "points": 2276.190476
+        },
+        {
+          "rank": 43,
+          "player": "Notlime1859",
+          "time": 48.133,
+          "points": 2265.116279
+        },
+        {
+          "rank": 44,
+          "player": "Chall",
+          "time": 48.151,
+          "points": 2254.545455
+        },
+        {
+          "rank": 45,
+          "player": "Cadillac V Series R",
+          "time": 48.158,
+          "points": 2244.444444
+        },
+        {
+          "rank": 46,
+          "player": "CheeseWaffleBoy",
+          "time": 48.177,
+          "points": 2234.782609
+        },
+        {
+          "rank": 47,
+          "player": "umstroke",
+          "time": 48.192,
+          "points": 2225.531915
+        },
+        {
+          "rank": 48,
+          "player": "bigfunnyman",
+          "time": 48.206,
+          "points": 2216.666667
+        },
+        {
+          "rank": 49,
+          "player": "PUTCACA",
+          "time": 48.222,
+          "points": 2208.163265
+        },
+        {
+          "rank": 50,
+          "player": "Zyluxar",
+          "time": 48.251,
+          "points": 2200.0
         }
       ]
     },
     {
-      "name": "1",
+      "name": "Ghost City",
       "results": [
         {
-          "player": "youngfella",
-          "time": null,
-          "rank": null
+          "rank": 1,
+          "player": "Lance Stroll",
+          "time": 30.792,
+          "points": 40000.0
         },
         {
+          "rank": 2,
           "player": "SpeedySebas",
-          "time": null,
-          "rank": null
+          "time": 30.813,
+          "points": 20000.0
         },
         {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
+          "rank": 3,
+          "player": "Jerry",
+          "time": 30.829,
+          "points": 13333.333333
         },
         {
-          "player": "Hubaldium",
-          "time": null,
-          "rank": null
+          "rank": 4,
+          "player": "🗿The5andOnly🗿",
+          "time": 30.831,
+          "points": 10000.0
         },
         {
-          "player": "Lerkm_",
-          "time": null,
-          "rank": null
+          "rank": 5,
+          "player": "Entity_63",
+          "time": 30.837,
+          "points": 8000.0
         },
         {
-          "player": "ich vermisse de Mathis",
-          "time": null,
-          "rank": null
+          "rank": 6,
+          "player": "Clow",
+          "time": 30.854,
+          "points": 6666.666667
+        },
+        {
+          "rank": 7,
+          "player": "🇭🇰🦈 Wak3son🦈🇭🇰",
+          "time": 30.859,
+          "points": 5714.285714
+        },
+        {
+          "rank": 8,
+          "player": "SwiftSpeed",
+          "time": 30.863,
+          "points": 5000.0
+        },
+        {
+          "rank": 9,
+          "player": "youngfella",
+          "time": 30.873,
+          "points": 4444.444444
+        },
+        {
+          "rank": 10,
+          "player": "Berry",
+          "time": 30.882,
+          "points": 4000.0
+        },
+        {
+          "rank": 11,
+          "player": "Mart",
+          "time": 30.886,
+          "points": 3618.181818
+        },
+        {
+          "rank": 12,
+          "player": "🐭Hiksi🐭",
+          "time": 30.888,
+          "points": 3466.666667
+        },
+        {
+          "rank": 13,
+          "player": "Anonymous",
+          "time": 30.89,
+          "points": 3338.461538
+        },
+        {
+          "rank": 14,
+          "player": "xtuov",
+          "time": 30.903,
+          "points": 3228.571429
+        },
+        {
+          "rank": 15,
+          "player": "Anonymous",
+          "time": 30.903,
+          "points": 3133.333333
+        },
+        {
+          "rank": 16,
+          "player": "why left arw not workin",
+          "time": 30.907,
+          "points": 3050.0
+        },
+        {
+          "rank": 17,
+          "player": "Anonymous",
+          "time": 30.909,
+          "points": 2976.470588
+        },
+        {
+          "rank": 18,
+          "player": "Anonymous",
+          "time": 30.92,
+          "points": 2911.111111
+        },
+        {
+          "rank": 19,
+          "player": "LofiSpeed",
+          "time": 30.923,
+          "points": 2852.631579
+        },
+        {
+          "rank": 20,
+          "player": "HotandSpicy",
+          "time": 30.929,
+          "points": 2800.0
+        },
+        {
+          "rank": 21,
+          "player": "hwadz",
+          "time": 30.93,
+          "points": 2752.380952
+        },
+        {
+          "rank": 22,
+          "player": "Anonymous",
+          "time": 30.93,
+          "points": 2709.090909
+        },
+        {
+          "rank": 23,
+          "player": "White Car",
+          "time": 30.932,
+          "points": 2669.565217
+        },
+        {
+          "rank": 24,
+          "player": "TheTropicsRacing🐐🌴",
+          "time": 30.932,
+          "points": 2633.333333
+        },
+        {
+          "rank": 25,
+          "player": "ProRacer",
+          "time": 30.933,
+          "points": 2600.0
+        },
+        {
+          "rank": 26,
+          "player": "IGoByLotsOfNames",
+          "time": 30.935,
+          "points": 2569.230769
+        },
+        {
+          "rank": 27,
+          "player": "SpeedySebas ",
+          "time": 30.937,
+          "points": 2540.740741
+        },
+        {
+          "rank": 28,
+          "player": "Anonymous",
+          "time": 30.942,
+          "points": 2514.285714
+        },
+        {
+          "rank": 29,
+          "player": "Nexus",
+          "time": 30.951,
+          "points": 2489.655172
+        },
+        {
+          "rank": 30,
+          "player": "remy",
+          "time": 30.951,
+          "points": 2466.666667
+        },
+        {
+          "rank": 31,
+          "player": "Anonymous",
+          "time": 30.96,
+          "points": 2445.16129
+        },
+        {
+          "rank": 32,
+          "player": "TheTropicsRacing",
+          "time": 30.961,
+          "points": 2425.0
+        },
+        {
+          "rank": 33,
+          "player": "Anonymous",
+          "time": 30.969,
+          "points": 2406.060606
+        },
+        {
+          "rank": 34,
+          "player": "Anonymous",
+          "time": 30.969,
+          "points": 2388.235294
+        },
+        {
+          "rank": 35,
+          "player": "Anonymous",
+          "time": 30.971,
+          "points": 2371.428571
+        },
+        {
+          "rank": 36,
+          "player": "Anonymous",
+          "time": 30.972,
+          "points": 2355.555556
+        },
+        {
+          "rank": 37,
+          "player": "imgayᴾᵀ",
+          "time": 30.975,
+          "points": 2340.540541
+        },
+        {
+          "rank": 38,
+          "player": "SwiftSpeedSis",
+          "time": 30.98,
+          "points": 2326.315789
+        },
+        {
+          "rank": 39,
+          "player": "TheTropicsRacing",
+          "time": 30.982,
+          "points": 2312.820513
+        },
+        {
+          "rank": 40,
+          "player": "LabubusRtoxic☠️",
+          "time": 30.982,
+          "points": 2300.0
+        },
+        {
+          "rank": 41,
+          "player": "Lance Strulovitch",
+          "time": 30.993,
+          "points": 2287.804878
+        },
+        {
+          "rank": 42,
+          "player": "Zues the god",
+          "time": 30.995,
+          "points": 2276.190476
+        },
+        {
+          "rank": 43,
+          "player": "Anonymous",
+          "time": 30.997,
+          "points": 2265.116279
+        },
+        {
+          "rank": 44,
+          "player": "SwiftSpeedBrother",
+          "time": 30.997,
+          "points": 2254.545455
+        },
+        {
+          "rank": 45,
+          "player": "Anonymous",
+          "time": 31.0,
+          "points": 2244.444444
+        },
+        {
+          "rank": 46,
+          "player": "Anonymous",
+          "time": 31.01,
+          "points": 2234.782609
+        },
+        {
+          "rank": 47,
+          "player": "Anonymous",
+          "time": 31.016,
+          "points": 2225.531915
+        },
+        {
+          "rank": 48,
+          "player": "#1 Winter 1 Hater",
+          "time": 31.018,
+          "points": 2216.666667
+        },
+        {
+          "rank": 49,
+          "player": "Anonymous",
+          "time": 31.033,
+          "points": 2208.163265
+        },
+        {
+          "rank": 50,
+          "player": "Anonymous",
+          "time": 31.033,
+          "points": 2200.0
         }
       ]
     },
     {
-      "name": "2",
+      "name": "Mos Espa",
       "results": [
         {
-          "player": "youngfella",
-          "time": null,
-          "rank": null
-        },
-        {
+          "rank": 1,
           "player": "SpeedySebas",
-          "time": null,
-          "rank": null
+          "time": 71.889,
+          "points": 40000.0
         },
         {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
+          "rank": 2,
+          "player": "hwadz",
+          "time": 72.075,
+          "points": 20000.0
         },
         {
-          "player": "Hubaldium",
-          "time": null,
-          "rank": null
+          "rank": 3,
+          "player": "🗿The5andOnly🗿",
+          "time": 72.324,
+          "points": 13333.333333
         },
         {
-          "player": "Lerkm_",
-          "time": null,
-          "rank": null
+          "rank": 4,
+          "player": "Monstrosity",
+          "time": 72.332,
+          "points": 10000.0
         },
         {
-          "player": "ich vermisse de Mathis",
-          "time": null,
-          "rank": null
+          "rank": 5,
+          "player": "🇭🇰🦈 Wak3son🦈🇭🇰",
+          "time": 72.495,
+          "points": 8000.0
+        },
+        {
+          "rank": 6,
+          "player": "Berry",
+          "time": 72.555,
+          "points": 6666.666667
+        },
+        {
+          "rank": 7,
+          "player": "youngfella",
+          "time": 72.712,
+          "points": 5714.285714
+        },
+        {
+          "rank": 8,
+          "player": "[APX GP] LanceB_YT",
+          "time": 72.813,
+          "points": 5000.0
+        },
+        {
+          "rank": 9,
+          "player": "🐭Hiksi🐭",
+          "time": 72.869,
+          "points": 4444.444444
+        },
+        {
+          "rank": 10,
+          "player": "Nexus",
+          "time": 72.913,
+          "points": 4000.0
+        },
+        {
+          "rank": 11,
+          "player": "Sopp",
+          "time": 72.963,
+          "points": 3618.181818
+        },
+        {
+          "rank": 12,
+          "player": "xtuov",
+          "time": 72.995,
+          "points": 3466.666667
+        },
+        {
+          "rank": 13,
+          "player": "IGoByLotsOfNames",
+          "time": 73.002,
+          "points": 3338.461538
+        },
+        {
+          "rank": 14,
+          "player": "PomPom",
+          "time": 73.014,
+          "points": 3228.571429
+        },
+        {
+          "rank": 15,
+          "player": "youngfella",
+          "time": 73.087,
+          "points": 3133.333333
+        },
+        {
+          "rank": 16,
+          "player": "cheesebob",
+          "time": 73.138,
+          "points": 3050.0
+        },
+        {
+          "rank": 17,
+          "player": "riolu",
+          "time": 73.181,
+          "points": 2976.470588
+        },
+        {
+          "rank": 18,
+          "player": "imbuytter",
+          "time": 73.262,
+          "points": 2911.111111
+        },
+        {
+          "rank": 19,
+          "player": "Wak3son (no cut)",
+          "time": 73.303,
+          "points": 2852.631579
+        },
+        {
+          "rank": 20,
+          "player": "Entity_63",
+          "time": 73.319,
+          "points": 2800.0
+        },
+        {
+          "rank": 21,
+          "player": "Tvirty",
+          "time": 73.386,
+          "points": 2752.380952
+        },
+        {
+          "rank": 22,
+          "player": "Hairy #####",
+          "time": 73.425,
+          "points": 2709.090909
+        },
+        {
+          "rank": 23,
+          "player": "Sepanzer LD",
+          "time": 73.549,
+          "points": 2669.565217
+        },
+        {
+          "rank": 24,
+          "player": "-5",
+          "time": 73.599,
+          "points": 2633.333333
+        },
+        {
+          "rank": 25,
+          "player": "average anon",
+          "time": 73.649,
+          "points": 2600.0
+        },
+        {
+          "rank": 26,
+          "player": "Cadillac V Series R",
+          "time": 73.667,
+          "points": 2569.230769
+        },
+        {
+          "rank": 27,
+          "player": "Zazeb",
+          "time": 73.706,
+          "points": 2540.740741
+        },
+        {
+          "rank": 28,
+          "player": "lotus likes femboys",
+          "time": 73.711,
+          "points": 2514.285714
+        },
+        {
+          "rank": 29,
+          "player": "Deovsky",
+          "time": 73.714,
+          "points": 2489.655172
+        },
+        {
+          "rank": 30,
+          "player": "paras",
+          "time": 73.736,
+          "points": 2466.666667
+        },
+        {
+          "rank": 31,
+          "player": "Anonymous",
+          "time": 73.737,
+          "points": 2445.16129
+        },
+        {
+          "rank": 32,
+          "player": "PolyTrack01",
+          "time": 73.796,
+          "points": 2425.0
+        },
+        {
+          "rank": 33,
+          "player": "No i'm sure I'm not",
+          "time": 73.798,
+          "points": 2406.060606
+        },
+        {
+          "rank": 34,
+          "player": "Sha",
+          "time": 73.827,
+          "points": 2388.235294
+        },
+        {
+          "rank": 35,
+          "player": "asdf",
+          "time": 73.848,
+          "points": 2371.428571
+        },
+        {
+          "rank": 36,
+          "player": "ThatRandomPineapple",
+          "time": 73.886,
+          "points": 2355.555556
+        },
+        {
+          "rank": 37,
+          "player": "Armaani",
+          "time": 73.933,
+          "points": 2340.540541
+        },
+        {
+          "rank": 38,
+          "player": "Anonymous",
+          "time": 73.939,
+          "points": 2326.315789
+        },
+        {
+          "rank": 39,
+          "player": "smoothoperator55",
+          "time": 73.946,
+          "points": 2312.820513
+        },
+        {
+          "rank": 40,
+          "player": "Dehydrated Water",
+          "time": 73.978,
+          "points": 2300.0
+        },
+        {
+          "rank": 41,
+          "player": "[bl]_(no cps)",
+          "time": 73.99,
+          "points": 2287.804878
+        },
+        {
+          "rank": 42,
+          "player": "qwertyuiop",
+          "time": 73.993,
+          "points": 2276.190476
+        },
+        {
+          "rank": 43,
+          "player": "Evan",
+          "time": 74.008,
+          "points": 2265.116279
+        },
+        {
+          "rank": 44,
+          "player": "ramenvr33",
+          "time": 74.019,
+          "points": 2254.545455
+        },
+        {
+          "rank": 45,
+          "player": "Infynix ",
+          "time": 74.031,
+          "points": 2244.444444
+        },
+        {
+          "rank": 46,
+          "player": "Armaani",
+          "time": 74.04,
+          "points": 2234.782609
+        },
+        {
+          "rank": 47,
+          "player": "Armaani",
+          "time": 74.074,
+          "points": 2225.531915
+        },
+        {
+          "rank": 48,
+          "player": "Ecbert",
+          "time": 74.084,
+          "points": 2216.666667
+        },
+        {
+          "rank": 49,
+          "player": "Nick",
+          "time": 74.129,
+          "points": 2208.163265
+        },
+        {
+          "rank": 50,
+          "player": "Jurre's hubby",
+          "time": 74.155,
+          "points": 2200.0
         }
       ]
+    }
+  ],
+  "players": [
+    {
+      "name": "SpeedySebas",
+      "totalPoints": 113333.333,
+      "rank": 1
     },
     {
-      "name": "3",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": null,
-          "rank": null
-        },
-        {
-          "player": "SpeedySebas",
-          "time": null,
-          "rank": null
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        },
-        {
-          "player": "Hubaldium",
-          "time": null,
-          "rank": null
-        },
-        {
-          "player": "Lerkm_",
-          "time": null,
-          "rank": null
-        },
-        {
-          "player": "ich vermisse de Mathis",
-          "time": null,
-          "rank": null
-        }
-      ]
+      "name": "youngfella",
+      "totalPoints": 65861.294,
+      "rank": 2
     },
     {
-      "name": "4",
-      "results": [
-        {
-          "player": "youngfella",
-          "time": null,
-          "rank": null
-        },
-        {
-          "player": "SpeedySebas",
-          "time": null,
-          "rank": null
-        },
-        {
-          "player": "TheRealLelo",
-          "time": null,
-          "rank": null
-        },
-        {
-          "player": "Hubaldium",
-          "time": null,
-          "rank": null
-        },
-        {
-          "player": "Lerkm_",
-          "time": null,
-          "rank": null
-        },
-        {
-          "player": "ich vermisse de Mathis",
-          "time": null,
-          "rank": null
-        }
-      ]
+      "name": "Anonymous",
+      "totalPoints": 61988.991,
+      "rank": 3
+    },
+    {
+      "name": "🗿The5andOnly🗿",
+      "totalPoints": 41333.333,
+      "rank": 4
+    },
+    {
+      "name": "Lance Stroll",
+      "totalPoints": 40000.0,
+      "rank": 5
+    },
+    {
+      "name": "🇭🇰🦈 Wak3son🦈🇭🇰",
+      "totalPoints": 35047.619,
+      "rank": 6
+    },
+    {
+      "name": "🐭Hiksi🐭",
+      "totalPoints": 33625.397,
+      "rank": 7
+    },
+    {
+      "name": "Jerry",
+      "totalPoints": 33333.333,
+      "rank": 8
+    },
+    {
+      "name": "hwadz",
+      "totalPoints": 33050.506,
+      "rank": 9
+    },
+    {
+      "name": "Entity_63",
+      "totalPoints": 18097.076,
+      "rank": 10
+    },
+    {
+      "name": "xtuov",
+      "totalPoints": 17361.905,
+      "rank": 11
+    },
+    {
+      "name": "IGoByLotsOfNames",
+      "totalPoints": 12957.692,
+      "rank": 12
+    },
+    {
+      "name": "Monstrosity",
+      "totalPoints": 12852.632,
+      "rank": 13
+    },
+    {
+      "name": "Berry",
+      "totalPoints": 10666.667,
+      "rank": 14
+    },
+    {
+      "name": "Cadillac V Series R",
+      "totalPoints": 9728.33,
+      "rank": 15
+    },
+    {
+      "name": "Nexus",
+      "totalPoints": 9400.766,
+      "rank": 16
+    },
+    {
+      "name": "-5",
+      "totalPoints": 8911.905,
+      "rank": 17
+    },
+    {
+      "name": "cheesebob",
+      "totalPoints": 8764.286,
+      "rank": 18
+    },
+    {
+      "name": "Tvirty",
+      "totalPoints": 7928.139,
+      "rank": 19
+    },
+    {
+      "name": "ThatRandomPineapple",
+      "totalPoints": 7633.877,
+      "rank": 20
+    },
+    {
+      "name": "[APX GP] LanceB_YT",
+      "totalPoints": 7514.286,
+      "rank": 21
+    },
+    {
+      "name": "Voidking",
+      "totalPoints": 7216.667,
+      "rank": 22
+    },
+    {
+      "name": "Armaani",
+      "totalPoints": 6800.855,
+      "rank": 23
+    },
+    {
+      "name": "Test frfr :yay:",
+      "totalPoints": 6666.667,
+      "rank": 24
+    },
+    {
+      "name": "Clow",
+      "totalPoints": 6666.667,
+      "rank": 25
+    },
+    {
+      "name": "ramenvr33",
+      "totalPoints": 5872.727,
+      "rank": 26
+    },
+    {
+      "name": "Wak3son (no cut)",
+      "totalPoints": 5605.013,
+      "rank": 27
+    },
+    {
+      "name": "PomPom",
+      "totalPoints": 5600.0,
+      "rank": 28
+    },
+    {
+      "name": "imracer",
+      "totalPoints": 5539.394,
+      "rank": 29
+    },
+    {
+      "name": "lotus likes femboys",
+      "totalPoints": 5425.397,
+      "rank": 30
+    },
+    {
+      "name": "Jurre's hubby",
+      "totalPoints": 5176.471,
+      "rank": 31
+    },
+    {
+      "name": "CnoMoney",
+      "totalPoints": 5000.0,
+      "rank": 32
+    },
+    {
+      "name": "SwiftSpeed",
+      "totalPoints": 5000.0,
+      "rank": 33
+    },
+    {
+      "name": "imgayᴾᵀ",
+      "totalPoints": 4746.601,
+      "rank": 34
+    },
+    {
+      "name": "TheTropicsRacing",
+      "totalPoints": 4737.821,
+      "rank": 35
+    },
+    {
+      "name": "smoothoperator55",
+      "totalPoints": 4653.361,
+      "rank": 36
+    },
+    {
+      "name": "CheeseWaffleBoy",
+      "totalPoints": 4623.018,
+      "rank": 37
+    },
+    {
+      "name": "qwertyuiop",
+      "totalPoints": 4510.973,
+      "rank": 38
+    },
+    {
+      "name": "Skibidi sigma",
+      "totalPoints": 4444.444,
+      "rank": 39
+    },
+    {
+      "name": "Ireozar",
+      "totalPoints": 3618.182,
+      "rank": 40
+    },
+    {
+      "name": "Mart",
+      "totalPoints": 3618.182,
+      "rank": 41
+    },
+    {
+      "name": "Sopp",
+      "totalPoints": 3618.182,
+      "rank": 42
+    },
+    {
+      "name": "ImRacist",
+      "totalPoints": 3466.667,
+      "rank": 43
+    },
+    {
+      "name": "Evil Forty",
+      "totalPoints": 3466.667,
+      "rank": 44
+    },
+    {
+      "name": "HugenSpugen",
+      "totalPoints": 3338.462,
+      "rank": 45
+    },
+    {
+      "name": "🇭🇰 Wakeson (Ranked)🦈",
+      "totalPoints": 3228.571,
+      "rank": 46
+    },
+    {
+      "name": "40??",
+      "totalPoints": 3133.333,
+      "rank": 47
+    },
+    {
+      "name": "why left arw not workin",
+      "totalPoints": 3050.0,
+      "rank": 48
+    },
+    {
+      "name": "prius c",
+      "totalPoints": 2976.471,
+      "rank": 49
+    },
+    {
+      "name": "riolu",
+      "totalPoints": 2976.471,
+      "rank": 50
+    },
+    {
+      "name": "imbuytter",
+      "totalPoints": 2911.111,
+      "rank": 51
+    },
+    {
+      "name": "LofiSpeed",
+      "totalPoints": 2852.632,
+      "rank": 52
+    },
+    {
+      "name": "Alienator",
+      "totalPoints": 2800.0,
+      "rank": 53
+    },
+    {
+      "name": "Shovelfish",
+      "totalPoints": 2800.0,
+      "rank": 54
+    },
+    {
+      "name": "HotandSpicy",
+      "totalPoints": 2800.0,
+      "rank": 55
+    },
+    {
+      "name": "Dave",
+      "totalPoints": 2752.381,
+      "rank": 56
+    },
+    {
+      "name": "Hairy #####",
+      "totalPoints": 2709.091,
+      "rank": 57
+    },
+    {
+      "name": "TASy tas tas",
+      "totalPoints": 2669.565,
+      "rank": 58
+    },
+    {
+      "name": "jam",
+      "totalPoints": 2669.565,
+      "rank": 59
+    },
+    {
+      "name": "White Car",
+      "totalPoints": 2669.565,
+      "rank": 60
+    },
+    {
+      "name": "Sepanzer LD",
+      "totalPoints": 2669.565,
+      "rank": 61
+    },
+    {
+      "name": "Antalim",
+      "totalPoints": 2633.333,
+      "rank": 62
+    },
+    {
+      "name": "Artemis",
+      "totalPoints": 2633.333,
+      "rank": 63
+    },
+    {
+      "name": "TheTropicsRacing🐐🌴",
+      "totalPoints": 2633.333,
+      "rank": 64
+    },
+    {
+      "name": "Timmy",
+      "totalPoints": 2600.0,
+      "rank": 65
+    },
+    {
+      "name": "ProRacer",
+      "totalPoints": 2600.0,
+      "rank": 66
+    },
+    {
+      "name": "average anon",
+      "totalPoints": 2600.0,
+      "rank": 67
+    },
+    {
+      "name": "H.I.V henry ",
+      "totalPoints": 2540.741,
+      "rank": 68
+    },
+    {
+      "name": "Swayampu",
+      "totalPoints": 2540.741,
+      "rank": 69
+    },
+    {
+      "name": "SpeedySebas ",
+      "totalPoints": 2540.741,
+      "rank": 70
+    },
+    {
+      "name": "Zazeb",
+      "totalPoints": 2540.741,
+      "rank": 71
+    },
+    {
+      "name": "fat :D",
+      "totalPoints": 2514.286,
+      "rank": 72
+    },
+    {
+      "name": "Deovsky",
+      "totalPoints": 2489.655,
+      "rank": 73
+    },
+    {
+      "name": "SlowGuy185",
+      "totalPoints": 2466.667,
+      "rank": 74
+    },
+    {
+      "name": "remy",
+      "totalPoints": 2466.667,
+      "rank": 75
+    },
+    {
+      "name": "paras",
+      "totalPoints": 2466.667,
+      "rank": 76
+    },
+    {
+      "name": "Raxie",
+      "totalPoints": 2445.161,
+      "rank": 77
+    },
+    {
+      "name": "boomboom",
+      "totalPoints": 2445.161,
+      "rank": 78
+    },
+    {
+      "name": "Doombi",
+      "totalPoints": 2425.0,
+      "rank": 79
+    },
+    {
+      "name": "PolyTrack01",
+      "totalPoints": 2425.0,
+      "rank": 80
+    },
+    {
+      "name": "No i'm sure I'm not",
+      "totalPoints": 2406.061,
+      "rank": 81
+    },
+    {
+      "name": "Sha",
+      "totalPoints": 2388.235,
+      "rank": 82
+    },
+    {
+      "name": "asdf",
+      "totalPoints": 2371.429,
+      "rank": 83
+    },
+    {
+      "name": "ns8",
+      "totalPoints": 2355.556,
+      "rank": 84
+    },
+    {
+      "name": "ZnyxRacing",
+      "totalPoints": 2340.541,
+      "rank": 85
+    },
+    {
+      "name": "youtube.com/@qLarx",
+      "totalPoints": 2326.316,
+      "rank": 86
+    },
+    {
+      "name": "Forty",
+      "totalPoints": 2326.316,
+      "rank": 87
+    },
+    {
+      "name": "SwiftSpeedSis",
+      "totalPoints": 2326.316,
+      "rank": 88
+    },
+    {
+      "name": "Queefer",
+      "totalPoints": 2312.821,
+      "rank": 89
+    },
+    {
+      "name": "(2)TaylorBoi254@youtube.com",
+      "totalPoints": 2300.0,
+      "rank": 90
+    },
+    {
+      "name": "darkhelmet34",
+      "totalPoints": 2300.0,
+      "rank": 91
+    },
+    {
+      "name": "LabubusRtoxic☠️",
+      "totalPoints": 2300.0,
+      "rank": 92
+    },
+    {
+      "name": "Dehydrated Water",
+      "totalPoints": 2300.0,
+      "rank": 93
+    },
+    {
+      "name": "TaylorBoi254@youtube.com",
+      "totalPoints": 2287.805,
+      "rank": 94
+    },
+    {
+      "name": "Lance Strulovitch",
+      "totalPoints": 2287.805,
+      "rank": 95
+    },
+    {
+      "name": "[bl]_(no cps)",
+      "totalPoints": 2287.805,
+      "rank": 96
+    },
+    {
+      "name": "Einar",
+      "totalPoints": 2276.19,
+      "rank": 97
+    },
+    {
+      "name": "youtube.com/@Refreshhhh",
+      "totalPoints": 2276.19,
+      "rank": 98
+    },
+    {
+      "name": "Zues the god",
+      "totalPoints": 2276.19,
+      "rank": 99
+    },
+    {
+      "name": "#####",
+      "totalPoints": 2265.116,
+      "rank": 100
+    },
+    {
+      "name": "Notlime1859",
+      "totalPoints": 2265.116,
+      "rank": 101
+    },
+    {
+      "name": "Evan",
+      "totalPoints": 2265.116,
+      "rank": 102
+    },
+    {
+      "name": "Leosleftnut",
+      "totalPoints": 2254.545,
+      "rank": 103
+    },
+    {
+      "name": "Chall",
+      "totalPoints": 2254.545,
+      "rank": 104
+    },
+    {
+      "name": "SwiftSpeedBrother",
+      "totalPoints": 2254.545,
+      "rank": 105
+    },
+    {
+      "name": "Infynix ",
+      "totalPoints": 2244.444,
+      "rank": 106
+    },
+    {
+      "name": "Annonex",
+      "totalPoints": 2225.532,
+      "rank": 107
+    },
+    {
+      "name": "umstroke",
+      "totalPoints": 2225.532,
+      "rank": 108
+    },
+    {
+      "name": "bigfunnyman",
+      "totalPoints": 2216.667,
+      "rank": 109
+    },
+    {
+      "name": "#1 Winter 1 Hater",
+      "totalPoints": 2216.667,
+      "rank": 110
+    },
+    {
+      "name": "Ecbert",
+      "totalPoints": 2216.667,
+      "rank": 111
+    },
+    {
+      "name": "harm",
+      "totalPoints": 2208.163,
+      "rank": 112
+    },
+    {
+      "name": "PUTCACA",
+      "totalPoints": 2208.163,
+      "rank": 113
+    },
+    {
+      "name": "Nick",
+      "totalPoints": 2208.163,
+      "rank": 114
+    },
+    {
+      "name": "Zyluxar",
+      "totalPoints": 2200.0,
+      "rank": 115
     }
   ]
 }
