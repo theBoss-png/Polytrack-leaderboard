@@ -40,7 +40,7 @@ POINTS_TABLE = {
 # Fetch leaderboard for one track
 # --------------------
 def fetch_track(track_id, track_name, max_rank=MAX_RANK_PER_TRACK):
-    url = f"https://vps.kodub.com/leaderboard?version={VERSION}&trackId={track_id}&skip=0&amount={max_rank}&onlyVerified=true"
+    url = f"https://vps.kodub.com/leaderboard?version={VERSION}&trackId={track_id}&skip=0&amount={max_rank}&onlyVerified=false"
     try:
         r = requests.get(url, timeout=10)
         r.raise_for_status()
