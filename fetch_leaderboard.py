@@ -24,28 +24,12 @@ LAST_TRACK_FILE = "last_track.json"
 # Community Tracks
 # --------------------
 COMMUNITY_TRACKS = [
-    ("b7b253d6b0cc2ce8e6d5fe51cd3365bde09ad5de4e12256128e9b6493969085c", "Asguardia"),
-    ("da1ef837b8412d32269e305d4031c47b59da08fca2b856d94890eaf58ec29b71", "Flying Dreams"),
-    ("7537816191920c597d6a1f0ab03b50c4ae3d74b6e0f6eeb8ddb85653762c7a5d", "Ghost City"),
-    ("fa1a61bb25e8a5a68f2b30fffe9ca3bdd448f4a5c249f8b2403b4f5323b6de45", "Mos Espa"),
-    ("a054a6277181a7f0a46588f5cccd1b794f537e5efd09a173a9ca7e11d511f304", "Natsujo"),
-    ("4d0f964b159d51d6906478bbb87e1edad21b0f1eb2972af947be34f2d8c49ae9", "90xRESET"),
-    ("0544f97453f7b0e2a310dfb0dcd331b4060ae2e9cb14ac27dc5367183dab0513", "concrete jungle"),
-    ("2ccd83e9419b6071ad9272b73e549e427b1a0f62d5305015839ae1e08fb86ce6", "lu muvimento"),
-    ("f112ab979138b9916221cbf46329fa7377a745bdd18cd3d00b4ffd6a8a68f113", "Re: Akina"),
-    ("b41ac84904b60d00efa5ab8bb60f42c929c16d8ebbfe2f77126891fcddab9c1c", "Hyperion's Sanctuary"),
-    ("89f1a70d0e6be8297ec340a378b890f3fed7d0e20e3ef15b5d32ef4ef7ff1701", "Opal Palace"),
-    ("2978b99f058cb3a2ce6f97c435c803b8d638400532d7c79028b2ec3d5e093882", "Snow Park"),
-    ("2046c377ac7ec5326b263c46587f30b66ba856257ddc317a866e3e7f66a73929", "Winter Hollow"),
-    ("b453c3afb4b5872213aee43249d6db38578e8e2ded4a96f840617c9c6e63a6b6", "Anubis"),
-    ("23a46c3d4978a72be5f4a7fea236797aa31b52e577044ef4c6faa822ecc5cdc0", "Joenail Jones"),
-    ("1aadcef252749318227d5cd4ce61a4a71526087857104fd57697b6fc63102e8a", "Arabica"),
-    ("773eb0b02b97a72f3e482738cda7a5292294800497e16d9366e4f4c88a6f4e2d", "Clay Temples"),
-    ("932da81567f2b223fa1a52d88d6db52016600c5b9df02218f06c9eb832ecddeb", "Desert Stallion"),
-    ("97da746d9b3ddd5a861fa8da7fcb6f6402ffa21f8f5cf61029d7a947bad76290", "Las Calles"),
-    ("19335bb082dfde2af4f7e73e812cd54cee0039a9eadf3793efee3ae3884ce423", "Last Remnant"),
-    ("bc7d29657a0eb2d0abb3b3639edcf4ade61705132c7ca1b56719a7a110096afd", "Malformations"),
-    ("faed71cf26ba4d183795ecc93e3d1b39e191e51d664272b512692b0f4f323ff5", "Sandline Ultimatum"),
+    ("92bb4c33f5d1f8baf684dc214f0f321967c92dab87726ab0aba27cea9dbd8734", "1"),
+    ("8103eafa75228d2db501bb2995deca1a9a4f29d45ee50c221dd5ccbcaefd7a72", "2"),
+    ("3f7c652ae4a0804012a4415a515aef803b806ac750aad5c579a4fddd2aea6c52", "3"),
+    ("8c8f09a092f13b46a4f60b1175c8b6f7eb56e72e55802463ff90d8b0c5a6223f", "4"),
+    ("19d9532f837b4e639fb4474ba3c198d26e0fba23ed95bd7bb8b6c6db359ef4f3", "5"),
+    ("8091591f45280c361e6a4fd126566e3b9a99e47c86776278554512c78b00bb0a", "6")
 ]
 
 TRACKS = COMMUNITY_TRACKS
