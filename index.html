@@ -401,7 +401,7 @@
                         ${player.name}
                     </td>
                     <td>${player.avgRank?.toFixed(1) ?? '-'}</td>
-                    <td>${player.totalPoints?.toFixed(1) ?? '-'}s</td>
+                    <td>${player.totalPoints?.toFixed(0) ?? '-'}</td>
                 </tr>
             `;
             tbody.innerHTML += row;
