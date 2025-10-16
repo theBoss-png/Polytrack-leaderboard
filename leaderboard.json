@@ -1125,10 +1125,23 @@
         },
         {
           "rank": 18,
+          "player": "extract exploit emit",
+          "userId": "893435b0d750c49c1adae71b29143e66b762209793a421c4e8b1b8ccd488233c",
+          "time": 18.254,
+          "points": 2911.111111,
+          "carColors": [
+            "000456",
+            "ff0000",
+            "ff0000",
+            "0038ff"
+          ]
+        },
+        {
+          "rank": 19,
           "player": "KoiPoi",
           "userId": "c6b30bd834654032bc2d027735a2795da2b9181b015608acf639181cf7f635df",
           "time": 18.784,
-          "points": 2911.111111,
+          "points": 2852.631579,
           "carColors": [
             "ff4600",
             "ffffff",
@@ -1137,11 +1150,11 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 20,
           "player": "Anonymous",
           "userId": "68eb6bb46f67417347cb1f0de659118b3d4b90db51776cfcb13cc327f77f1334",
           "time": 19.187,
-          "points": 2852.631579,
+          "points": 2800.0,
           "carColors": [
             "01161f",
             "ffffff",
@@ -1150,11 +1163,11 @@
           ]
         },
         {
-          "rank": 20,
+          "rank": 21,
           "player": "1amzanx",
           "userId": "88e7d46946d71809bdfde70cd94c063bcc2c57c922b8976f5cbc7134d095f895",
           "time": 21.806,
-          "points": 2800.0,
+          "points": 2752.380952,
           "carColors": [
             "41008e",
             "000000",
@@ -1764,14 +1777,14 @@
     {
       "name": "KoiPoi",
       "userId": "c6b30bd834654032bc2d027735a2795da2b9181b015608acf639181cf7f635df",
-      "avgRank": 17.5,
+      "avgRank": 17.667,
       "carColors": [
         "ff4600",
         "ffffff",
         "ffffff",
         "ff4500"
       ],
-      "totalPoints": 17990.134,
+      "totalPoints": 17931.654,
       "leaderboardRank": 16
     },
     {
@@ -1842,14 +1855,14 @@
     {
       "name": "1amzanx",
       "userId": "88e7d46946d71809bdfde70cd94c063bcc2c57c922b8976f5cbc7134d095f895",
-      "avgRank": 21,
+      "avgRank": 21.25,
       "carColors": [
         "41008e",
         "000000",
         "3300ff",
         "000000"
       ],
-      "totalPoints": 11021.946,
+      "totalPoints": 10974.327,
       "leaderboardRank": 22
     },
     {
@@ -1970,17 +1983,30 @@
       "leaderboardRank": 31
     },
     {
+      "name": "extract exploit emit",
+      "userId": "893435b0d750c49c1adae71b29143e66b762209793a421c4e8b1b8ccd488233c",
+      "avgRank": 18,
+      "carColors": [
+        "000456",
+        "ff0000",
+        "ff0000",
+        "0038ff"
+      ],
+      "totalPoints": 2911.111,
+      "leaderboardRank": 32
+    },
+    {
       "name": "Anonymous",
       "userId": "68eb6bb46f67417347cb1f0de659118b3d4b90db51776cfcb13cc327f77f1334",
-      "avgRank": 19,
+      "avgRank": 20,
       "carColors": [
         "01161f",
         "ffffff",
         "131313",
         "666666"
       ],
-      "totalPoints": 2852.632,
-      "leaderboardRank": 32
+      "totalPoints": 2800.0,
+      "leaderboardRank": 33
     }
   ]
 }
