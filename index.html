@@ -270,6 +270,30 @@
             justify-content: center;
         }
 
+        .medal-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 5px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin: 0 2px;
+        }
+
+        .gold-badge {
+            background: linear-gradient(135deg, #ffd700, #ffed4e);
+            color: #1e3c72;
+        }
+
+        .silver-badge {
+            background: linear-gradient(135deg, #c0c0c0, #e8e8e8);
+            color: #1e3c72;
+        }
+
+        .bronze-badge {
+            background: linear-gradient(135deg, #cd7f32, #e5a76e);
+            color: #1e3c72;
+        }
+
         @media (max-width: 768px) {
             .header h1 {
                 font-size: 2rem;
@@ -300,7 +324,7 @@
         <div class="tabs">
             <button class="tab-button active" onclick="showTab('overall')">Overall Leaderboard</button>
             <button class="tab-button" onclick="showTab('tracks')">Track Records</button>
-            <button class="tab-button" onclick="showTab('stats')">Player Stats</button>
+            <button class="tab-button" onclick="showTab('stats')">Overall Wins</button>
         </div>
 
         <!-- Overall Leaderboard Tab -->
@@ -345,17 +369,30 @@
             <div class="leaderboard-card">
                 <h2 class="leaderboard-title">
                     <span class="trophy">📊</span>
-                    Player Statistics
+                    Wins Leaderboard
                 </h2>
-                <div class="stats-grid" id="stats-grid">
-                    <!-- Dynamic stats will be inserted here... -->
-                </div>
+                <table class="overall-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player</th>
+                            <th>🥇 1st</th>
+                            <th>🥈 2nd</th>
+                            <th>🥉 3rd</th>
+                            <th>Total Podiums</th>
+                        </tr>
+                    </thead>
+                    <tbody id="wins-leaderboard-body">
+                        <!-- Dynamic wins content will be inserted here -->
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
 
     <script>
     let leaderboardData = null;
+    let winsData = null;
     
     function showTab(tabName) {
         const tabs = document.querySelectorAll('.tab-content');
@@ -394,6 +431,42 @@
                     </td>
                     <td>${player.avgRank?.toFixed(1) ?? '-'}</td>
                     <td>${player.totalPoints?.toFixed(0) ?? '-'}</td>
+                </tr>
+            `;
+            tbody.innerHTML += row;
+        });
+    }
+    
+    function populateWinsLeaderboard() {
+        if (!winsData) return;
+        
+        const tbody = document.getElementById('wins-leaderboard-body');
+        tbody.innerHTML = '';
+        
+        // Sortiere nach 1st place, dann 2nd place, dann 3rd place
+        const sortedWins = [...winsData].sort((a, b) => {
+            if (b.first_place !== a.first_place) {
+                return b.first_place - a.first_place;
+            }
+            if (b.second_place !== a.second_place) {
+                return b.second_place - a.second_place;
+            }
+            return b.third_place - a.third_place;
+        });
+        
+        sortedWins.forEach((player, index) => {
+            const rank = index + 1;
+            const rankClass = rank <= 3 ? `rank-${rank}` : '';
+            const totalPodiums = player.first_place + player.second_place + player.third_place;
+            
+            const row = `
+                <tr>
+                    <td class="rank-cell ${rankClass}">#${rank}</td>
+                    <td class="player-name">${player.name}</td>
+                    <td><span class="medal-badge gold-badge">${player.first_place}</span></td>
+                    <td><span class="medal-badge silver-badge">${player.second_place}</span></td>
+                    <td><span class="medal-badge bronze-badge">${player.third_place}</span></td>
+                    <td><strong>${totalPodiums}</strong></td>
                 </tr>
             `;
             tbody.innerHTML += row;
@@ -452,38 +525,26 @@
         });
     }
     
-    function populatePlayerStats() {
-        const statsGrid = document.getElementById('stats-grid');
-        statsGrid.innerHTML = '';
-        
-        const totalRaces = leaderboardData.tracks.length * leaderboardData.players.length;
-        const stats = [
-            { label: "Total Players", value: leaderboardData.players.length },
-            { label: "Total Races", value: totalRaces },
-            { label: "Active Tracks", value: leaderboardData.tracks.length }
-        ];
-        
-        stats.forEach(stat => {
-            statsGrid.innerHTML += `
-                <div class="stat-card">
-                    <span class="stat-number">${stat.value}</span>
-                    <span class="stat-label">${stat.label}</span>
-                </div>
-            `;
-        });
-    }
-    
     // JSON laden und initialisieren
     document.addEventListener('DOMContentLoaded', function() {
+        // Lade leaderboard.json
         fetch("leaderboard.json")
             .then(res => res.json())
             .then(data => {
                 leaderboardData = data;
                 populateLeaderboard();
                 populateTrackRecords();
-                populatePlayerStats();
             })
-            .catch(err => console.error("Error loading JSON:", err));
+            .catch(err => console.error("Error loading leaderboard.json:", err));
+        
+        // Lade wins.json
+        fetch("wins.json")
+            .then(res => res.json())
+            .then(data => {
+                winsData = data;
+                populateWinsLeaderboard();
+            })
+            .catch(err => console.error("Error loading wins.json:", err));
     });
     
     // Update-Funktion, falls Daten dynamisch ersetzt werden
@@ -491,7 +552,11 @@
         Object.assign(leaderboardData, newData);
         populateLeaderboard();
         populateTrackRecords();
-        populatePlayerStats();
+    }
+    
+    function updateWinsData(newData) {
+        winsData = newData;
+        populateWinsLeaderboard();
     }
     </script>
 </body>
