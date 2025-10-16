@@ -1351,10 +1351,23 @@
         },
         {
           "rank": 15,
+          "player": "NL/ lime_BRO!!! (nardo_12)",
+          "userId": "45a0da5b2cef3b0faef72cf97dd1063bc6c2ac6de8177d37512390370b4128ba",
+          "time": 35.524,
+          "points": 3133.333333,
+          "carColors": [
+            "12ff00",
+            "12ff00",
+            "20a816",
+            "000000"
+          ]
+        },
+        {
+          "rank": 16,
           "player": "greenie",
           "userId": "dcb8ce5b0fb9d0919b6cdd21e34e5fc8446cebd1ed346876d4f685fa7b18d60a",
           "time": 40.304,
-          "points": 3133.333333,
+          "points": 3050.0,
           "carColors": [
             "033308",
             "858969",
@@ -1712,15 +1725,28 @@
     {
       "name": "greenie",
       "userId": "dcb8ce5b0fb9d0919b6cdd21e34e5fc8446cebd1ed346876d4f685fa7b18d60a",
-      "avgRank": 14.833,
+      "avgRank": 15,
       "carColors": [
         "033308",
         "858969",
         "131313",
         "666666"
       ],
-      "totalPoints": 19056.557,
+      "totalPoints": 18973.224,
       "leaderboardRank": 13
+    },
+    {
+      "name": "NL/ lime_BRO!!! (nardo_12)",
+      "userId": "45a0da5b2cef3b0faef72cf97dd1063bc6c2ac6de8177d37512390370b4128ba",
+      "avgRank": 11.8,
+      "carColors": [
+        "12ff00",
+        "12ff00",
+        "20a816",
+        "000000"
+      ],
+      "totalPoints": 18556.643,
+      "leaderboardRank": 14
     },
     {
       "name": "Mark",
@@ -1733,7 +1759,7 @@
         "000000"
       ],
       "totalPoints": 18519.298,
-      "leaderboardRank": 14
+      "leaderboardRank": 15
     },
     {
       "name": "KoiPoi",
@@ -1746,19 +1772,6 @@
         "ff4500"
       ],
       "totalPoints": 18100.024,
-      "leaderboardRank": 15
-    },
-    {
-      "name": "NL/ lime_BRO!!! (nardo_12)",
-      "userId": "45a0da5b2cef3b0faef72cf97dd1063bc6c2ac6de8177d37512390370b4128ba",
-      "avgRank": 11,
-      "carColors": [
-        "12ff00",
-        "12ff00",
-        "20a816",
-        "000000"
-      ],
-      "totalPoints": 15423.31,
       "leaderboardRank": 16
     },
     {
