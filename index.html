@@ -239,14 +239,6 @@
             align-items: center;
         }
 
-        .global-rank {
-            font-size: 0.9rem;
-            color: #888;
-            background: rgba(255,255,255,0.1);
-            padding: 2px 8px;
-            border-radius: 12px;
-        }
-
         .track-results li:last-child {
             border-bottom: none;
         }
@@ -427,7 +419,6 @@
                             ${result.player}
                         </div>
                         <div class="rank-info">
-                            <span class="global-rank" style="color: white;">Global: #${result.rank}</span>
                             <span class="time">${result.time.toFixed(3)}s</span>
                         </div>
                     </li>
@@ -443,7 +434,6 @@
                             ${result.player}
                         </div>
                         <div class="rank-info">
-                            <span class="global-rank" style="color: white;">Global: -</span>
                             <span class="no-record">No Record</span>
                         </div>
                     </li>
@@ -505,4 +495,4 @@
     }
     </script>
 </body>
-</html
+</html>
