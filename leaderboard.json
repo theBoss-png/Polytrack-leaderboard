@@ -465,28 +465,28 @@
         },
         {
           "rank": 8,
-          "player": "dadodido",
-          "userId": "cdd0808aca13a7d7a282b1ab2abd945d69f882f039dd0899292763f674971282",
-          "time": 15.383,
-          "points": 5000.0,
-          "carColors": [
-            "000000",
-            "091f28",
-            "00c3ff",
-            "00c3ff"
-          ]
-        },
-        {
-          "rank": 9,
           "player": "leonnnn2400",
           "userId": "4bd2b7f016be2aaef157d28286c17538917f2afad2e7e481956b1a2eab1b5377",
-          "time": 15.649,
-          "points": 4444.444444,
+          "time": 15.358,
+          "points": 5000.0,
           "carColors": [
             "2e003e",
             "000000",
             "c800ff",
             "ffffff"
+          ]
+        },
+        {
+          "rank": 9,
+          "player": "dadodido",
+          "userId": "cdd0808aca13a7d7a282b1ab2abd945d69f882f039dd0899292763f674971282",
+          "time": 15.383,
+          "points": 4444.444444,
+          "carColors": [
+            "000000",
+            "091f28",
+            "00c3ff",
+            "00c3ff"
           ]
         },
         {
@@ -1842,14 +1842,14 @@
     {
       "name": "dadodido",
       "userId": "cdd0808aca13a7d7a282b1ab2abd945d69f882f039dd0899292763f674971282",
-      "avgRank": 10.6,
+      "avgRank": 10.8,
       "carColors": [
         "000000",
         "091f28",
         "00c3ff",
         "00c3ff"
       ],
-      "totalPoints": 21879.501,
+      "totalPoints": 21323.945,
       "leaderboardRank": 13
     },
     {
@@ -1944,6 +1944,19 @@
       "leaderboardRank": 20
     },
     {
+      "name": "leonnnn2400",
+      "userId": "4bd2b7f016be2aaef157d28286c17538917f2afad2e7e481956b1a2eab1b5377",
+      "avgRank": 9.667,
+      "carColors": [
+        "2e003e",
+        "000000",
+        "c800ff",
+        "ffffff"
+      ],
+      "totalPoints": 12618.182,
+      "leaderboardRank": 21
+    },
+    {
       "name": "Einar",
       "userId": "59758f1bfd094b9d262d44be6704f0ba9cbe4ef9ddb1e220bd630872bc3a7c24",
       "avgRank": 13.667,
@@ -1954,19 +1967,6 @@
         "ffffff"
       ],
       "totalPoints": 12554.248,
-      "leaderboardRank": 21
-    },
-    {
-      "name": "leonnnn2400",
-      "userId": "4bd2b7f016be2aaef157d28286c17538917f2afad2e7e481956b1a2eab1b5377",
-      "avgRank": 10,
-      "carColors": [
-        "2e003e",
-        "000000",
-        "c800ff",
-        "ffffff"
-      ],
-      "totalPoints": 12062.626,
       "leaderboardRank": 22
     },
     {
