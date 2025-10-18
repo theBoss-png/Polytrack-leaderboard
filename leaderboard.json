@@ -852,10 +852,10 @@
           "time": 15.973,
           "points": 3133.333333,
           "carColors": [
-            "000000",
-            "ed00ff",
-            "0b0b0b",
-            "1d1d1d"
+            "311e59",
+            "ffffff",
+            "262626",
+            "676767"
           ]
         },
         {
@@ -2091,10 +2091,10 @@
       "userId": "35eb5c466738dc9917d5f8320f5b99f12015247aaf0e512f5e4ecb547f00e0e1",
       "avgRank": 15,
       "carColors": [
-        "000000",
-        "ed00ff",
-        "0b0b0b",
-        "1d1d1d"
+        "311e59",
+        "ffffff",
+        "262626",
+        "676767"
       ],
       "totalPoints": 3133.333,
       "leaderboardRank": 29
