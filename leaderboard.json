@@ -704,7 +704,7 @@
         },
         {
           "rank": 4,
-          "player": "Fra / NeoRacer",
+          "player": "NeoRacer",
           "userId": "f444038e262dc4b720aaefa5f6ebcc878a932c8d91e03d9a985767f274d1ec28",
           "time": 14.941,
           "points": 10000.0,
@@ -2035,7 +2035,7 @@
       "leaderboardRank": 22
     },
     {
-      "name": "Fra / NeoRacer",
+      "name": "NeoRacer",
       "userId": "f444038e262dc4b720aaefa5f6ebcc878a932c8d91e03d9a985767f274d1ec28",
       "avgRank": 4,
       "carColors": [
