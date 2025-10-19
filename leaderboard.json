@@ -995,28 +995,28 @@
         },
         {
           "rank": 3,
-          "player": "(:",
-          "userId": "e7de9f798c0b6f82a212cc439af367b85b1f7aa7201008736a60b3aa69b0c28a",
-          "time": 15.619,
-          "points": 13333.333333,
-          "carColors": [
-            "000000",
-            "1b1b1b",
-            "141414",
-            "3d0000"
-          ]
-        },
-        {
-          "rank": 4,
           "player": "Dave",
           "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
-          "time": 15.627,
-          "points": 10000.0,
+          "time": 15.543,
+          "points": 13333.333333,
           "carColors": [
             "032212",
             "8e99b2",
             "100000",
             "666666"
+          ]
+        },
+        {
+          "rank": 4,
+          "player": "(:",
+          "userId": "e7de9f798c0b6f82a212cc439af367b85b1f7aa7201008736a60b3aa69b0c28a",
+          "time": 15.619,
+          "points": 10000.0,
+          "carColors": [
+            "000000",
+            "1b1b1b",
+            "141414",
+            "3d0000"
           ]
         },
         {
@@ -1762,6 +1762,19 @@
       "leaderboardRank": 1
     },
     {
+      "name": "Dave",
+      "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
+      "avgRank": 4.4,
+      "carColors": [
+        "032212",
+        "8e99b2",
+        "100000",
+        "666666"
+      ],
+      "totalPoints": 83466.667,
+      "leaderboardRank": 2
+    },
+    {
       "name": "CSniper",
       "userId": "7f2e6c666e21ade84730dbfe89234782a8cb826fe34e7d990bfb2afec2da6270",
       "avgRank": 4.6,
@@ -1772,19 +1785,6 @@
         "ffffff"
       ],
       "totalPoints": 82777.778,
-      "leaderboardRank": 2
-    },
-    {
-      "name": "Dave",
-      "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
-      "avgRank": 4.6,
-      "carColors": [
-        "032212",
-        "8e99b2",
-        "100000",
-        "666666"
-      ],
-      "totalPoints": 80133.333,
       "leaderboardRank": 3
     },
     {
@@ -1803,14 +1803,14 @@
     {
       "name": "(:",
       "userId": "e7de9f798c0b6f82a212cc439af367b85b1f7aa7201008736a60b3aa69b0c28a",
-      "avgRank": 5.333,
+      "avgRank": 5.5,
       "carColors": [
         "000000",
         "1b1b1b",
         "141414",
         "3d0000"
       ],
-      "totalPoints": 54111.111,
+      "totalPoints": 50777.778,
       "leaderboardRank": 5
     },
     {
