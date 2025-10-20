@@ -924,6 +924,19 @@
             "000000",
             "000000"
           ]
+        },
+        {
+          "rank": 11,
+          "player": "Hubaldium",
+          "userId": "b373961d0e0a58840ab420917b37eeec10270658b667d0eb4c18d7c66d12a6eb",
+          "time": 14.506,
+          "points": 3618.181818,
+          "carColors": [
+            "586f25",
+            "a1b476",
+            "000000",
+            "246111"
+          ]
         }
       ]
     }
@@ -1112,6 +1125,19 @@
       "leaderboardRank": 14
     },
     {
+      "name": "Hubaldium",
+      "userId": "b373961d0e0a58840ab420917b37eeec10270658b667d0eb4c18d7c66d12a6eb",
+      "avgRank": 12,
+      "carColors": [
+        "586f25",
+        "a1b476",
+        "000000",
+        "246111"
+      ],
+      "totalPoints": 10464.935,
+      "leaderboardRank": 15
+    },
+    {
       "name": "Anonymous",
       "userId": "982169df2a3d1e0e4bdfa1204147f25480df71682c3316b3d309ea2d06c21e06",
       "avgRank": 8,
@@ -1122,7 +1148,7 @@
         "75e600"
       ],
       "totalPoints": 10158.73,
-      "leaderboardRank": 15
+      "leaderboardRank": 16
     },
     {
       "name": "🇳🇱 | Histioth",
@@ -1135,7 +1161,7 @@
         "000000"
       ],
       "totalPoints": 10000.0,
-      "leaderboardRank": 16
+      "leaderboardRank": 17
     },
     {
       "name": "An Avalugg",
@@ -1148,7 +1174,7 @@
         "888888"
       ],
       "totalPoints": 8000.0,
-      "leaderboardRank": 17
+      "leaderboardRank": 18
     },
     {
       "name": "Cadillac V Series R ",
@@ -1161,19 +1187,6 @@
         "000000"
       ],
       "totalPoints": 7911.111,
-      "leaderboardRank": 18
-    },
-    {
-      "name": "Hubaldium",
-      "userId": "b373961d0e0a58840ab420917b37eeec10270658b667d0eb4c18d7c66d12a6eb",
-      "avgRank": 12.5,
-      "carColors": [
-        "586f25",
-        "a1b476",
-        "000000",
-        "246111"
-      ],
-      "totalPoints": 6846.753,
       "leaderboardRank": 19
     },
     {
