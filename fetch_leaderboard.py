@@ -5,12 +5,12 @@ from statistics import mean
 
 VERSION = "0.5.1"
 TRACKS = [
-    ("92bb4c33f5d1f8baf684dc214f0f321967c92dab87726ab0aba27cea9dbd8734", "96 (1)"),
-    ("8103eafa75228d2db501bb2995deca1a9a4f29d45ee50c221dd5ccbcaefd7a72", "97 (2)"),
-    ("3f7c652ae4a0804012a4415a515aef803b806ac750aad5c579a4fddd2aea6c52", "98 (3)"),
-    ("8c8f09a092f13b46a4f60b1175c8b6f7eb56e72e55802463ff90d8b0c5a6223f", "99 (4)"),
-    ("19d9532f837b4e639fb4474ba3c198d26e0fba23ed95bd7bb8b6c6db359ef4f3", "🎉 100 (5) 🎉"),
-    ("8091591f45280c361e6a4fd126566e3b9a99e47c86776278554512c78b00bb0a", "101 (6)"),
+    ("fda09595c98b51901462036fa94e8abd25ae8fd516c66b0aa9b131a4495b835f", "102 (1)"),
+    ("2b4c33207386e0f4a7b89abdf0a5100a1e3ed382b521dc602fbc9fb5cc30487c", "103 (2)"),
+    ("4b87cd9f62fa53f3534bdca956dc3f8a404210967249953a3f6fd9bde29984ee", "104 (3)"),
+    ("d008adb2e88947a13eb654a27b8cfadd96f5f8cf7acde34ff80390a0bd53310b", "105 (4)"),
+    ("813dec10dae1d5d4cef71d613d1b8366fea99da34d0f7fe8e07f9b3ab84c30b4", "106 (5)"),
+    ("691ebde935b54d0999b5ced20d991c8d513e0610fa63c3096abf98394f07bec4", "107 (6)"),
 ]
 DELAY_BETWEEN_REQUESTS = 0.5
 LEADERBOARD_FILE = "leaderboard.json"
