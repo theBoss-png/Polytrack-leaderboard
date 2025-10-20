@@ -493,6 +493,19 @@
             "000000",
             "ff0000"
           ]
+        },
+        {
+          "rank": 11,
+          "player": "Hubaldium",
+          "userId": "b373961d0e0a58840ab420917b37eeec10270658b667d0eb4c18d7c66d12a6eb",
+          "time": 25.069,
+          "points": 3618.181818,
+          "carColors": [
+            "586f25",
+            "a1b476",
+            "000000",
+            "246111"
+          ]
         }
       ]
     },
@@ -1127,14 +1140,14 @@
     {
       "name": "Hubaldium",
       "userId": "b373961d0e0a58840ab420917b37eeec10270658b667d0eb4c18d7c66d12a6eb",
-      "avgRank": 12,
+      "avgRank": 11.75,
       "carColors": [
         "586f25",
         "a1b476",
         "000000",
         "246111"
       ],
-      "totalPoints": 10464.935,
+      "totalPoints": 14083.117,
       "leaderboardRank": 15
     },
     {
