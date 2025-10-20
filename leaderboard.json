@@ -1707,10 +1707,23 @@
         },
         {
           "rank": 15,
+          "player": "Mark",
+          "userId": "4b7010c287b86c0a46935e5eeb55249453b0ee842b61337a6d0a265e9a0d089c",
+          "time": 27.333,
+          "points": 3133.333333,
+          "carColors": [
+            "000000",
+            "000000",
+            "000000",
+            "000000"
+          ]
+        },
+        {
+          "rank": 16,
           "player": "Lexus LFA",
           "userId": "197ffdefc3595f207804fd7e208841f9148d68995fc17f1f2f7d303d1302f4da",
           "time": 27.656,
-          "points": 3133.333333,
+          "points": 3050.0,
           "carColors": [
             "aaa909",
             "aaa909",
@@ -1719,29 +1732,16 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 17,
           "player": "KoiPoi",
           "userId": "c6b30bd834654032bc2d027735a2795da2b9181b015608acf639181cf7f635df",
           "time": 28.076,
-          "points": 3050.0,
+          "points": 2976.470588,
           "carColors": [
             "ff4600",
             "ffffff",
             "ffffff",
             "ff4500"
-          ]
-        },
-        {
-          "rank": 17,
-          "player": "Mark",
-          "userId": "4b7010c287b86c0a46935e5eeb55249453b0ee842b61337a6d0a265e9a0d089c",
-          "time": 30.24,
-          "points": 2976.470588,
-          "carColors": [
-            "000000",
-            "000000",
-            "000000",
-            "000000"
           ]
         }
       ]
@@ -1855,14 +1855,14 @@
     {
       "name": "Lexus LFA",
       "userId": "197ffdefc3595f207804fd7e208841f9148d68995fc17f1f2f7d303d1302f4da",
-      "avgRank": 10.667,
+      "avgRank": 10.833,
       "carColors": [
         "aaa909",
         "aaa909",
         "564c4c",
         "000000"
       ],
-      "totalPoints": 27161.039,
+      "totalPoints": 27077.706,
       "leaderboardRank": 9
     },
     {
@@ -1959,27 +1959,27 @@
     {
       "name": "Mark",
       "userId": "4b7010c287b86c0a46935e5eeb55249453b0ee842b61337a6d0a265e9a0d089c",
-      "avgRank": 18.5,
+      "avgRank": 18.167,
       "carColors": [
         "000000",
         "000000",
         "000000",
         "000000"
       ],
-      "totalPoints": 17400.017,
+      "totalPoints": 17556.88,
       "leaderboardRank": 17
     },
     {
       "name": "KoiPoi",
       "userId": "c6b30bd834654032bc2d027735a2795da2b9181b015608acf639181cf7f635df",
-      "avgRank": 19.833,
+      "avgRank": 20,
       "carColors": [
         "ff4600",
         "ffffff",
         "ffffff",
         "ff4500"
       ],
-      "totalPoints": 17024.887,
+      "totalPoints": 16951.358,
       "leaderboardRank": 18
     },
     {
