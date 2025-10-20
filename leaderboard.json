@@ -901,27 +901,27 @@
       "results": [
         {
           "rank": 1,
-          "player": "Dave",
-          "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
-          "time": 13.815,
+          "player": "mufat",
+          "userId": "79e65ae09aea37943126835b8258e331bc783a5d910c3092dd7d7b3ca2fd7ced",
+          "time": 13.8,
           "points": 40000.0,
           "carColors": [
-            "032212",
-            "8e99b2",
-            "100000",
+            "750101",
+            "ffffff",
+            "131313",
             "666666"
           ]
         },
         {
           "rank": 2,
-          "player": "mufat",
-          "userId": "79e65ae09aea37943126835b8258e331bc783a5d910c3092dd7d7b3ca2fd7ced",
-          "time": 13.841,
+          "player": "Dave",
+          "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
+          "time": 13.815,
           "points": 20000.0,
           "carColors": [
-            "750101",
-            "ffffff",
-            "131313",
+            "032212",
+            "8e99b2",
+            "100000",
             "666666"
           ]
         },
@@ -1101,14 +1101,14 @@
     {
       "name": "mufat",
       "userId": "79e65ae09aea37943126835b8258e331bc783a5d910c3092dd7d7b3ca2fd7ced",
-      "avgRank": 1.8,
+      "avgRank": 1.6,
       "carColors": [
         "750101",
         "ffffff",
         "131313",
         "666666"
       ],
-      "totalPoints": 150000.0,
+      "totalPoints": 170000.0,
       "leaderboardRank": 1
     },
     {
@@ -1127,14 +1127,14 @@
     {
       "name": "Dave",
       "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
-      "avgRank": 2,
+      "avgRank": 2.25,
       "carColors": [
         "032212",
         "8e99b2",
         "100000",
         "666666"
       ],
-      "totalPoints": 93333.333,
+      "totalPoints": 73333.333,
       "leaderboardRank": 3
     },
     {
