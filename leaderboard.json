@@ -148,28 +148,28 @@
         },
         {
           "rank": 12,
-          "player": "Muril2k10 🇧🇷",
-          "userId": "cb32f376146471be2e26bf5ee69895b882cbbcf2adfd8ce2caf8770d30d6eb4e",
-          "time": 16.751,
-          "points": 3466.666667,
-          "carColors": [
-            "75161f",
-            "4019a4",
-            "000000",
-            "ffb209"
-          ]
-        },
-        {
-          "rank": 13,
           "player": "Samples",
           "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-          "time": 16.764,
-          "points": 3338.461538,
+          "time": 16.731,
+          "points": 3466.666667,
           "carColors": [
             "60790b",
             "ffffff",
             "131313",
             "666666"
+          ]
+        },
+        {
+          "rank": 13,
+          "player": "Muril2k10 🇧🇷",
+          "userId": "cb32f376146471be2e26bf5ee69895b882cbbcf2adfd8ce2caf8770d30d6eb4e",
+          "time": 16.751,
+          "points": 3338.461538,
+          "carColors": [
+            "75161f",
+            "4019a4",
+            "000000",
+            "ffb209"
           ]
         },
         {
@@ -1400,14 +1400,14 @@
     {
       "name": "Muril2k10 🇧🇷",
       "userId": "cb32f376146471be2e26bf5ee69895b882cbbcf2adfd8ce2caf8770d30d6eb4e",
-      "avgRank": 7.5,
+      "avgRank": 8,
       "carColors": [
         "75161f",
         "4019a4",
         "000000",
         "ffb209"
       ],
-      "totalPoints": 16800.0,
+      "totalPoints": 16671.795,
       "leaderboardRank": 15
     },
     {
@@ -1543,14 +1543,14 @@
     {
       "name": "Samples",
       "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-      "avgRank": 13,
+      "avgRank": 12,
       "carColors": [
         "60790b",
         "ffffff",
         "131313",
         "666666"
       ],
-      "totalPoints": 3338.462,
+      "totalPoints": 3466.667,
       "leaderboardRank": 26
     },
     {
