@@ -18,10 +18,23 @@
         },
         {
           "rank": 2,
+          "player": "I <3 RedMonkeyBumb",
+          "userId": "8cc8dd72ff8c95b6ed9ec235ca7e04a398cb08a5f62a6312230b0e2e3846542b",
+          "time": 16.446,
+          "points": 20000.0,
+          "carColors": [
+            "ff0000",
+            "ff0000",
+            "ff0000",
+            "ff0000"
+          ]
+        },
+        {
+          "rank": 3,
           "player": "Dave",
           "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
           "time": 16.502,
-          "points": 20000.0,
+          "points": 13333.333333,
           "carColors": [
             "032212",
             "8e99b2",
@@ -30,29 +43,16 @@
           ]
         },
         {
-          "rank": 3,
+          "rank": 4,
           "player": "Erruj",
           "userId": "1833f15e94bdb8530bf71ead8b9a4aa0edf9c4be29a2aab952b7f740b4455b69",
           "time": 16.51,
-          "points": 13333.333333,
+          "points": 10000.0,
           "carColors": [
             "ad4545",
             "cc9050",
             "6d1414",
             "000000"
-          ]
-        },
-        {
-          "rank": 4,
-          "player": "I <3 RedMonkeyBumb",
-          "userId": "8cc8dd72ff8c95b6ed9ec235ca7e04a398cb08a5f62a6312230b0e2e3846542b",
-          "time": 16.529,
-          "points": 10000.0,
-          "carColors": [
-            "ff0000",
-            "ff0000",
-            "ff0000",
-            "ff0000"
           ]
         },
         {
@@ -1348,27 +1348,27 @@
     {
       "name": "Dave",
       "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
-      "avgRank": 2.5,
+      "avgRank": 2.75,
       "carColors": [
         "032212",
         "8e99b2",
         "100000",
         "666666"
       ],
-      "totalPoints": 70000.0,
+      "totalPoints": 63333.333,
       "leaderboardRank": 2
     },
     {
-      "name": "Erruj",
-      "userId": "1833f15e94bdb8530bf71ead8b9a4aa0edf9c4be29a2aab952b7f740b4455b69",
-      "avgRank": 4.667,
+      "name": "I <3 RedMonkeyBumb",
+      "userId": "8cc8dd72ff8c95b6ed9ec235ca7e04a398cb08a5f62a6312230b0e2e3846542b",
+      "avgRank": 1.5,
       "carColors": [
-        "ad4545",
-        "cc9050",
-        "6d1414",
-        "000000"
+        "ff0000",
+        "ff0000",
+        "ff0000",
+        "ff0000"
       ],
-      "totalPoints": 59666.667,
+      "totalPoints": 60000.0,
       "leaderboardRank": 3
     },
     {
@@ -1385,6 +1385,19 @@
       "leaderboardRank": 4
     },
     {
+      "name": "Erruj",
+      "userId": "1833f15e94bdb8530bf71ead8b9a4aa0edf9c4be29a2aab952b7f740b4455b69",
+      "avgRank": 4.833,
+      "carColors": [
+        "ad4545",
+        "cc9050",
+        "6d1414",
+        "000000"
+      ],
+      "totalPoints": 56333.333,
+      "leaderboardRank": 5
+    },
+    {
       "name": "Samples",
       "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
       "avgRank": 5.833,
@@ -1395,19 +1408,6 @@
         "666666"
       ],
       "totalPoints": 50095.238,
-      "leaderboardRank": 5
-    },
-    {
-      "name": "I <3 RedMonkeyBumb",
-      "userId": "8cc8dd72ff8c95b6ed9ec235ca7e04a398cb08a5f62a6312230b0e2e3846542b",
-      "avgRank": 2.5,
-      "carColors": [
-        "ff0000",
-        "ff0000",
-        "ff0000",
-        "ff0000"
-      ],
-      "totalPoints": 50000.0,
       "leaderboardRank": 6
     },
     {
