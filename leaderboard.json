@@ -7,7 +7,7 @@
           "rank": 1,
           "player": "mufat",
           "userId": "79e65ae09aea37943126835b8258e331bc783a5d910c3092dd7d7b3ca2fd7ced",
-          "time": 16.43,
+          "time": 16.413,
           "points": 40000.0,
           "carColors": [
             "750101",
@@ -787,28 +787,28 @@
         },
         {
           "rank": 8,
-          "player": "diskne",
-          "userId": "1e0e3ca18aba4dfc9d55d363c212afb74c9bd99a1f0a526f8674504d1f4c3a8a",
-          "time": 12.528,
-          "points": 5000.0,
-          "carColors": [
-            "ff00d6",
-            "00ffe2",
-            "1eff00",
-            "fbff00"
-          ]
-        },
-        {
-          "rank": 9,
           "player": "Samples",
           "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-          "time": 12.544,
-          "points": 4444.444444,
+          "time": 12.441,
+          "points": 5000.0,
           "carColors": [
             "60790b",
             "ffffff",
             "131313",
             "666666"
+          ]
+        },
+        {
+          "rank": 9,
+          "player": "diskne",
+          "userId": "1e0e3ca18aba4dfc9d55d363c212afb74c9bd99a1f0a526f8674504d1f4c3a8a",
+          "time": 12.528,
+          "points": 4444.444444,
+          "carColors": [
+            "ff00d6",
+            "00ffe2",
+            "1eff00",
+            "fbff00"
           ]
         },
         {
@@ -1400,27 +1400,27 @@
     {
       "name": "Samples",
       "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-      "avgRank": 7,
+      "avgRank": 6.833,
       "carColors": [
         "60790b",
         "ffffff",
         "131313",
         "666666"
       ],
-      "totalPoints": 42911.111,
+      "totalPoints": 43466.667,
       "leaderboardRank": 8
     },
     {
       "name": "diskne",
       "userId": "1e0e3ca18aba4dfc9d55d363c212afb74c9bd99a1f0a526f8674504d1f4c3a8a",
-      "avgRank": 8.833,
+      "avgRank": 9,
       "carColors": [
         "ff00d6",
         "00ffe2",
         "1eff00",
         "fbff00"
       ],
-      "totalPoints": 30115.374,
+      "totalPoints": 29559.818,
       "leaderboardRank": 9
     },
     {
