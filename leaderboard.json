@@ -774,28 +774,28 @@
         },
         {
           "rank": 5,
-          "player": "Erruj",
-          "userId": "1833f15e94bdb8530bf71ead8b9a4aa0edf9c4be29a2aab952b7f740b4455b69",
-          "time": 12.326,
-          "points": 8000.0,
-          "carColors": [
-            "ad4545",
-            "cc9050",
-            "6d1414",
-            "000000"
-          ]
-        },
-        {
-          "rank": 6,
           "player": "Samples",
           "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-          "time": 12.35,
-          "points": 6666.666667,
+          "time": 12.285,
+          "points": 8000.0,
           "carColors": [
             "60790b",
             "ffffff",
             "131313",
             "666666"
+          ]
+        },
+        {
+          "rank": 6,
+          "player": "Erruj",
+          "userId": "1833f15e94bdb8530bf71ead8b9a4aa0edf9c4be29a2aab952b7f740b4455b69",
+          "time": 12.326,
+          "points": 6666.666667,
+          "carColors": [
+            "ad4545",
+            "cc9050",
+            "6d1414",
+            "000000"
           ]
         },
         {
@@ -1361,14 +1361,14 @@
     {
       "name": "Erruj",
       "userId": "1833f15e94bdb8530bf71ead8b9a4aa0edf9c4be29a2aab952b7f740b4455b69",
-      "avgRank": 4.5,
+      "avgRank": 4.667,
       "carColors": [
         "ad4545",
         "cc9050",
         "6d1414",
         "000000"
       ],
-      "totalPoints": 61000.0,
+      "totalPoints": 59666.667,
       "leaderboardRank": 3
     },
     {
@@ -1411,6 +1411,19 @@
       "leaderboardRank": 6
     },
     {
+      "name": "Samples",
+      "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
+      "avgRank": 6.5,
+      "carColors": [
+        "60790b",
+        "ffffff",
+        "131313",
+        "666666"
+      ],
+      "totalPoints": 46338.462,
+      "leaderboardRank": 7
+    },
+    {
       "name": "I <3 RedMonkeyBumb",
       "userId": "8cc8dd72ff8c95b6ed9ec235ca7e04a398cb08a5f62a6312230b0e2e3846542b",
       "avgRank": 4,
@@ -1421,19 +1434,6 @@
         "ff0000"
       ],
       "totalPoints": 45714.286,
-      "leaderboardRank": 7
-    },
-    {
-      "name": "Samples",
-      "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-      "avgRank": 6.667,
-      "carColors": [
-        "60790b",
-        "ffffff",
-        "131313",
-        "666666"
-      ],
-      "totalPoints": 45005.128,
       "leaderboardRank": 8
     },
     {
