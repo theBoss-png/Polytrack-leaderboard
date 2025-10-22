@@ -600,28 +600,28 @@
         },
         {
           "rank": 7,
-          "player": "leonnnn2400",
-          "userId": "4bd2b7f016be2aaef157d28286c17538917f2afad2e7e481956b1a2eab1b5377",
-          "time": 10.994,
-          "points": 5714.285714,
-          "carColors": [
-            "2e003e",
-            "000000",
-            "c800ff",
-            "ffffff"
-          ]
-        },
-        {
-          "rank": 8,
           "player": "Samples",
           "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-          "time": 11.039,
-          "points": 5000.0,
+          "time": 10.974,
+          "points": 5714.285714,
           "carColors": [
             "60790b",
             "ffffff",
             "131313",
             "666666"
+          ]
+        },
+        {
+          "rank": 8,
+          "player": "leonnnn2400",
+          "userId": "4bd2b7f016be2aaef157d28286c17538917f2afad2e7e481956b1a2eab1b5377",
+          "time": 10.994,
+          "points": 5000.0,
+          "carColors": [
+            "2e003e",
+            "000000",
+            "c800ff",
+            "ffffff"
           ]
         },
         {
@@ -922,27 +922,27 @@
         },
         {
           "rank": 3,
-          "player": "Dave",
-          "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
-          "time": 20.007,
+          "player": "Samples",
+          "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
+          "time": 19.963,
           "points": 13333.333333,
           "carColors": [
-            "032212",
-            "8e99b2",
-            "100000",
+            "60790b",
+            "ffffff",
+            "131313",
             "666666"
           ]
         },
         {
           "rank": 4,
-          "player": "Samples",
-          "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-          "time": 20.014,
+          "player": "Dave",
+          "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
+          "time": 20.007,
           "points": 10000.0,
           "carColors": [
-            "60790b",
-            "ffffff",
-            "131313",
+            "032212",
+            "8e99b2",
+            "100000",
             "666666"
           ]
         },
@@ -1348,14 +1348,14 @@
     {
       "name": "Dave",
       "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
-      "avgRank": 2.25,
+      "avgRank": 2.5,
       "carColors": [
         "032212",
         "8e99b2",
         "100000",
         "666666"
       ],
-      "totalPoints": 73333.333,
+      "totalPoints": 70000.0,
       "leaderboardRank": 2
     },
     {
@@ -1385,6 +1385,19 @@
       "leaderboardRank": 4
     },
     {
+      "name": "Samples",
+      "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
+      "avgRank": 5.667,
+      "carColors": [
+        "60790b",
+        "ffffff",
+        "131313",
+        "666666"
+      ],
+      "totalPoints": 51047.619,
+      "leaderboardRank": 5
+    },
+    {
       "name": "Allfire100",
       "userId": "9881408813de87d25e6c83af6bc01cc63d1fa07e6152b658a605d6f189282a45",
       "avgRank": 5.667,
@@ -1395,32 +1408,19 @@
         "000000"
       ],
       "totalPoints": 48158.73,
-      "leaderboardRank": 5
+      "leaderboardRank": 6
     },
     {
       "name": "leonnnn2400",
       "userId": "4bd2b7f016be2aaef157d28286c17538917f2afad2e7e481956b1a2eab1b5377",
-      "avgRank": 5.333,
+      "avgRank": 5.5,
       "carColors": [
         "2e003e",
         "000000",
         "c800ff",
         "ffffff"
       ],
-      "totalPoints": 48095.238,
-      "leaderboardRank": 6
-    },
-    {
-      "name": "Samples",
-      "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-      "avgRank": 6,
-      "carColors": [
-        "60790b",
-        "ffffff",
-        "131313",
-        "666666"
-      ],
-      "totalPoints": 47000.0,
+      "totalPoints": 47380.952,
       "leaderboardRank": 7
     },
     {
