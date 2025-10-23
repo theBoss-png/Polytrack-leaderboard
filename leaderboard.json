@@ -969,10 +969,23 @@
         },
         {
           "rank": 14,
+          "player": "NiZiM11",
+          "userId": "3f0ded0faa98502f2c06ba4e0b0a76150cd084d0acb160209d653457115c870e",
+          "time": 13.008,
+          "points": 3228.571429,
+          "carColors": [
+            "f8f8f8",
+            "755d5d",
+            "000000",
+            "ffffff"
+          ]
+        },
+        {
+          "rank": 15,
           "player": "Gusius 2",
           "userId": "b433dd4ec08fb0f0f53ec86b3c99a3cb77955d0aa323e52e151e111a29836422",
           "time": 13.308,
-          "points": 3228.571429,
+          "points": 3133.333333,
           "carColors": [
             "000000",
             "9e48ba",
@@ -1673,27 +1686,27 @@
     {
       "name": "Gusius 2",
       "userId": "b433dd4ec08fb0f0f53ec86b3c99a3cb77955d0aa323e52e151e111a29836422",
-      "avgRank": 14.6,
+      "avgRank": 14.8,
       "carColors": [
         "000000",
         "9e48ba",
         "ffffff",
         "7126bf"
       ],
-      "totalPoints": 16909.614,
+      "totalPoints": 16814.376,
       "leaderboardRank": 18
     },
     {
       "name": "NiZiM11",
       "userId": "3f0ded0faa98502f2c06ba4e0b0a76150cd084d0acb160209d653457115c870e",
-      "avgRank": 11.333,
+      "avgRank": 12,
       "carColors": [
         "f8f8f8",
         "755d5d",
         "000000",
         "ffffff"
       ],
-      "totalPoints": 12382.468,
+      "totalPoints": 15611.039,
       "leaderboardRank": 19
     },
     {
