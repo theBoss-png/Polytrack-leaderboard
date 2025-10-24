@@ -795,28 +795,28 @@
         },
         {
           "rank": 16,
-          "player": "aaaJustin#NL",
-          "userId": "41c76787371372224fbbc79011b0e16350e332488afaadbead36c0cfb2d19bb2",
-          "time": 13.783,
-          "points": 3050.0,
-          "carColors": [
-            "000000",
-            "ff0000",
-            "000000",
-            "ff0000"
-          ]
-        },
-        {
-          "rank": 17,
           "player": "Mark",
           "userId": "4b7010c287b86c0a46935e5eeb55249453b0ee842b61337a6d0a265e9a0d089c",
-          "time": 17.369,
-          "points": 2976.470588,
+          "time": 13.19,
+          "points": 3050.0,
           "carColors": [
             "000000",
             "000000",
             "000000",
             "000000"
+          ]
+        },
+        {
+          "rank": 17,
+          "player": "aaaJustin#NL",
+          "userId": "41c76787371372224fbbc79011b0e16350e332488afaadbead36c0cfb2d19bb2",
+          "time": 13.783,
+          "points": 2976.470588,
+          "carColors": [
+            "000000",
+            "ff0000",
+            "000000",
+            "ff0000"
           ]
         },
         {
@@ -1725,14 +1725,14 @@
     {
       "name": "Mark",
       "userId": "4b7010c287b86c0a46935e5eeb55249453b0ee842b61337a6d0a265e9a0d089c",
-      "avgRank": 16,
+      "avgRank": 15.833,
       "carColors": [
         "000000",
         "000000",
         "000000",
         "000000"
       ],
-      "totalPoints": 18756.375,
+      "totalPoints": 18829.904,
       "leaderboardRank": 16
     },
     {
@@ -1803,14 +1803,14 @@
     {
       "name": "aaaJustin#NL",
       "userId": "41c76787371372224fbbc79011b0e16350e332488afaadbead36c0cfb2d19bb2",
-      "avgRank": 13.667,
+      "avgRank": 14,
       "carColors": [
         "000000",
         "ff0000",
         "000000",
         "ff0000"
       ],
-      "totalPoints": 10544.444,
+      "totalPoints": 10470.915,
       "leaderboardRank": 22
     },
     {
