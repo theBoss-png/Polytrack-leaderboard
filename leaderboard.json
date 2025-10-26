@@ -1299,10 +1299,23 @@
         },
         {
           "rank": 18,
+          "player": "Anonymous",
+          "userId": "3b61ec6c67c78b3fd60dcfd520ccce5de30490cf913f9cd82694f0ae062d6a45",
+          "time": 26.677,
+          "points": 2911.111111,
+          "carColors": [
+            "748702",
+            "ffffff",
+            "131313",
+            "666666"
+          ]
+        },
+        {
+          "rank": 19,
           "player": "🇳🇱 Fellow Purper 🇳🇱",
           "userId": "1e8133f445b77849650bba4baa17f701cc7696b660ac1857d81059eb96c3ee9c",
           "time": 28.778,
-          "points": 2911.111111,
+          "points": 2852.631579,
           "carColors": [
             "050037",
             "820000",
@@ -1790,14 +1803,14 @@
     {
       "name": "🇳🇱 Fellow Purper 🇳🇱",
       "userId": "1e8133f445b77849650bba4baa17f701cc7696b660ac1857d81059eb96c3ee9c",
-      "avgRank": 10.667,
+      "avgRank": 11,
       "carColors": [
         "050037",
         "820000",
         "000000",
         "050037"
       ],
-      "totalPoints": 16911.111,
+      "totalPoints": 16852.632,
       "leaderboardRank": 18
     },
     {
@@ -1997,6 +2010,19 @@
     },
     {
       "name": "Anonymous",
+      "userId": "3b61ec6c67c78b3fd60dcfd520ccce5de30490cf913f9cd82694f0ae062d6a45",
+      "avgRank": 18,
+      "carColors": [
+        "748702",
+        "ffffff",
+        "131313",
+        "666666"
+      ],
+      "totalPoints": 2911.111,
+      "leaderboardRank": 34
+    },
+    {
+      "name": "Anonymous",
       "userId": "8df09747d208c1e0c6ad272023a33572976ee2237ac9eb074d4dabea73d8b452",
       "avgRank": 25,
       "carColors": [
@@ -2006,7 +2032,7 @@
         "666666"
       ],
       "totalPoints": 2600.0,
-      "leaderboardRank": 34
+      "leaderboardRank": 35
     },
     {
       "name": "Teo",
@@ -2019,7 +2045,7 @@
         "ff6262"
       ],
       "totalPoints": 2569.231,
-      "leaderboardRank": 35
+      "leaderboardRank": 36
     },
     {
       "name": "Anonymous",
@@ -2032,7 +2058,7 @@
         "666666"
       ],
       "totalPoints": 2540.741,
-      "leaderboardRank": 36
+      "leaderboardRank": 37
     }
   ]
 }
