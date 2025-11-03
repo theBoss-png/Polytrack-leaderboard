@@ -257,10 +257,23 @@
         },
         {
           "rank": 3,
+          "player": "Samples",
+          "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
+          "time": 17.452,
+          "points": 13333.333333,
+          "carColors": [
+            "60790b",
+            "ffffff",
+            "131313",
+            "666666"
+          ]
+        },
+        {
+          "rank": 4,
           "player": "Cadillac V Series R",
           "userId": "4855ee3019704b53510975e2a8f28bc01f66dd9c2cba3a1a5aec6450926b1f4d",
           "time": 17.561,
-          "points": 13333.333333,
+          "points": 10000.0,
           "carColors": [
             "ffeb00",
             "000000",
@@ -269,26 +282,13 @@
           ]
         },
         {
-          "rank": 4,
+          "rank": 5,
           "player": "Why am I spending my time on this?",
           "userId": "4410d06fc7a937c029b44a7cbf55abdf484d3c2898db9887433dc6efb129f616",
           "time": 17.709,
-          "points": 10000.0,
-          "carColors": [
-            "263c6c",
-            "ffffff",
-            "131313",
-            "666666"
-          ]
-        },
-        {
-          "rank": 5,
-          "player": "Samples",
-          "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-          "time": 17.854,
           "points": 8000.0,
           "carColors": [
-            "60790b",
+            "263c6c",
             "ffffff",
             "131313",
             "666666"
@@ -1023,40 +1023,40 @@
     {
       "name": "Samples",
       "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-      "avgRank": 4.167,
+      "avgRank": 3.833,
       "carColors": [
         "60790b",
         "ffffff",
         "131313",
         "666666"
       ],
-      "totalPoints": 66333.333,
+      "totalPoints": 71666.667,
       "leaderboardRank": 3
     },
     {
       "name": "Why am I spending my time on this?",
       "userId": "4410d06fc7a937c029b44a7cbf55abdf484d3c2898db9887433dc6efb129f616",
-      "avgRank": 5.8,
+      "avgRank": 6,
       "carColors": [
         "263c6c",
         "ffffff",
         "131313",
         "666666"
       ],
-      "totalPoints": 42222.222,
+      "totalPoints": 40222.222,
       "leaderboardRank": 4
     },
     {
       "name": "Cadillac V Series R",
       "userId": "4855ee3019704b53510975e2a8f28bc01f66dd9c2cba3a1a5aec6450926b1f4d",
-      "avgRank": 6.2,
+      "avgRank": 6.4,
       "carColors": [
         "ffeb00",
         "000000",
         "000000",
         "000000"
       ],
-      "totalPoints": 37333.333,
+      "totalPoints": 34000.0,
       "leaderboardRank": 5
     },
     {
