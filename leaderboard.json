@@ -174,10 +174,23 @@
         },
         {
           "rank": 14,
+          "player": "BonnieBeans",
+          "userId": "c46c1b3cd47a1f1fa60469e4ce9ddafe311b31afd25466a05728acab58bbfcd8",
+          "time": 12.132,
+          "points": 3228.571429,
+          "carColors": [
+            "ff2f5c",
+            "ff89b6",
+            "1d1d1d",
+            "9378ff"
+          ]
+        },
+        {
+          "rank": 15,
           "player": "Lexus LFA",
           "userId": "197ffdefc3595f207804fd7e208841f9148d68995fc17f1f2f7d303d1302f4da",
           "time": 14.404,
-          "points": 3228.571429,
+          "points": 3133.333333,
           "carColors": [
             "aaa909",
             "aaa909",
@@ -186,11 +199,11 @@
           ]
         },
         {
-          "rank": 15,
+          "rank": 16,
           "player": "Max Verstappen",
           "userId": "28fed58ad1e40ce709faefed9d4454dacede1915e6f821967df44f08f7c37aa6",
           "time": 14.932,
-          "points": 3133.333333,
+          "points": 3050.0,
           "carColors": [
             "000000",
             "000000",
@@ -199,11 +212,11 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 17,
           "player": "Powercow1",
           "userId": "24698371b7b561caea833dafcd31acdd951792eb5a5c5b88bab8fb2841f56ebc",
           "time": 17.672,
-          "points": 3050.0,
+          "points": 2976.470588,
           "carColors": [
             "ffffff",
             "ffffff",
@@ -1101,27 +1114,27 @@
     {
       "name": "Max Verstappen",
       "userId": "28fed58ad1e40ce709faefed9d4454dacede1915e6f821967df44f08f7c37aa6",
-      "avgRank": 13,
+      "avgRank": 13.5,
       "carColors": [
         "000000",
         "000000",
         "ff0000",
         "ff0000"
       ],
-      "totalPoints": 6751.515,
+      "totalPoints": 6668.182,
       "leaderboardRank": 18
     },
     {
       "name": "Powercow1",
       "userId": "24698371b7b561caea833dafcd31acdd951792eb5a5c5b88bab8fb2841f56ebc",
-      "avgRank": 14.5,
+      "avgRank": 15,
       "carColors": [
         "ffffff",
         "ffffff",
         "000000",
         "000000"
       ],
-      "totalPoints": 6388.462,
+      "totalPoints": 6314.932,
       "leaderboardRank": 19
     },
     {
@@ -1151,17 +1164,30 @@
       "leaderboardRank": 21
     },
     {
+      "name": "BonnieBeans",
+      "userId": "c46c1b3cd47a1f1fa60469e4ce9ddafe311b31afd25466a05728acab58bbfcd8",
+      "avgRank": 14,
+      "carColors": [
+        "ff2f5c",
+        "ff89b6",
+        "1d1d1d",
+        "9378ff"
+      ],
+      "totalPoints": 3228.571,
+      "leaderboardRank": 22
+    },
+    {
       "name": "Lexus LFA",
       "userId": "197ffdefc3595f207804fd7e208841f9148d68995fc17f1f2f7d303d1302f4da",
-      "avgRank": 14,
+      "avgRank": 15,
       "carColors": [
         "aaa909",
         "aaa909",
         "564c4c",
         "000000"
       ],
-      "totalPoints": 3228.571,
-      "leaderboardRank": 22
+      "totalPoints": 3133.333,
+      "leaderboardRank": 23
     }
   ]
 }
