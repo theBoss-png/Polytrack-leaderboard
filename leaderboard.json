@@ -311,7 +311,7 @@
           "rank": 7,
           "player": "Lexus LFA",
           "userId": "197ffdefc3595f207804fd7e208841f9148d68995fc17f1f2f7d303d1302f4da",
-          "time": 18.089,
+          "time": 17.922,
           "points": 5714.285714,
           "carColors": [
             "aaa909",
@@ -639,6 +639,19 @@
             "24ff00",
             "000000",
             "000000",
+            "000000"
+          ]
+        },
+        {
+          "rank": 14,
+          "player": "Lexus LFA",
+          "userId": "197ffdefc3595f207804fd7e208841f9148d68995fc17f1f2f7d303d1302f4da",
+          "time": 23.206,
+          "points": 3228.571429,
+          "carColors": [
+            "aaa909",
+            "aaa909",
+            "564c4c",
             "000000"
           ]
         }
@@ -1125,6 +1138,19 @@
       "leaderboardRank": 12
     },
     {
+      "name": "Lexus LFA",
+      "userId": "197ffdefc3595f207804fd7e208841f9148d68995fc17f1f2f7d303d1302f4da",
+      "avgRank": 12,
+      "carColors": [
+        "aaa909",
+        "aaa909",
+        "564c4c",
+        "000000"
+      ],
+      "totalPoints": 12076.19,
+      "leaderboardRank": 13
+    },
+    {
       "name": "XenoBlackGoku",
       "userId": "3194afacdc75749d7c0a64577e7a9edeaa376161d2b30f8fafa712c1a30ea4a9",
       "avgRank": 7,
@@ -1135,7 +1161,7 @@
         "c200ff"
       ],
       "totalPoints": 11666.667,
-      "leaderboardRank": 13
+      "leaderboardRank": 14
     },
     {
       "name": "AriBlue",
@@ -1148,7 +1174,7 @@
         "00e0ff"
       ],
       "totalPoints": 10703.03,
-      "leaderboardRank": 14
+      "leaderboardRank": 15
     },
     {
       "name": "Quiter",
@@ -1161,19 +1187,6 @@
         "000000"
       ],
       "totalPoints": 10271.795,
-      "leaderboardRank": 15
-    },
-    {
-      "name": "Lexus LFA",
-      "userId": "197ffdefc3595f207804fd7e208841f9148d68995fc17f1f2f7d303d1302f4da",
-      "avgRank": 11,
-      "carColors": [
-        "aaa909",
-        "aaa909",
-        "564c4c",
-        "000000"
-      ],
-      "totalPoints": 8847.619,
       "leaderboardRank": 16
     },
     {
