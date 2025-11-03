@@ -605,10 +605,23 @@
         },
         {
           "rank": 12,
+          "player": "Why am I spending my time on this?",
+          "userId": "4410d06fc7a937c029b44a7cbf55abdf484d3c2898db9887433dc6efb129f616",
+          "time": 22.656,
+          "points": 3466.666667,
+          "carColors": [
+            "263c6c",
+            "ffffff",
+            "131313",
+            "666666"
+          ]
+        },
+        {
+          "rank": 13,
           "player": "Quiter",
           "userId": "e97c6be48d43128bb6b6b96d825f69d0b0eb948130a953e2f87f579e22828ce8",
           "time": 22.981,
-          "points": 3466.666667,
+          "points": 3338.461538,
           "carColors": [
             "24ff00",
             "000000",
@@ -982,6 +995,19 @@
       "leaderboardRank": 5
     },
     {
+      "name": "Why am I spending my time on this?",
+      "userId": "4410d06fc7a937c029b44a7cbf55abdf484d3c2898db9887433dc6efb129f616",
+      "avgRank": 6.333,
+      "carColors": [
+        "263c6c",
+        "ffffff",
+        "131313",
+        "666666"
+      ],
+      "totalPoints": 26800.0,
+      "leaderboardRank": 6
+    },
+    {
       "name": "Allfire100",
       "userId": "9881408813de87d25e6c83af6bc01cc63d1fa07e6152b658a605d6f189282a45",
       "avgRank": 8.2,
@@ -992,19 +1018,6 @@
         "000000"
       ],
       "totalPoints": 24603.175,
-      "leaderboardRank": 6
-    },
-    {
-      "name": "Why am I spending my time on this?",
-      "userId": "4410d06fc7a937c029b44a7cbf55abdf484d3c2898db9887433dc6efb129f616",
-      "avgRank": 3.5,
-      "carColors": [
-        "263c6c",
-        "ffffff",
-        "131313",
-        "666666"
-      ],
-      "totalPoints": 23333.333,
       "leaderboardRank": 7
     },
     {
@@ -1101,14 +1114,14 @@
     {
       "name": "Quiter",
       "userId": "e97c6be48d43128bb6b6b96d825f69d0b0eb948130a953e2f87f579e22828ce8",
-      "avgRank": 11.333,
+      "avgRank": 11.667,
       "carColors": [
         "24ff00",
         "000000",
         "000000",
         "000000"
       ],
-      "totalPoints": 10703.03,
+      "totalPoints": 10574.825,
       "leaderboardRank": 15
     },
     {
