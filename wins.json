@@ -1,10 +1,12 @@
 [
+  {"name": "gornaz", "first_place": 3, "second_place": 0, "third_place": 0},
   {"name": "Tvirty", "first_place": 2, "second_place": 2, "third_place": 0},
   {"name": "CSniper", "first_place": 2, "second_place": 2, "third_place": 1},
   {"name": "Che_ssdave", "first_place": 1, "second_place": 3, "third_place": 1},
   {"name": "LanceB_YT", "first_place": 1, "second_place": 2, "third_place": 1},
   {"name": "Muril", "first_place": 1, "second_place": 2, "third_place": 0},
   {"name": "Notobiv", "first_place": 1, "second_place": 1, "third_place": 0},
+  {"name": "mufat", "first_place": 1, "second_place": 1, "third_place": 0},
   {"name": "Doombi", "first_place": 1, "second_place": 0, "third_place": 0},
   {"name": "Ramen", "first_place": 1, "second_place": 0, "third_place": 0},
   {"name": "Nick", "first_place": 1, "second_place": 0, "third_place": 0},
@@ -12,8 +14,6 @@
   {"name": "Jimmy", "first_place": 1, "second_place": 0, "third_place": 0},
   {"name": "Jurre", "first_place": 1, "second_place": 0, "third_place": 0},
   {"name": "season", "first_place": 1, "second_place": 0, "third_place": 0},
-  {"name": "mufat", "first_place": 1, "second_place": 0, "third_place": 0},
-  {"name": "gornaz", "first_place": 1, "second_place": 0, "third_place": 0},
   {"name": "Hiksi", "first_place": 0, "second_place": 1, "third_place": 1},
   {"name": "Qwertyuiop", "first_place": 0, "second_place": 1, "third_place": 1},
   {"name": "okman241", "first_place": 0, "second_place": 1, "third_place": 0},
@@ -21,11 +21,11 @@
   {"name": "Hubaldium", "first_place": 0, "second_place": 1, "third_place": 0},
   {"name": "TriouV", "first_place": 0, "second_place": 1, "third_place": 0},
   {"name": "dadodido", "first_place": 0, "second_place": 0, "third_place": 2},
+  {"name": "Che_ssdave", "first_place": 0, "second_place": 0, "third_place": 2}
   {"name": "CheeseWaffleBoy", "first_place": 0, "second_place": 0, "third_place": 1},
   {"name": "Ronin", "first_place": 0, "second_place": 0, "third_place": 1},
   {"name": "Nitro", "first_place": 0, "second_place": 0, "third_place": 1},
   {"name": "ZephyrTeam", "first_place": 0, "second_place": 0, "third_place": 1},
   {"name": "Light", "first_place": 0, "second_place": 0, "third_place": 1},
   {"name": "Coolson", "first_place": 0, "second_place": 0, "third_place": 1}
-  {"name": "Che_ssdave", "first_place": 0, "second_place": 0, "third_place": 1}
 ]
