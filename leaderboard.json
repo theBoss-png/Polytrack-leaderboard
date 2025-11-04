@@ -792,10 +792,23 @@
         },
         {
           "rank": 9,
+          "player": "Allfire100",
+          "userId": "9881408813de87d25e6c83af6bc01cc63d1fa07e6152b658a605d6f189282a45",
+          "time": 12.455,
+          "points": 4444.444444,
+          "carColors": [
+            "1eff00",
+            "000000",
+            "1eff00",
+            "000000"
+          ]
+        },
+        {
+          "rank": 10,
           "player": "Why am I spending my time on this?",
           "userId": "4410d06fc7a937c029b44a7cbf55abdf484d3c2898db9887433dc6efb129f616",
           "time": 12.53,
-          "points": 4444.444444,
+          "points": 4000.0,
           "carColors": [
             "263c6c",
             "ffffff",
@@ -804,11 +817,11 @@
           ]
         },
         {
-          "rank": 10,
+          "rank": 11,
           "player": "Anonymous",
           "userId": "b2c93362ef8524732f31761701fcbef59f41a2de9e983289b841b8e374016d0d",
           "time": 12.745,
-          "points": 4000.0,
+          "points": 3618.181818,
           "carColors": [
             "301214",
             "ffffff",
@@ -817,29 +830,16 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 12,
           "player": "................",
           "userId": "37d582986dec8e54932548b73afaffa5987fbbda00f873fd331d4a44eafc9bb3",
           "time": 12.754,
-          "points": 3618.181818,
+          "points": 3466.666667,
           "carColors": [
             "ffa0a0",
             "ff0000",
             "a70000",
             "ffffff"
-          ]
-        },
-        {
-          "rank": 12,
-          "player": "Allfire100",
-          "userId": "9881408813de87d25e6c83af6bc01cc63d1fa07e6152b658a605d6f189282a45",
-          "time": 12.986,
-          "points": 3466.666667,
-          "carColors": [
-            "1eff00",
-            "000000",
-            "1eff00",
-            "000000"
           ]
         },
         {
@@ -1127,14 +1127,14 @@
     {
       "name": "Why am I spending my time on this?",
       "userId": "4410d06fc7a937c029b44a7cbf55abdf484d3c2898db9887433dc6efb129f616",
-      "avgRank": 6.2,
+      "avgRank": 6.4,
       "carColors": [
         "263c6c",
         "ffffff",
         "131313",
         "666666"
       ],
-      "totalPoints": 39777.778,
+      "totalPoints": 39333.333,
       "leaderboardRank": 4
     },
     {
@@ -1179,14 +1179,14 @@
     {
       "name": "Allfire100",
       "userId": "9881408813de87d25e6c83af6bc01cc63d1fa07e6152b658a605d6f189282a45",
-      "avgRank": 9.6,
+      "avgRank": 9,
       "carColors": [
         "1eff00",
         "000000",
         "1eff00",
         "000000"
       ],
-      "totalPoints": 21244.444,
+      "totalPoints": 22222.222,
       "leaderboardRank": 8
     },
     {
@@ -1270,14 +1270,14 @@
     {
       "name": "Anonymous",
       "userId": "b2c93362ef8524732f31761701fcbef59f41a2de9e983289b841b8e374016d0d",
-      "avgRank": 12.333,
+      "avgRank": 12.667,
       "carColors": [
         "301214",
         "ffffff",
         "131313",
         "666666"
       ],
-      "totalPoints": 10600.0,
+      "totalPoints": 10218.182,
       "leaderboardRank": 15
     },
     {
@@ -1385,19 +1385,6 @@
       "leaderboardRank": 23
     },
     {
-      "name": "................",
-      "userId": "37d582986dec8e54932548b73afaffa5987fbbda00f873fd331d4a44eafc9bb3",
-      "avgRank": 11,
-      "carColors": [
-        "ffa0a0",
-        "ff0000",
-        "a70000",
-        "ffffff"
-      ],
-      "totalPoints": 3618.182,
-      "leaderboardRank": 24
-    },
-    {
       "name": "hayoitzmeyo2",
       "userId": "53a3eca4222284514175331d788d22b924c1941c5baece6a57e5dca7e34ea956",
       "avgRank": 12,
@@ -1406,6 +1393,19 @@
         "000000",
         "ffffff",
         "cb8cc5"
+      ],
+      "totalPoints": 3466.667,
+      "leaderboardRank": 24
+    },
+    {
+      "name": "................",
+      "userId": "37d582986dec8e54932548b73afaffa5987fbbda00f873fd331d4a44eafc9bb3",
+      "avgRank": 12,
+      "carColors": [
+        "ffa0a0",
+        "ff0000",
+        "a70000",
+        "ffffff"
       ],
       "totalPoints": 3466.667,
       "leaderboardRank": 25
