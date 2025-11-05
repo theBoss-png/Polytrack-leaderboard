@@ -301,6 +301,19 @@
             "000000",
             "6700aa"
           ]
+        },
+        {
+          "rank": 24,
+          "player": "dat_chigga",
+          "userId": "1d0d65a4ca08f9c1d9c6509917677119ec23e04fd6661a1d236c3654b176e8d5",
+          "time": 21.211,
+          "points": 2633.333333,
+          "carColors": [
+            "151515",
+            "000000",
+            "00ffff",
+            "00f4ff"
+          ]
         }
       ]
     },
@@ -1539,6 +1552,19 @@
       ],
       "totalPoints": 2669.565,
       "leaderboardRank": 29
+    },
+    {
+      "name": "dat_chigga",
+      "userId": "1d0d65a4ca08f9c1d9c6509917677119ec23e04fd6661a1d236c3654b176e8d5",
+      "avgRank": 24,
+      "carColors": [
+        "151515",
+        "000000",
+        "00ffff",
+        "00f4ff"
+      ],
+      "totalPoints": 2633.333,
+      "leaderboardRank": 30
     }
   ]
 }
