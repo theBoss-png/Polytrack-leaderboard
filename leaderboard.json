@@ -857,28 +857,28 @@
         },
         {
           "rank": 4,
-          "player": "Lexus LFA",
-          "userId": "197ffdefc3595f207804fd7e208841f9148d68995fc17f1f2f7d303d1302f4da",
-          "time": 11.89,
-          "points": 10000.0,
-          "carColors": [
-            "aaa909",
-            "aaa909",
-            "564c4c",
-            "000000"
-          ]
-        },
-        {
-          "rank": 5,
           "player": "Dave",
           "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
-          "time": 12.02,
-          "points": 8000.0,
+          "time": 11.792,
+          "points": 10000.0,
           "carColors": [
             "032212",
             "8e99b2",
             "100000",
             "666666"
+          ]
+        },
+        {
+          "rank": 5,
+          "player": "Lexus LFA",
+          "userId": "197ffdefc3595f207804fd7e208841f9148d68995fc17f1f2f7d303d1302f4da",
+          "time": 11.89,
+          "points": 8000.0,
+          "carColors": [
+            "aaa909",
+            "aaa909",
+            "564c4c",
+            "000000"
           ]
         },
         {
@@ -1296,14 +1296,14 @@
     {
       "name": "Lexus LFA",
       "userId": "197ffdefc3595f207804fd7e208841f9148d68995fc17f1f2f7d303d1302f4da",
-      "avgRank": 8.8,
+      "avgRank": 9,
       "carColors": [
         "aaa909",
         "aaa909",
         "564c4c",
         "000000"
       ],
-      "totalPoints": 30895.238,
+      "totalPoints": 28895.238,
       "leaderboardRank": 6
     },
     {
@@ -1359,6 +1359,19 @@
       "leaderboardRank": 10
     },
     {
+      "name": "Dave",
+      "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
+      "avgRank": 6,
+      "carColors": [
+        "032212",
+        "8e99b2",
+        "100000",
+        "666666"
+      ],
+      "totalPoints": 15000.0,
+      "leaderboardRank": 11
+    },
+    {
       "name": "Mark",
       "userId": "4b7010c287b86c0a46935e5eeb55249453b0ee842b61337a6d0a265e9a0d089c",
       "avgRank": 13.5,
@@ -1369,7 +1382,7 @@
         "000000"
       ],
       "totalPoints": 13521.795,
-      "leaderboardRank": 11
+      "leaderboardRank": 12
     },
     {
       "name": "Herny🇦🇺",
@@ -1382,19 +1395,6 @@
         "009caf"
       ],
       "totalPoints": 13466.667,
-      "leaderboardRank": 12
-    },
-    {
-      "name": "Dave",
-      "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
-      "avgRank": 6.5,
-      "carColors": [
-        "032212",
-        "8e99b2",
-        "100000",
-        "666666"
-      ],
-      "totalPoints": 13000.0,
       "leaderboardRank": 13
     },
     {
