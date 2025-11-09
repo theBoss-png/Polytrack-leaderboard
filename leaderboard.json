@@ -844,27 +844,27 @@
         },
         {
           "rank": 3,
-          "player": "Samples",
-          "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-          "time": 11.778,
+          "player": "Dave",
+          "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
+          "time": 11.604,
           "points": 13333.333333,
           "carColors": [
-            "60790b",
-            "ffffff",
-            "131313",
+            "032212",
+            "8e99b2",
+            "100000",
             "666666"
           ]
         },
         {
           "rank": 4,
-          "player": "Dave",
-          "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
-          "time": 11.792,
+          "player": "Samples",
+          "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
+          "time": 11.778,
           "points": 10000.0,
           "carColors": [
-            "032212",
-            "8e99b2",
-            "100000",
+            "60790b",
+            "ffffff",
+            "131313",
             "666666"
           ]
         },
@@ -1257,14 +1257,14 @@
     {
       "name": "Samples",
       "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-      "avgRank": 3.833,
+      "avgRank": 4,
       "carColors": [
         "60790b",
         "ffffff",
         "131313",
         "666666"
       ],
-      "totalPoints": 71666.667,
+      "totalPoints": 68333.333,
       "leaderboardRank": 3
     },
     {
@@ -1346,6 +1346,19 @@
       "leaderboardRank": 9
     },
     {
+      "name": "Dave",
+      "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
+      "avgRank": 5.5,
+      "carColors": [
+        "032212",
+        "8e99b2",
+        "100000",
+        "666666"
+      ],
+      "totalPoints": 18333.333,
+      "leaderboardRank": 10
+    },
+    {
       "name": "💿🦵",
       "userId": "1e0e3ca18aba4dfc9d55d363c212afb74c9bd99a1f0a526f8674504d1f4c3a8a",
       "avgRank": 9.5,
@@ -1356,19 +1369,6 @@
         "fbff00"
       ],
       "totalPoints": 17355.556,
-      "leaderboardRank": 10
-    },
-    {
-      "name": "Dave",
-      "userId": "0267ddad29abd9f0cc913148633030f01247f98f07c335a568381d719ddf4e4e",
-      "avgRank": 6,
-      "carColors": [
-        "032212",
-        "8e99b2",
-        "100000",
-        "666666"
-      ],
-      "totalPoints": 15000.0,
       "leaderboardRank": 11
     },
     {
