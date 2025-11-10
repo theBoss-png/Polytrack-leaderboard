@@ -296,10 +296,10 @@
           "time": 17.672,
           "points": 2669.565217,
           "carColors": [
+            "e3e8f0",
+            "005bff",
             "ffffff",
-            "ffffff",
-            "000000",
-            "000000"
+            "2456ff"
           ]
         },
         {
@@ -548,10 +548,10 @@
           "time": 23.992,
           "points": 3050.0,
           "carColors": [
+            "e3e8f0",
+            "005bff",
             "ffffff",
-            "ffffff",
-            "000000",
-            "000000"
+            "2456ff"
           ]
         },
         {
@@ -1244,10 +1244,10 @@
           "time": 16.459,
           "points": 3050.0,
           "carColors": [
+            "e3e8f0",
+            "005bff",
             "ffffff",
-            "ffffff",
-            "000000",
-            "000000"
+            "2456ff"
           ]
         },
         {
@@ -1506,10 +1506,10 @@
       "userId": "24698371b7b561caea833dafcd31acdd951792eb5a5c5b88bab8fb2841f56ebc",
       "avgRank": 18.333,
       "carColors": [
+        "e3e8f0",
+        "005bff",
         "ffffff",
-        "ffffff",
-        "000000",
-        "000000"
+        "2456ff"
       ],
       "totalPoints": 8769.565,
       "leaderboardRank": 19
