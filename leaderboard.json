@@ -426,10 +426,23 @@
         },
         {
           "rank": 4,
+          "player": "Beans",
+          "userId": "e0a1c970d13365902d0727939bc5ccbc8573ebe1b7b6e1f1f7fc2be1c3395b87",
+          "time": 17.498,
+          "points": 10000.0,
+          "carColors": [
+            "2d6c39",
+            "ffffff",
+            "131313",
+            "666666"
+          ]
+        },
+        {
+          "rank": 5,
           "player": "Cadillac V Series R",
           "userId": "4855ee3019704b53510975e2a8f28bc01f66dd9c2cba3a1a5aec6450926b1f4d",
           "time": 17.561,
-          "points": 10000.0,
+          "points": 8000.0,
           "carColors": [
             "ffeb00",
             "000000",
@@ -438,26 +451,13 @@
           ]
         },
         {
-          "rank": 5,
+          "rank": 6,
           "player": "Why am I spending my time on this?",
           "userId": "4410d06fc7a937c029b44a7cbf55abdf484d3c2898db9887433dc6efb129f616",
           "time": 17.709,
-          "points": 8000.0,
-          "carColors": [
-            "263c6c",
-            "ffffff",
-            "131313",
-            "666666"
-          ]
-        },
-        {
-          "rank": 6,
-          "player": "Beans",
-          "userId": "e0a1c970d13365902d0727939bc5ccbc8573ebe1b7b6e1f1f7fc2be1c3395b87",
-          "time": 17.819,
           "points": 6666.666667,
           "carColors": [
-            "2d6c39",
+            "263c6c",
             "ffffff",
             "131313",
             "666666"
@@ -1465,27 +1465,27 @@
     {
       "name": "Why am I spending my time on this?",
       "userId": "4410d06fc7a937c029b44a7cbf55abdf484d3c2898db9887433dc6efb129f616",
-      "avgRank": 7,
+      "avgRank": 7.2,
       "carColors": [
         "263c6c",
         "ffffff",
         "131313",
         "666666"
       ],
-      "totalPoints": 36569.697,
+      "totalPoints": 35236.364,
       "leaderboardRank": 5
     },
     {
       "name": "Cadillac V Series R",
       "userId": "4855ee3019704b53510975e2a8f28bc01f66dd9c2cba3a1a5aec6450926b1f4d",
-      "avgRank": 8,
+      "avgRank": 8.2,
       "carColors": [
         "ffeb00",
         "000000",
         "000000",
         "000000"
       ],
-      "totalPoints": 29211.477,
+      "totalPoints": 27211.477,
       "leaderboardRank": 6
     },
     {
@@ -1554,6 +1554,19 @@
       "leaderboardRank": 11
     },
     {
+      "name": "Beans",
+      "userId": "e0a1c970d13365902d0727939bc5ccbc8573ebe1b7b6e1f1f7fc2be1c3395b87",
+      "avgRank": 7,
+      "carColors": [
+        "2d6c39",
+        "ffffff",
+        "131313",
+        "666666"
+      ],
+      "totalPoints": 14000.0,
+      "leaderboardRank": 12
+    },
+    {
       "name": "Herny🇦🇺",
       "userId": "73564e467b27545084756d77ea3257d84d5794285221aac7ddbf39ed3448ad1c",
       "avgRank": 10.5,
@@ -1564,7 +1577,7 @@
         "009caf"
       ],
       "totalPoints": 12976.471,
-      "leaderboardRank": 12
+      "leaderboardRank": 13
     },
     {
       "name": "Mark",
@@ -1577,7 +1590,7 @@
         "000000"
       ],
       "totalPoints": 12656.349,
-      "leaderboardRank": 13
+      "leaderboardRank": 14
     },
     {
       "name": "BonnieBeans",
@@ -1590,7 +1603,7 @@
         "9378ff"
       ],
       "totalPoints": 11443.137,
-      "leaderboardRank": 14
+      "leaderboardRank": 15
     },
     {
       "name": "fan all wr ",
@@ -1603,7 +1616,7 @@
         "000000"
       ],
       "totalPoints": 11393.388,
-      "leaderboardRank": 15
+      "leaderboardRank": 16
     },
     {
       "name": "XenoBlackGoku",
@@ -1614,19 +1627,6 @@
         "fe00ff",
         "000000",
         "c200ff"
-      ],
-      "totalPoints": 10666.667,
-      "leaderboardRank": 16
-    },
-    {
-      "name": "Beans",
-      "userId": "e0a1c970d13365902d0727939bc5ccbc8573ebe1b7b6e1f1f7fc2be1c3395b87",
-      "avgRank": 8,
-      "carColors": [
-        "2d6c39",
-        "ffffff",
-        "131313",
-        "666666"
       ],
       "totalPoints": 10666.667,
       "leaderboardRank": 17
