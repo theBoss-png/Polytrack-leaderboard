@@ -930,10 +930,23 @@
         },
         {
           "rank": 19,
+          "player": "<<HYPER XION>>",
+          "userId": "d653bfb6e4e4ab3445bfbd1c5a777218943d0c4f7994d483a495b237e1b9aee5",
+          "time": 19.472,
+          "points": 2852.631579,
+          "carColors": [
+            "000000",
+            "33363b",
+            "bbd9f1",
+            "74b3de"
+          ]
+        },
+        {
+          "rank": 20,
           "player": "(:",
           "userId": "e7de9f798c0b6f82a212cc439af367b85b1f7aa7201008736a60b3aa69b0c28a",
           "time": 19.618,
-          "points": 2852.631579,
+          "points": 2800.0,
           "carColors": [
             "000000",
             "1b1b1b",
@@ -942,11 +955,11 @@
           ]
         },
         {
-          "rank": 20,
+          "rank": 21,
           "player": "fan all wr ",
           "userId": "0aac5faac4079e71c995b29cf359e1fede0eab2e4e17132f1ac7c7cb218d0f6f",
           "time": 19.786,
-          "points": 2800.0,
+          "points": 2752.380952,
           "carColors": [
             "ffffff",
             "0f00ff",
@@ -955,29 +968,16 @@
           ]
         },
         {
-          "rank": 21,
+          "rank": 22,
           "player": "AriBlue",
           "userId": "0504d44618dd8bbb3f7393a5352e93b7ce0640ca06963f128de345f0df0e6e7b",
           "time": 19.854,
-          "points": 2752.380952,
+          "points": 2709.090909,
           "carColors": [
             "0d349d",
             "009eb4",
             "001140",
             "00e0ff"
-          ]
-        },
-        {
-          "rank": 22,
-          "player": "<<HYPER XION>>",
-          "userId": "d653bfb6e4e4ab3445bfbd1c5a777218943d0c4f7994d483a495b237e1b9aee5",
-          "time": 20.687,
-          "points": 2709.090909,
-          "carColors": [
-            "000000",
-            "33363b",
-            "bbd9f1",
-            "74b3de"
           ]
         },
         {
@@ -1608,14 +1608,14 @@
     {
       "name": "(:",
       "userId": "e7de9f798c0b6f82a212cc439af367b85b1f7aa7201008736a60b3aa69b0c28a",
-      "avgRank": 10.333,
+      "avgRank": 10.667,
       "carColors": [
         "000000",
         "1b1b1b",
         "141414",
         "3d0000"
       ],
-      "totalPoints": 16566.917,
+      "totalPoints": 16514.286,
       "leaderboardRank": 12
     },
     {
@@ -1660,14 +1660,14 @@
     {
       "name": "fan all wr ",
       "userId": "0aac5faac4079e71c995b29cf359e1fede0eab2e4e17132f1ac7c7cb218d0f6f",
-      "avgRank": 20.75,
+      "avgRank": 21,
       "carColors": [
         "ffffff",
         "0f00ff",
         "e5ff00",
         "000000"
       ],
-      "totalPoints": 11201.867,
+      "totalPoints": 11154.248,
       "leaderboardRank": 16
     },
     {
@@ -1699,14 +1699,14 @@
     {
       "name": "AriBlue",
       "userId": "0504d44618dd8bbb3f7393a5352e93b7ce0640ca06963f128de345f0df0e6e7b",
-      "avgRank": 17,
+      "avgRank": 17.333,
       "carColors": [
         "0d349d",
         "009eb4",
         "001140",
         "00e0ff"
       ],
-      "totalPoints": 9030.952,
+      "totalPoints": 8987.662,
       "leaderboardRank": 19
     },
     {
@@ -1931,6 +1931,19 @@
       "leaderboardRank": 36
     },
     {
+      "name": "<<HYPER XION>>",
+      "userId": "d653bfb6e4e4ab3445bfbd1c5a777218943d0c4f7994d483a495b237e1b9aee5",
+      "avgRank": 19,
+      "carColors": [
+        "000000",
+        "33363b",
+        "bbd9f1",
+        "74b3de"
+      ],
+      "totalPoints": 2852.632,
+      "leaderboardRank": 37
+    },
+    {
       "name": "Pennguin3",
       "userId": "2decb6f543760f56fa60781677d6150745602a09e8d65f1f0f1c819132ebd266",
       "avgRank": 20,
@@ -1941,7 +1954,7 @@
         "000000"
       ],
       "totalPoints": 2800.0,
-      "leaderboardRank": 37
+      "leaderboardRank": 38
     },
     {
       "name": "TriouV",
@@ -1954,19 +1967,6 @@
         "bf7f08"
       ],
       "totalPoints": 2752.381,
-      "leaderboardRank": 38
-    },
-    {
-      "name": "<<HYPER XION>>",
-      "userId": "d653bfb6e4e4ab3445bfbd1c5a777218943d0c4f7994d483a495b237e1b9aee5",
-      "avgRank": 22,
-      "carColors": [
-        "000000",
-        "33363b",
-        "bbd9f1",
-        "74b3de"
-      ],
-      "totalPoints": 2709.091,
       "leaderboardRank": 39
     },
     {
