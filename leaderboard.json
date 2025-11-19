@@ -543,10 +543,23 @@
         },
         {
           "rank": 13,
+          "player": "fan all wr ",
+          "userId": "0aac5faac4079e71c995b29cf359e1fede0eab2e4e17132f1ac7c7cb218d0f6f",
+          "time": 18.417,
+          "points": 3338.461538,
+          "carColors": [
+            "ffffff",
+            "0f00ff",
+            "e5ff00",
+            "000000"
+          ]
+        },
+        {
+          "rank": 14,
           "player": "💿🦵",
           "userId": "1e0e3ca18aba4dfc9d55d363c212afb74c9bd99a1f0a526f8674504d1f4c3a8a",
           "time": 18.584,
-          "points": 3338.461538,
+          "points": 3228.571429,
           "carColors": [
             "ff00d6",
             "00ffe2",
@@ -555,11 +568,11 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 15,
           "player": "Max Verstappen",
           "userId": "28fed58ad1e40ce709faefed9d4454dacede1915e6f821967df44f08f7c37aa6",
           "time": 18.731,
-          "points": 3228.571429,
+          "points": 3133.333333,
           "carColors": [
             "000000",
             "000000",
@@ -568,11 +581,11 @@
           ]
         },
         {
-          "rank": 15,
+          "rank": 16,
           "player": "Gusius 2",
           "userId": "b433dd4ec08fb0f0f53ec86b3c99a3cb77955d0aa323e52e151e111a29836422",
           "time": 19.094,
-          "points": 3133.333333,
+          "points": 3050.0,
           "carColors": [
             "000000",
             "9e48ba",
@@ -581,11 +594,11 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 17,
           "player": "Beans 2",
           "userId": "e17e71280710802460faaa72e3f12f53a52ec514ef24d249a106c0df01d6c610",
           "time": 19.362,
-          "points": 3050.0,
+          "points": 2976.470588,
           "carColors": [
             "1b1512",
             "ffffff",
@@ -594,28 +607,15 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 18,
           "player": "Hello",
           "userId": "4b7010c287b86c0a46935e5eeb55249453b0ee842b61337a6d0a265e9a0d089c",
           "time": 19.399,
-          "points": 2976.470588,
-          "carColors": [
-            "000000",
-            "000000",
-            "000000",
-            "000000"
-          ]
-        },
-        {
-          "rank": 18,
-          "player": "fan all wr ",
-          "userId": "0aac5faac4079e71c995b29cf359e1fede0eab2e4e17132f1ac7c7cb218d0f6f",
-          "time": 19.429,
           "points": 2911.111111,
           "carColors": [
-            "ffffff",
-            "0f00ff",
-            "e5ff00",
+            "000000",
+            "000000",
+            "000000",
             "000000"
           ]
         },
@@ -1660,14 +1660,14 @@
     {
       "name": "Gusius 2",
       "userId": "b433dd4ec08fb0f0f53ec86b3c99a3cb77955d0aa323e52e151e111a29836422",
-      "avgRank": 9,
+      "avgRank": 9.25,
       "carColors": [
         "000000",
         "9e48ba",
         "ffffff",
         "7126bf"
       ],
-      "totalPoints": 21800.0,
+      "totalPoints": 21716.667,
       "leaderboardRank": 10
     },
     {
@@ -1686,14 +1686,14 @@
     {
       "name": "💿🦵",
       "userId": "1e0e3ca18aba4dfc9d55d363c212afb74c9bd99a1f0a526f8674504d1f4c3a8a",
-      "avgRank": 10.8,
+      "avgRank": 11,
       "carColors": [
         "ff00d6",
         "00ffe2",
         "1eff00",
         "fbff00"
       ],
-      "totalPoints": 19739.549,
+      "totalPoints": 19629.659,
       "leaderboardRank": 12
     },
     {
@@ -1725,15 +1725,28 @@
     {
       "name": "Hello",
       "userId": "4b7010c287b86c0a46935e5eeb55249453b0ee842b61337a6d0a265e9a0d089c",
-      "avgRank": 16.75,
+      "avgRank": 17,
       "carColors": [
         "000000",
         "000000",
         "000000",
         "000000"
       ],
-      "totalPoints": 11997.386,
+      "totalPoints": 11932.026,
       "leaderboardRank": 15
+    },
+    {
+      "name": "fan all wr ",
+      "userId": "0aac5faac4079e71c995b29cf359e1fede0eab2e4e17132f1ac7c7cb218d0f6f",
+      "avgRank": 20.5,
+      "carColors": [
+        "ffffff",
+        "0f00ff",
+        "e5ff00",
+        "000000"
+      ],
+      "totalPoints": 11455.673,
+      "leaderboardRank": 16
     },
     {
       "name": "BonnieBeans",
@@ -1746,32 +1759,19 @@
         "9378ff"
       ],
       "totalPoints": 11314.932,
-      "leaderboardRank": 16
+      "leaderboardRank": 17
     },
     {
       "name": "Beans 2",
       "userId": "e17e71280710802460faaa72e3f12f53a52ec514ef24d249a106c0df01d6c610",
-      "avgRank": 10.5,
+      "avgRank": 11,
       "carColors": [
         "1b1512",
         "ffffff",
         "131313",
         "666666"
       ],
-      "totalPoints": 11050.0,
-      "leaderboardRank": 17
-    },
-    {
-      "name": "fan all wr ",
-      "userId": "0aac5faac4079e71c995b29cf359e1fede0eab2e4e17132f1ac7c7cb218d0f6f",
-      "avgRank": 21.75,
-      "carColors": [
-        "ffffff",
-        "0f00ff",
-        "e5ff00",
-        "000000"
-      ],
-      "totalPoints": 11028.322,
+      "totalPoints": 10976.471,
       "leaderboardRank": 18
     },
     {
@@ -1894,14 +1894,14 @@
     {
       "name": "Max Verstappen",
       "userId": "28fed58ad1e40ce709faefed9d4454dacede1915e6f821967df44f08f7c37aa6",
-      "avgRank": 19,
+      "avgRank": 19.5,
       "carColors": [
         "000000",
         "000000",
         "ff0000",
         "ff0000"
       ],
-      "totalPoints": 5861.905,
+      "totalPoints": 5766.667,
       "leaderboardRank": 28
     },
     {
