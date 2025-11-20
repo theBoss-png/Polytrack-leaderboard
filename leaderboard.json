@@ -748,28 +748,28 @@
         },
         {
           "rank": 5,
-          "player": "Beans 2",
-          "userId": "e17e71280710802460faaa72e3f12f53a52ec514ef24d249a106c0df01d6c610",
-          "time": 18.178,
-          "points": 8000.0,
-          "carColors": [
-            "1b1512",
-            "ffffff",
-            "131313",
-            "666666"
-          ]
-        },
-        {
-          "rank": 6,
           "player": "Samples",
           "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-          "time": 18.283,
-          "points": 6666.666667,
+          "time": 18.174,
+          "points": 8000.0,
           "carColors": [
             "2f6228",
             "494949",
             "494949",
             "2f6228"
+          ]
+        },
+        {
+          "rank": 6,
+          "player": "Beans 2",
+          "userId": "e17e71280710802460faaa72e3f12f53a52ec514ef24d249a106c0df01d6c610",
+          "time": 18.178,
+          "points": 6666.666667,
+          "carColors": [
+            "1b1512",
+            "ffffff",
+            "131313",
+            "666666"
           ]
         },
         {
@@ -1569,14 +1569,14 @@
     {
       "name": "Samples",
       "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-      "avgRank": 4.667,
+      "avgRank": 4.5,
       "carColors": [
         "2f6228",
         "494949",
         "494949",
         "2f6228"
       ],
-      "totalPoints": 61111.111,
+      "totalPoints": 62444.444,
       "leaderboardRank": 3
     },
     {
@@ -1762,19 +1762,6 @@
       "leaderboardRank": 17
     },
     {
-      "name": "Beans 2",
-      "userId": "e17e71280710802460faaa72e3f12f53a52ec514ef24d249a106c0df01d6c610",
-      "avgRank": 11,
-      "carColors": [
-        "1b1512",
-        "ffffff",
-        "131313",
-        "666666"
-      ],
-      "totalPoints": 10976.471,
-      "leaderboardRank": 18
-    },
-    {
       "name": "XenoBlackGoku",
       "userId": "3194afacdc75749d7c0a64577e7a9edeaa376161d2b30f8fafa712c1a30ea4a9",
       "avgRank": 8,
@@ -1785,7 +1772,7 @@
         "c200ff"
       ],
       "totalPoints": 10666.667,
-      "leaderboardRank": 19
+      "leaderboardRank": 18
     },
     {
       "name": "᭡᭡-ɮo̶̶ꐟ™`",
@@ -1798,6 +1785,19 @@
         "000000"
       ],
       "totalPoints": 10000.0,
+      "leaderboardRank": 19
+    },
+    {
+      "name": "Beans 2",
+      "userId": "e17e71280710802460faaa72e3f12f53a52ec514ef24d249a106c0df01d6c610",
+      "avgRank": 11.5,
+      "carColors": [
+        "1b1512",
+        "ffffff",
+        "131313",
+        "666666"
+      ],
+      "totalPoints": 9643.137,
       "leaderboardRank": 20
     },
     {
