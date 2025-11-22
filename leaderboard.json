@@ -5,10 +5,23 @@
       "results": [
         {
           "rank": 1,
+          "player": "(GP2 Engine) Bamhurger",
+          "userId": "ca5787bc9218354eeb3e2da38bc48db71db3b15d3c27cc7ee3f4ad6b9f4eadb4",
+          "time": 8.967,
+          "points": 40000.0,
+          "carColors": [
+            "000000",
+            "ff5400",
+            "000000",
+            "000000"
+          ]
+        },
+        {
+          "rank": 2,
           "player": "🐭Hiksi🐭",
           "userId": "35eb5c466738dc9917d5f8320f5b99f12015247aaf0e512f5e4ecb547f00e0e1",
           "time": 8.974,
-          "points": 40000.0,
+          "points": 20000.0,
           "carColors": [
             "311e59",
             "ffffff",
@@ -17,11 +30,11 @@
           ]
         },
         {
-          "rank": 2,
+          "rank": 3,
           "player": "mufat",
           "userId": "79e65ae09aea37943126835b8258e331bc783a5d910c3092dd7d7b3ca2fd7ced",
           "time": 9.075,
-          "points": 20000.0,
+          "points": 13333.333333,
           "carColors": [
             "750101",
             "ffffff",
@@ -30,29 +43,16 @@
           ]
         },
         {
-          "rank": 3,
+          "rank": 4,
           "player": "Why am I spending my time on this?",
           "userId": "4410d06fc7a937c029b44a7cbf55abdf484d3c2898db9887433dc6efb129f616",
           "time": 9.109,
-          "points": 13333.333333,
+          "points": 10000.0,
           "carColors": [
             "263c6c",
             "ffffff",
             "131313",
             "666666"
-          ]
-        },
-        {
-          "rank": 4,
-          "player": "(GP2 Engine) Bamhurger",
-          "userId": "ca5787bc9218354eeb3e2da38bc48db71db3b15d3c27cc7ee3f4ad6b9f4eadb4",
-          "time": 9.192,
-          "points": 10000.0,
-          "carColors": [
-            "000000",
-            "ff5400",
-            "000000",
-            "000000"
           ]
         },
         {
@@ -1608,28 +1608,41 @@
     {
       "name": "mufat",
       "userId": "79e65ae09aea37943126835b8258e331bc783a5d910c3092dd7d7b3ca2fd7ced",
-      "avgRank": 1.333,
+      "avgRank": 1.5,
       "carColors": [
         "750101",
         "ffffff",
         "131313",
         "666666"
       ],
-      "totalPoints": 200000.0,
+      "totalPoints": 193333.333,
       "leaderboardRank": 1
     },
     {
       "name": "🐭Hiksi🐭",
       "userId": "35eb5c466738dc9917d5f8320f5b99f12015247aaf0e512f5e4ecb547f00e0e1",
-      "avgRank": 2,
+      "avgRank": 2.167,
       "carColors": [
         "311e59",
         "ffffff",
         "131313",
         "676767"
       ],
-      "totalPoints": 133333.333,
+      "totalPoints": 113333.333,
       "leaderboardRank": 2
+    },
+    {
+      "name": "(GP2 Engine) Bamhurger",
+      "userId": "ca5787bc9218354eeb3e2da38bc48db71db3b15d3c27cc7ee3f4ad6b9f4eadb4",
+      "avgRank": 7,
+      "carColors": [
+        "000000",
+        "ff5400",
+        "000000",
+        "000000"
+      ],
+      "totalPoints": 62799.134,
+      "leaderboardRank": 3
     },
     {
       "name": "Samples",
@@ -1642,7 +1655,7 @@
         "2f6228"
       ],
       "totalPoints": 62000.0,
-      "leaderboardRank": 3
+      "leaderboardRank": 4
     },
     {
       "name": "youngfella",
@@ -1655,7 +1668,7 @@
         "0069fe"
       ],
       "totalPoints": 40000.0,
-      "leaderboardRank": 4
+      "leaderboardRank": 5
     },
     {
       "name": "Dave",
@@ -1668,32 +1681,19 @@
         "666666"
       ],
       "totalPoints": 33047.619,
-      "leaderboardRank": 5
-    },
-    {
-      "name": "(GP2 Engine) Bamhurger",
-      "userId": "ca5787bc9218354eeb3e2da38bc48db71db3b15d3c27cc7ee3f4ad6b9f4eadb4",
-      "avgRank": 7.6,
-      "carColors": [
-        "000000",
-        "ff5400",
-        "000000",
-        "000000"
-      ],
-      "totalPoints": 32799.134,
       "leaderboardRank": 6
     },
     {
       "name": "Why am I spending my time on this?",
       "userId": "4410d06fc7a937c029b44a7cbf55abdf484d3c2898db9887433dc6efb129f616",
-      "avgRank": 8,
+      "avgRank": 8.2,
       "carColors": [
         "263c6c",
         "ffffff",
         "131313",
         "666666"
       ],
-      "totalPoints": 32084.848,
+      "totalPoints": 28751.515,
       "leaderboardRank": 7
     },
     {
