@@ -691,10 +691,23 @@
         },
         {
           "rank": 2,
+          "player": "(GP2 Engine) Bamhurger",
+          "userId": "ca5787bc9218354eeb3e2da38bc48db71db3b15d3c27cc7ee3f4ad6b9f4eadb4",
+          "time": 17.236,
+          "points": 20000.0,
+          "carColors": [
+            "000000",
+            "ff5400",
+            "000000",
+            "000000"
+          ]
+        },
+        {
+          "rank": 3,
           "player": "🐭Hiksi🐭",
           "userId": "35eb5c466738dc9917d5f8320f5b99f12015247aaf0e512f5e4ecb547f00e0e1",
           "time": 17.735,
-          "points": 20000.0,
+          "points": 13333.333333,
           "carColors": [
             "311e59",
             "ffffff",
@@ -703,29 +716,16 @@
           ]
         },
         {
-          "rank": 3,
+          "rank": 4,
           "player": "Samples",
           "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
           "time": 20.833,
-          "points": 13333.333333,
+          "points": 10000.0,
           "carColors": [
             "2f6228",
             "494949",
             "494949",
             "2f6228"
-          ]
-        },
-        {
-          "rank": 4,
-          "player": "(GP2 Engine) Bamhurger",
-          "userId": "ca5787bc9218354eeb3e2da38bc48db71db3b15d3c27cc7ee3f4ad6b9f4eadb4",
-          "time": 73.49,
-          "points": 10000.0,
-          "carColors": [
-            "000000",
-            "ff5400",
-            "000000",
-            "000000"
           ]
         }
       ]
@@ -774,14 +774,14 @@
         },
         {
           "rank": 4,
-          "player": "᭡᭡-ɮo̶̶ꐟ™`",
+          "player": "ɮo̶̶ꐟ™`",
           "userId": "4a0834780cb5e2f2cb776ef4feb84f39c624bbd8cb3ddcd1507753462567a321",
           "time": 18.149,
           "points": 10000.0,
           "carColors": [
-            "000000",
-            "3e0909",
-            "000000",
+            "1f0808",
+            "a5731a",
+            "2c0d0d",
             "000000"
           ]
         },
@@ -1621,40 +1621,40 @@
     {
       "name": "🐭Hiksi🐭",
       "userId": "35eb5c466738dc9917d5f8320f5b99f12015247aaf0e512f5e4ecb547f00e0e1",
-      "avgRank": 2.167,
+      "avgRank": 2.333,
       "carColors": [
         "311e59",
         "ffffff",
         "131313",
         "676767"
       ],
-      "totalPoints": 113333.333,
+      "totalPoints": 106666.667,
       "leaderboardRank": 2
     },
     {
       "name": "(GP2 Engine) Bamhurger",
       "userId": "ca5787bc9218354eeb3e2da38bc48db71db3b15d3c27cc7ee3f4ad6b9f4eadb4",
-      "avgRank": 7,
+      "avgRank": 6.6,
       "carColors": [
         "000000",
         "ff5400",
         "000000",
         "000000"
       ],
-      "totalPoints": 62799.134,
+      "totalPoints": 72799.134,
       "leaderboardRank": 3
     },
     {
       "name": "Samples",
       "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-      "avgRank": 4.667,
+      "avgRank": 4.833,
       "carColors": [
         "2f6228",
         "494949",
         "494949",
         "2f6228"
       ],
-      "totalPoints": 62000.0,
+      "totalPoints": 58666.667,
       "leaderboardRank": 4
     },
     {
@@ -1840,13 +1840,13 @@
       "leaderboardRank": 18
     },
     {
-      "name": "᭡᭡-ɮo̶̶ꐟ™`",
+      "name": "ɮo̶̶ꐟ™`",
       "userId": "4a0834780cb5e2f2cb776ef4feb84f39c624bbd8cb3ddcd1507753462567a321",
       "avgRank": 4,
       "carColors": [
-        "000000",
-        "3e0909",
-        "000000",
+        "1f0808",
+        "a5731a",
+        "2c0d0d",
         "000000"
       ],
       "totalPoints": 10000.0,
