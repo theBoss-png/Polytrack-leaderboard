@@ -311,8 +311,8 @@
           "carColors": [
             "ff8500",
             "000000",
-            "000000",
-            "ffffff"
+            "ffffff",
+            "ff0000"
           ]
         },
         {
@@ -2171,8 +2171,8 @@
       "carColors": [
         "ff8500",
         "000000",
-        "000000",
-        "ffffff"
+        "ffffff",
+        "ff0000"
       ],
       "totalPoints": 2633.333,
       "leaderboardRank": 43
