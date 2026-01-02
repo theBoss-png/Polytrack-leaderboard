@@ -304,15 +304,15 @@
         },
         {
           "rank": 24,
-          "player": "HotSauce",
+          "player": "Ixc5pagq",
           "userId": "990a5734d70016d160f910f9187aaa1ea781d5180ce0f29727cb51d9dbb3f2e1",
           "time": 13.162,
           "points": 2633.333333,
           "carColors": [
-            "761200",
-            "810000",
+            "ff8500",
+            "e4e4e4",
             "000000",
-            "dd2100"
+            "ff8500"
           ]
         },
         {
@@ -2165,14 +2165,14 @@
       "leaderboardRank": 42
     },
     {
-      "name": "HotSauce",
+      "name": "Ixc5pagq",
       "userId": "990a5734d70016d160f910f9187aaa1ea781d5180ce0f29727cb51d9dbb3f2e1",
       "avgRank": 24,
       "carColors": [
-        "761200",
-        "810000",
+        "ff8500",
+        "e4e4e4",
         "000000",
-        "dd2100"
+        "ff8500"
       ],
       "totalPoints": 2633.333,
       "leaderboardRank": 43
