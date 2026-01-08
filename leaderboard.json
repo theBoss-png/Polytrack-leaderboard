@@ -1066,9 +1066,9 @@
           "points": 2600.0,
           "carColors": [
             "a4a4a4",
-            "6a0e2b",
             "000000",
-            "6a0e2b"
+            "000000",
+            "20aadb"
           ]
         },
         {
@@ -2196,9 +2196,9 @@
       "avgRank": 25,
       "carColors": [
         "a4a4a4",
-        "6a0e2b",
         "000000",
-        "6a0e2b"
+        "000000",
+        "20aadb"
       ],
       "totalPoints": 2600.0,
       "leaderboardRank": 45
