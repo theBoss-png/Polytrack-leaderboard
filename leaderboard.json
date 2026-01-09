@@ -1065,8 +1065,8 @@
           "time": 19.339,
           "points": 2600.0,
           "carColors": [
-            "a1a1a1",
-            "ffffff",
+            "4a4a4a",
+            "1e0000",
             "1e0000",
             "c10000"
           ]
@@ -2195,8 +2195,8 @@
       "userId": "f5b38e986e6632f31c1ad0a91da58fccecf76494e72adb5337237b87f5986e20",
       "avgRank": 25,
       "carColors": [
-        "a1a1a1",
-        "ffffff",
+        "4a4a4a",
+        "1e0000",
         "1e0000",
         "c10000"
       ],
