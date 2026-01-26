@@ -688,7 +688,60 @@
     },
     {
       "name": "110 (3)",
-      "results": []
+      "results": [
+        {
+          "rank": 1,
+          "player": "mufat",
+          "userId": "79e65ae09aea37943126835b8258e331bc783a5d910c3092dd7d7b3ca2fd7ced",
+          "time": 16.522,
+          "points": 40000.0,
+          "carColors": [
+            "750101",
+            "ffffff",
+            "131313",
+            "666666"
+          ]
+        },
+        {
+          "rank": 2,
+          "player": "(GP2 Engine) Bamhurger",
+          "userId": "ca5787bc9218354eeb3e2da38bc48db71db3b15d3c27cc7ee3f4ad6b9f4eadb4",
+          "time": 17.236,
+          "points": 20000.0,
+          "carColors": [
+            "000000",
+            "ff5400",
+            "000000",
+            "000000"
+          ]
+        },
+        {
+          "rank": 3,
+          "player": "🐭Great Gooner Gary🐭",
+          "userId": "35eb5c466738dc9917d5f8320f5b99f12015247aaf0e512f5e4ecb547f00e0e1",
+          "time": 17.735,
+          "points": 13333.333333,
+          "carColors": [
+            "311e59",
+            "ffffff",
+            "101010",
+            "676767"
+          ]
+        },
+        {
+          "rank": 4,
+          "player": "Samples",
+          "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
+          "time": 20.833,
+          "points": 10000.0,
+          "carColors": [
+            "2f6228",
+            "494949",
+            "494949",
+            "2f6228"
+          ]
+        }
+      ]
     },
     {
       "name": "111 (4)",
@@ -1581,53 +1634,53 @@
     {
       "name": "mufat",
       "userId": "79e65ae09aea37943126835b8258e331bc783a5d910c3092dd7d7b3ca2fd7ced",
-      "avgRank": 1.6,
+      "avgRank": 1.5,
       "carColors": [
         "750101",
         "ffffff",
         "131313",
         "666666"
       ],
-      "totalPoints": 153333.333,
+      "totalPoints": 193333.333,
       "leaderboardRank": 1
     },
     {
       "name": "🐭Great Gooner Gary🐭",
       "userId": "35eb5c466738dc9917d5f8320f5b99f12015247aaf0e512f5e4ecb547f00e0e1",
-      "avgRank": 2.2,
+      "avgRank": 2.333,
       "carColors": [
         "311e59",
         "ffffff",
         "101010",
         "676767"
       ],
-      "totalPoints": 93333.333,
+      "totalPoints": 106666.667,
       "leaderboardRank": 2
     },
     {
       "name": "(GP2 Engine) Bamhurger",
       "userId": "ca5787bc9218354eeb3e2da38bc48db71db3b15d3c27cc7ee3f4ad6b9f4eadb4",
-      "avgRank": 6.5,
+      "avgRank": 5.6,
       "carColors": [
         "000000",
         "ff5400",
         "000000",
         "000000"
       ],
-      "totalPoints": 55046.753,
+      "totalPoints": 75046.753,
       "leaderboardRank": 3
     },
     {
       "name": "Samples",
       "userId": "2e4a1611e3ca80a99b996720c02ad9b74dccf6d685a3865a63bbce8f70fe5621",
-      "avgRank": 5.2,
+      "avgRank": 5,
       "carColors": [
         "2f6228",
         "494949",
         "494949",
         "2f6228"
       ],
-      "totalPoints": 48284.848,
+      "totalPoints": 58284.848,
       "leaderboardRank": 4
     },
     {
