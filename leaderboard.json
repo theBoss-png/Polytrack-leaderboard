@@ -75,9 +75,9 @@
           "time": 9.392,
           "points": 6666.666667,
           "carColors": [
-            "0d0d0d",
-            "000000",
-            "008ec5",
+            "000fff",
+            "edff00",
+            "00ffe9",
             "009caf"
           ]
         },
@@ -787,7 +787,7 @@
         },
         {
           "rank": 4,
-          "player": "ɔɔ-ɮo̶̶ꐟ™`",
+          "player": "Bad BabY ɮo̶̶ꐟ™`",
           "userId": "4a0834780cb5e2f2cb776ef4feb84f39c624bbd8cb3ddcd1507753462567a321",
           "time": 18.149,
           "points": 10000.0,
@@ -1078,9 +1078,9 @@
           "time": 19.357,
           "points": 2569.230769,
           "carColors": [
-            "0d0d0d",
-            "000000",
-            "008ec5",
+            "000fff",
+            "edff00",
+            "00ffe9",
             "009caf"
           ]
         },
@@ -1853,7 +1853,7 @@
       "leaderboardRank": 17
     },
     {
-      "name": "ɔɔ-ɮo̶̶ꐟ™`",
+      "name": "Bad BabY ɮo̶̶ꐟ™`",
       "userId": "4a0834780cb5e2f2cb776ef4feb84f39c624bbd8cb3ddcd1507753462567a321",
       "avgRank": 4,
       "carColors": [
@@ -1883,9 +1883,9 @@
       "userId": "73564e467b27545084756d77ea3257d84d5794285221aac7ddbf39ed3448ad1c",
       "avgRank": 16,
       "carColors": [
-        "0d0d0d",
-        "000000",
-        "008ec5",
+        "000fff",
+        "edff00",
+        "00ffe9",
         "009caf"
       ],
       "totalPoints": 9235.897,
